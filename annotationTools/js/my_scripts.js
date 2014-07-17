@@ -22,7 +22,8 @@ var view_Existing = 1;
 var view_Deleted = 0;
 
 // Flag for right-hand object list:
-var view_ObjList = true;
+// I changed view obj list to be false.
+var view_ObjList = false;
 
 // MT variables:
 var LMbaseurl = 'http://' + window.location.host + window.location.pathname;
@@ -52,7 +53,7 @@ function RemoveSpecialChars(str) {
 }
 
 function WaitForInput() {
-  alert("Need to enter object name.");
+  alert("Need to enter the aspect of the image that you selected.");
 }
 
 // Return true if the username is "anonymous".

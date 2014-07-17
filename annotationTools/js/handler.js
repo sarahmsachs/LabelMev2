@@ -37,18 +37,21 @@ function handler() {
       
       var re = /[a-zA-Z0-9]/;
       if(!re.test(new_name)) {
-	alert('Please enter an object name');
+	alert('Please enter what aspect of the photo you selected');
 	return;
       }
       
       if (use_attributes) {
 	// occlusion field
-	if (document.getElementById('occluded')) new_occluded = RemoveSpecialChars(document.getElementById('occluded').value);
-	else new_occluded = RemoveSpecialChars(adjust_occluded);
+	if (document.getElementById('quality')) new_quality = RemoveSpecialChars(document.getElementById('quality').value);
+	else new_quality = RemoveSpecialChars(adjust_quality);
+
+  if (document.getElementById('decade')) new_decade = RemoveSpecialChars(document.getElementById('decade').value);
+  else new_decade = RemoveSpecialChars(adjust_decade);
 	
 	// attributes field
-	if(document.getElementById('attributes')) new_attributes = RemoveSpecialChars(document.getElementById('attributes').value);
-	else new_attributes = RemoveSpecialChars(adjust_attributes);
+	//if(document.getElementById('attributes')) new_attributes = RemoveSpecialChars(document.getElementById('attributes').value);
+	//else new_attributes = RemoveSpecialChars(adjust_attributes);
       }
       
       StopEditEvent();
@@ -71,8 +74,11 @@ function handler() {
       if(curr_obj.children("attributes").length>0) curr_obj.children("attributes").text(new_attributes);
       else curr_obj.append("<attributes>" + new_attributes + "</attributes>");
         
-      if(curr_obj.children("occluded").length>0) curr_obj.children("occluded").text(new_occluded);
-      else curr_obj.append("<occluded>" + new_occluded + "</occluded>");
+      if(curr_obj.children("quality").length>0) curr_obj.children("quality").text(new_quality);
+      else curr_obj.append("<quality>" + new_quality + "</quality>");
+
+      if(curr_obj.children("decade").length>0) curr_obj.children("dec").text(new_decade);
+      else curr_obj.append("<decade>" + new_decade + "</decade>");
         
       if(editedControlPoints) {
 	for(var jj=0; jj < AllAnnotations[obj_ndx].GetPtsX().length; jj++) {
@@ -212,9 +218,13 @@ function handler() {
 	if(document.getElementById('attributes')) new_attributes = RemoveSpecialChars(document.getElementById('attributes').value);
 	else new_attributes = "";
 	
-	// get occlusion field (is the field exists)
-	if (document.getElementById('occluded')) new_occluded = RemoveSpecialChars(document.getElementById('occluded').value);
-	else new_occluded = "";
+	// get quality field (is the field exists)
+	if (document.getElementById('quality')) new_quality = RemoveSpecialChars(document.getElementById('quality').value);
+	else new_quality = "";
+  
+  if (document.getElementById('decade')) new_decade = RemoveSpecialChars(document.getElementById('decade').value);
+  else new_decade = "";
+      
       }
       
       if((object_choices!='...') && (object_choices.length==1)) {
@@ -234,7 +244,7 @@ function handler() {
       
       var re = /[a-zA-Z0-9]/;
       if(!re.test(nn)) {
-	alert('Please enter an object name');
+	alert('Please enter what aspect of the photo you selected');
 	return;
       }
       
@@ -259,7 +269,8 @@ function handler() {
       html_str += '<deleted>0</deleted>';
       html_str += '<verified>0</verified>';
       if(use_attributes) {
-	html_str += '<occluded>' + new_occluded + '</occluded>';
+	html_str += '<quality>' + new_quality + '</quality>';
+  html_str += '<decade>' + new_decade + '</decade>';
 	html_str += '<attributes>' + new_attributes + '</attributes>';
       }
       html_str += '<parts><hasparts></hasparts><ispartof></ispartof></parts>';

@@ -56,10 +56,10 @@ function CreatePopupBubbleCloseButton(dom_bubble,close_function) {
   var html_str = '<img id="' + dom_bubble + '_closebutton" style="border: 0pt none; width:14px; height:14px; z-index:4; -moz-user-select:none; position:absolute; cursor:pointer; right:8px; top: 8px;" src="Icons/close.png" height="14" width="14" />';
   $('#'+dom_bubble).append(html_str);
   $('#'+dom_bubble+'_closebutton').mousedown(function () {
-      $('#'+dom_bubble).remove();
-      close_function();
-      return;
-    });
+    $('#'+dom_bubble).remove();
+    close_function();
+    return;
+  });
 }
 
 
@@ -115,23 +115,27 @@ function CloseEditPopup() {
 // ****************************
 
 function GetPopupFormDraw() {
-  html_str = "<b>Enter object name</b><br />";
+  html_str = "<b>Enter the aspect of the image that you selected</b><br />";
   html_str += HTMLobjectBox("");
-  
+  html_str += '<br />';
+  html_str += HTMLdecadeBox("");
+  html_str += '<br />';
+  html_str += HTMLqualityBox("");
+
   if(use_attributes) {
-    html_str += HTMLoccludedBox("");
-    html_str += "<b>Enter attributes</b><br />";
-    html_str += HTMLattributesBox("");
+    //html_str += HTMLqualityBox("");
+    //html_str += "<b>Enter attributes</b><br />";
+    //html_str += HTMLattributesBox("");
   }
   
-  if(use_parts) {
-    html_str += HTMLpartsBox("");
-  }
+  //if(use_parts) {
+  //  html_str += HTMLpartsBox("");
+  //}
   
   html_str += "<br />";
   
   // Done button:
-  html_str += '<input type="button" value="Done" title="Press this button after you have provided all the information you want about the object." onclick="main_handler.SubmitQuery();" tabindex="0" />';
+  html_str += '<input type="button" value="Done" title="Press this button after you have provided all the information you want about the object." onclick="main_handler.SubmitQuery();ShowNextImage();" tabindex="0" />';
   
   // Undo close button:
   html_str += '<input type="button" value="Undo close" title="Press this button if you accidentally closed the polygon. You can continue adding control points." onclick="UndoCloseButton();" tabindex="0" />';
@@ -147,21 +151,26 @@ function GetPopupFormEdit(anno) {
   var obj_name = anno.GetObjName();
   if(obj_name=="") obj_name = "?";
   var attributes = anno.GetAttributes();
-  var occluded = anno.GetOccluded();
-  var parts = anno.GetParts();
-  
-  html_str = "<b>Enter object name</b><br />";
-  html_str += HTMLobjectBox(obj_name);
-  
-  if(use_attributes) {
-    html_str += HTMLoccludedBox(occluded);
-    html_str += "<b>Enter attributes</b><br />";
-    html_str += HTMLattributesBox(attributes);
+  var quality = anno.GetQuality();
+  var decade = anno.GetDecade();
+ // var parts = anno.GetParts();
+
+ html_str = "<b>Enter the aspect of the image that you selected</b><br />";
+ html_str += HTMLobjectBox(obj_name);
+ html_str += "<br />";
+ html_str += HTMLdecadeBox(decade);
+ html_str += "<br />";
+ html_str += HTMLqualityBox(quality);
+
+ if(use_attributes) {
+    //html_str += HTMLqualityBox(quality);
+    //html_str += "<b>Enter attributes</b><br />";
+    //html_str += HTMLattributesBox(attributes);
   }
   
-  if(use_parts) {
-    html_str += HTMLpartsBox(parts);
-  }
+  //if(use_parts) {
+   // html_str += HTMLpartsBox(parts);
+  //}
   
   html_str += "<br />";
   
@@ -199,7 +208,7 @@ function HTMLobjectBox(obj_name) {
   html_str += '<input name="objEnter" id="objEnter" type="text" style="width:220px;" tabindex="0" value="'+obj_name+'" title="Enter the object\'s name here. Avoid application specific names, codes, long descriptions. Use a name you think other people would agree in using. "';
   
   html_str += ' onkeyup="var c;if(event.keyCode)c=event.keyCode;if(event.which)c=event.which;if(c==13)';
-        
+
   // if obj_name is empty it means that the box is being created
   if (obj_name=='') {
     // If press enter, then submit; if press ESC, then delete:
@@ -228,31 +237,263 @@ function HTMLobjectBox(obj_name) {
   return html_str;
 }
 
+
+function HTMLdecadeBox(decade) {
+  var html_str="";
+  var html_str="";
+  
+  // by default, the value of decade is "1900"
+  if (!(decade=="1900s" || decade=="1910s" || decade=="1920s"|| decade=="1930s"|| decade=="1940s"|| decade=="1950s"|| decade=="1960s"|| decade=="1970s"|| decade=="1980s"|| decade=="1990s"|| decade=="2000s"|| decade=="2010s")) {
+    decade="1900s";
+  }
+  
+  // the value of the selection is inside a hidden field:
+  html_str += 'In what decade do you think this image was taken? <input type="hidden" name="decade" id="decade" value="'+decade+'"/>';
+  html_str += "<br />";
+  // generate radio button
+  if (decade='1900s'){
+   html_str += '<input type="radio" name="rbdecade" id="rbdecade" value="1900s" checked="yes" onclick="document.getElementById(\'decade\').value=\'1900s\';" />1900s';
+   html_str += '<input type="radio" name="rbdecade" id="rbdecade" value="1910s"  onclick="document.getElementById(\'decade\').value=\'1910s\';" />1910s';
+   html_str += '<input type="radio" name="rbdecade" id="rbdecade" value="1920s"  onclick="document.getElementById(\'decade\').value=\'1920s\';" />1920s';
+   html_str += "<br />";
+   html_str += '<input type="radio" name="rbdecade" id="rbdecade" value="1930s"  onclick="document.getElementById(\'decade\').value=\'1930s\';" />1930s';
+   html_str += '<input type="radio" name="rbdecade" id="rbdecade" value="1940s"  onclick="document.getElementById(\'decade\').value=\'1940s\';" />1940s';
+   html_str += '<input type="radio" name="rbdecade" id="rbdecade" value="1950s"  onclick="document.getElementById(\'decade\').value=\'1950s\';" />1950s';
+   html_str += "<br />";
+   html_str += '<input type="radio" name="rbdecade" id="rbdecade" value="1960s"  onclick="document.getElementById(\'decade\').value=\'1960s\';" />1960s';
+   html_str += '<input type="radio" name="rbdecade" id="rbdecade" value="1970s"  onclick="document.getElementById(\'decade\').value=\'1970s\';" />1970s';
+   html_str += '<input type="radio" name="rbdecade" id="rbdecade" value="1980s"  onclick="document.getElementById(\'decade\').value=\'1980s\';" />1980s';
+   html_str += "<br />";
+   html_str += '<input type="radio" name="rbdecade" id="rbdecade" value="1990s"  onclick="document.getElementById(\'decade\').value=\'1990s\';" />1990s';
+   html_str += '<input type="radio" name="rbdecade" id="rbdecade" value="2000s"  onclick="document.getElementById(\'decade\').value=\'2000s\';" />2000s';
+   html_str += '<input type="radio" name="rbdecade" id="rbdecade" value="2010s"  onclick="document.getElementById(\'decade\').value=\'2010s\';" />2010s';
+ }
+
+ else if (decade='1910s'){
+  html_str += '<input type="radio" name="rbdecade" id="rbdecade" value="1900s"  onclick="document.getElementById(\'decade\').value=\'1900s\';" />1900s';
+  html_str += '<input type="radio" name="rbdecade" id="rbdecade" value="1910s" checked="yes"  onclick="document.getElementById(\'decade\').value=\'1910s\';" />1910s';
+  html_str += '<input type="radio" name="rbdecade" id="rbdecade" value="1920s"  onclick="document.getElementById(\'decade\').value=\'1920s\';" />1920s';
+  html_str += "<br />";
+  html_str += '<input type="radio" name="rbdecade" id="rbdecade" value="1930s"  onclick="document.getElementById(\'decade\').value=\'1930s\';" />1930s';
+  html_str += '<input type="radio" name="rbdecade" id="rbdecade" value="1940s"  onclick="document.getElementById(\'decade\').value=\'1940s\';" />1940s';
+  html_str += '<input type="radio" name="rbdecade" id="rbdecade" value="1950s"  onclick="document.getElementById(\'decade\').value=\'1950s\';" />1950s';
+  html_str += "<br />";
+  html_str += '<input type="radio" name="rbdecade" id="rbdecade" value="1960s"  onclick="document.getElementById(\'decade\').value=\'1960s\';" />1960s';
+  html_str += '<input type="radio" name="rbdecade" id="rbdecade" value="1970s"  onclick="document.getElementById(\'decade\').value=\'1970s\';" />1970s';
+  html_str += '<input type="radio" name="rbdecade" id="rbdecade" value="1980s"  onclick="document.getElementById(\'decade\').value=\'1980s\';" />1980s';
+  html_str += "<br />";
+  html_str += '<input type="radio" name="rbdecade" id="rbdecade" value="1990s"  onclick="document.getElementById(\'decade\').value=\'1990s\';" />1990s';
+  html_str += '<input type="radio" name="rbdecade" id="rbdecade" value="2000s"  onclick="document.getElementById(\'decade\').value=\'2000s\';" />2000s';
+  html_str += '<input type="radio" name="rbdecade" id="rbdecade" value="2010s"  onclick="document.getElementById(\'decade\').value=\'2010s\';" />2010s';
+}
+else if (decade=='1920s') {
+    //figure out this line of code below. exacly what does yes mean?
+    html_str += '<input type="radio" name="rbdecade" id="rbdecade" value="1900s"  onclick="document.getElementById(\'decade\').value=\'1900s\';" />1900s';
+    html_str += '<input type="radio" name="rbdecade" id="rbdecade" value="1910s"  onclick="document.getElementById(\'decade\').value=\'1910s\';" />1910s';
+    html_str += '<input type="radio" name="rbdecade" id="rbdecade" value="1920s" checked="yes"onclick="document.getElementById(\'decade\').value=\'1920s\';" />1920s';
+    html_str += "<br />";
+    html_str += '<input type="radio" name="rbdecade" id="rbdecade" value="1930s"  onclick="document.getElementById(\'decade\').value=\'1930s\';" />1930s';
+    html_str += '<input type="radio" name="rbdecade" id="rbdecade" value="1940s"  onclick="document.getElementById(\'decade\').value=\'1940s\';" />1940s';
+    html_str += '<input type="radio" name="rbdecade" id="rbdecade" value="1950s"  onclick="document.getElementById(\'decade\').value=\'1950s\';" />1950s';
+    html_str += "<br />";
+    html_str += '<input type="radio" name="rbdecade" id="rbdecade" value="1960s"  onclick="document.getElementById(\'decade\').value=\'1960s\';" />1960s';
+    html_str += '<input type="radio" name="rbdecade" id="rbdecade" value="1970s"  onclick="document.getElementById(\'decade\').value=\'1970s\';" />1970s';
+    html_str += '<input type="radio" name="rbdecade" id="rbdecade" value="1980s"  onclick="document.getElementById(\'decade\').value=\'1980s\';" />1980s';
+    html_str += "<br />";
+    html_str += '<input type="radio" name="rbdecade" id="rbdecade" value="1990s"  onclick="document.getElementById(\'decade\').value=\'1990s\';" />1990s';
+    html_str += '<input type="radio" name="rbdecade" id="rbdecade" value="2000s"  onclick="document.getElementById(\'decade\').value=\'2000s\';" />2000s';
+    html_str += '<input type="radio" name="rbdecade" id="rbdecade" value="2010s"  onclick="document.getElementById(\'decade\').value=\'2010s\';" />2010s';
+  }
+  else if (decade=='1930s') {
+    //figure out this line of code below. exacly what does yes mean?
+    html_str += '<input type="radio" name="rbdecade" id="rbdecade" value="1900s"  onclick="document.getElementById(\'decade\').value=\'1900s\';" />1900s';
+    html_str += '<input type="radio" name="rbdecade" id="rbdecade" value="1910s"  onclick="document.getElementById(\'decade\').value=\'1910s\';" />1910s';
+    html_str += '<input type="radio" name="rbdecade" id="rbdecade" value="1920s"  onclick="document.getElementById(\'decade\').value=\'1920s\';" />1920s';
+    html_str += "<br />";
+    html_str += '<input type="radio" name="rbdecade" id="rbdecade" value="1930s"  checked="yes" onclick="document.getElementById(\'decade\').value=\'1930s\';" />1930s';
+    html_str += '<input type="radio" name="rbdecade" id="rbdecade" value="1940s"  onclick="document.getElementById(\'decade\').value=\'1940s\';" />1940s';
+    html_str += '<input type="radio" name="rbdecade" id="rbdecade" value="1950s"  onclick="document.getElementById(\'decade\').value=\'1950s\';" />1950s';
+    html_str += "<br />";
+    html_str += '<input type="radio" name="rbdecade" id="rbdecade" value="1960s"  onclick="document.getElementById(\'decade\').value=\'1960s\';" />1960s';
+    html_str += '<input type="radio" name="rbdecade" id="rbdecade" value="1970s"  onclick="document.getElementById(\'decade\').value=\'1970s\';" />1970s';
+    html_str += '<input type="radio" name="rbdecade" id="rbdecade" value="1980s"  onclick="document.getElementById(\'decade\').value=\'1980s\';" />1980s';
+    html_str += "<br />";
+    html_str += '<input type="radio" name="rbdecade" id="rbdecade" value="1990s"  onclick="document.getElementById(\'decade\').value=\'1990s\';" />1990s';
+    html_str += '<input type="radio" name="rbdecade" id="rbdecade" value="2000s"  onclick="document.getElementById(\'decade\').value=\'2000s\';" />2000s';
+    html_str += '<input type="radio" name="rbdecade" id="rbdecade" value="2010s"  onclick="document.getElementById(\'decade\').value=\'2010s\';" />2010s';
+  }
+  else if (decade=='1940s') {
+    //figure out this line of code below. exacly what does yes mean?
+    html_str += '<input type="radio" name="rbdecade" id="rbdecade" value="1900s"  onclick="document.getElementById(\'decade\').value=\'1900s\';" />1900s';
+    html_str += '<input type="radio" name="rbdecade" id="rbdecade" value="1910s"  onclick="document.getElementById(\'decade\').value=\'1910s\';" />1910s';
+    html_str += '<input type="radio" name="rbdecade" id="rbdecade" value="1920s"  onclick="document.getElementById(\'decade\').value=\'1920s\';" />1920s';
+    html_str += "<br />";
+    html_str += '<input type="radio" name="rbdecade" id="rbdecade" value="1930s"  onclick="document.getElementById(\'decade\').value=\'1930s\';" />1930s';
+    html_str += '<input type="radio" name="rbdecade" id="rbdecade" value="1940s"  checked="yes" onclick="document.getElementById(\'decade\').value=\'1940s\';" />1940s';
+    html_str += '<input type="radio" name="rbdecade" id="rbdecade" value="1950s"  onclick="document.getElementById(\'decade\').value=\'1950s\';" />1950s';
+    html_str += "<br />";
+    html_str += '<input type="radio" name="rbdecade" id="rbdecade" value="1960s"  onclick="document.getElementById(\'decade\').value=\'1960s\';" />1960s';
+    html_str += '<input type="radio" name="rbdecade" id="rbdecade" value="1970s"  onclick="document.getElementById(\'decade\').value=\'1970s\';" />1970s';
+    html_str += '<input type="radio" name="rbdecade" id="rbdecade" value="1980s"  onclick="document.getElementById(\'decade\').value=\'1980s\';" />1980s';
+    html_str += "<br />";
+    html_str += '<input type="radio" name="rbdecade" id="rbdecade" value="1990s"  onclick="document.getElementById(\'decade\').value=\'1990s\';" />1990s';
+    html_str += '<input type="radio" name="rbdecade" id="rbdecade" value="2000s"  onclick="document.getElementById(\'decade\').value=\'2000s\';" />2000s';
+    html_str += '<input type="radio" name="rbdecade" id="rbdecade" value="2010s"  onclick="document.getElementById(\'decade\').value=\'2010s\';" />2010s';
+  }
+  else if (decade=='1950s') {
+    //figure out this line of code below. exacly what does yes mean?
+    html_str += '<input type="radio" name="rbdecade" id="rbdecade" value="1900s"  onclick="document.getElementById(\'decade\').value=\'1900s\';" />1900s';
+    html_str += '<input type="radio" name="rbdecade" id="rbdecade" value="1910s"  onclick="document.getElementById(\'decade\').value=\'1910s\';" />1910s';
+    html_str += '<input type="radio" name="rbdecade" id="rbdecade" value="1920s"  onclick="document.getElementById(\'decade\').value=\'1920s\';" />1920s';
+    html_str += "<br />";
+    html_str += '<input type="radio" name="rbdecade" id="rbdecade" value="1930s"  onclick="document.getElementById(\'decade\').value=\'1930s\';" />1930s';
+    html_str += '<input type="radio" name="rbdecade" id="rbdecade" value="1940s"  onclick="document.getElementById(\'decade\').value=\'1940s\';" />1940s';
+    html_str += '<input type="radio" name="rbdecade" id="rbdecade" value="1950s"  checked="yes" onclick="document.getElementById(\'decade\').value=\'1950s\';" />1950s';
+    html_str += "<br />";
+    html_str += '<input type="radio" name="rbdecade" id="rbdecade" value="1960s"  onclick="document.getElementById(\'decade\').value=\'1960s\';" />1960s';
+    html_str += '<input type="radio" name="rbdecade" id="rbdecade" value="1970s"  onclick="document.getElementById(\'decade\').value=\'1970s\';" />1970s';
+    html_str += '<input type="radio" name="rbdecade" id="rbdecade" value="1980s"  onclick="document.getElementById(\'decade\').value=\'1980s\';" />1980s';
+    html_str += "<br />";
+    html_str += '<input type="radio" name="rbdecade" id="rbdecade" value="1990s"  onclick="document.getElementById(\'decade\').value=\'1990s\';" />1990s';
+    html_str += '<input type="radio" name="rbdecade" id="rbdecade" value="2000s"  onclick="document.getElementById(\'decade\').value=\'2000s\';" />2000s';
+    html_str += '<input type="radio" name="rbdecade" id="rbdecade" value="2010s"  onclick="document.getElementById(\'decade\').value=\'2010s\';" />2010s';
+  }
+  else if (decade=='1960s') {
+    //figure out this line of code below. exacly what does yes mean?
+    html_str += '<input type="radio" name="rbdecade" id="rbdecade" value="1900s"  onclick="document.getElementById(\'decade\').value=\'1900s\';" />1900s';
+    html_str += '<input type="radio" name="rbdecade" id="rbdecade" value="1910s"  onclick="document.getElementById(\'decade\').value=\'1910s\';" />1910s';
+    html_str += '<input type="radio" name="rbdecade" id="rbdecade" value="1920s"  onclick="document.getElementById(\'decade\').value=\'1920s\';" />1920s';
+    html_str += "<br />";
+    html_str += '<input type="radio" name="rbdecade" id="rbdecade" value="1930s"  onclick="document.getElementById(\'decade\').value=\'1930s\';" />1930s';
+    html_str += '<input type="radio" name="rbdecade" id="rbdecade" value="1940s"  onclick="document.getElementById(\'decade\').value=\'1940s\';" />1940s';
+    html_str += '<input type="radio" name="rbdecade" id="rbdecade" value="1950s"  onclick="document.getElementById(\'decade\').value=\'1950s\';" />1950s';
+    html_str += "<br />";
+    html_str += '<input type="radio" name="rbdecade" id="rbdecade" value="1960s"  checked="yes" onclick="document.getElementById(\'decade\').value=\'1960s\';" />1960s';
+    html_str += '<input type="radio" name="rbdecade" id="rbdecade" value="1970s"  onclick="document.getElementById(\'decade\').value=\'1970s\';" />1970s';
+    html_str += '<input type="radio" name="rbdecade" id="rbdecade" value="1980s"  onclick="document.getElementById(\'decade\').value=\'1980s\';" />1980s';
+    html_str += "<br />";
+    html_str += '<input type="radio" name="rbdecade" id="rbdecade" value="1990s"  onclick="document.getElementById(\'decade\').value=\'1990s\';" />1990s';
+    html_str += '<input type="radio" name="rbdecade" id="rbdecade" value="2000s"  onclick="document.getElementById(\'decade\').value=\'2000s\';" />2000s';
+    html_str += '<input type="radio" name="rbdecade" id="rbdecade" value="2010s"  onclick="document.getElementById(\'decade\').value=\'2010s\';" />2010s';
+  }
+  else if (decade=='1970s') {
+    //figure out this line of code below. exacly what does yes mean?
+    html_str += '<input type="radio" name="rbdecade" id="rbdecade" value="1900s"  onclick="document.getElementById(\'decade\').value=\'1900s\';" />1900s';
+    html_str += '<input type="radio" name="rbdecade" id="rbdecade" value="1910s"  onclick="document.getElementById(\'decade\').value=\'1910s\';" />1910s';
+    html_str += '<input type="radio" name="rbdecade" id="rbdecade" value="1920s"  onclick="document.getElementById(\'decade\').value=\'1920s\';" />1920s';
+    html_str += "<br />";
+    html_str += '<input type="radio" name="rbdecade" id="rbdecade" value="1930s"  onclick="document.getElementById(\'decade\').value=\'1930s\';" />1930s';
+    html_str += '<input type="radio" name="rbdecade" id="rbdecade" value="1940s"  onclick="document.getElementById(\'decade\').value=\'1940s\';" />1940s';
+    html_str += '<input type="radio" name="rbdecade" id="rbdecade" value="1950s"  onclick="document.getElementById(\'decade\').value=\'1950s\';" />1950s';
+    html_str += "<br />";
+    html_str += '<input type="radio" name="rbdecade" id="rbdecade" value="1960s"  onclick="document.getElementById(\'decade\').value=\'1960s\';" />1960s';
+    html_str += '<input type="radio" name="rbdecade" id="rbdecade" value="1970s"  checked="yes" onclick="document.getElementById(\'decade\').value=\'1970s\';" />1970s';
+    html_str += '<input type="radio" name="rbdecade" id="rbdecade" value="1980s"  onclick="document.getElementById(\'decade\').value=\'1980s\';" />1980s';
+    html_str += "<br />";
+    html_str += '<input type="radio" name="rbdecade" id="rbdecade" value="1990s"  onclick="document.getElementById(\'decade\').value=\'1990s\';" />1990s';
+    html_str += '<input type="radio" name="rbdecade" id="rbdecade" value="2000s"  onclick="document.getElementById(\'decade\').value=\'2000s\';" />2000s';
+    html_str += '<input type="radio" name="rbdecade" id="rbdecade" value="2010s"  onclick="document.getElementById(\'decade\').value=\'2010s\';" />2010s';
+  }
+  else if (decade=='1980s') {
+    //figure out this line of code below. exacly what does yes mean?
+    html_str += '<input type="radio" name="rbdecade" id="rbdecade" value="1900s"  onclick="document.getElementById(\'decade\').value=\'1900s\';" />1900s';
+    html_str += '<input type="radio" name="rbdecade" id="rbdecade" value="1910s"  onclick="document.getElementById(\'decade\').value=\'1910s\';" />1910s';
+    html_str += '<input type="radio" name="rbdecade" id="rbdecade" value="1920s"  onclick="document.getElementById(\'decade\').value=\'1920s\';" />1920s';
+    html_str += "<br />";
+    html_str += '<input type="radio" name="rbdecade" id="rbdecade" value="1930s"  onclick="document.getElementById(\'decade\').value=\'1930s\';" />1930s';
+    html_str += '<input type="radio" name="rbdecade" id="rbdecade" value="1940s"  onclick="document.getElementById(\'decade\').value=\'1940s\';" />1940s';
+    html_str += '<input type="radio" name="rbdecade" id="rbdecade" value="1950s"  onclick="document.getElementById(\'decade\').value=\'1950s\';" />1950s';
+    html_str += "<br />";
+    html_str += '<input type="radio" name="rbdecade" id="rbdecade" value="1960s"  onclick="document.getElementById(\'decade\').value=\'1960s\';" />1960s';
+    html_str += '<input type="radio" name="rbdecade" id="rbdecade" value="1970s"  onclick="document.getElementById(\'decade\').value=\'1970s\';" />1970s';
+    html_str += '<input type="radio" name="rbdecade" id="rbdecade" value="1980s"  checked="yes" onclick="document.getElementById(\'decade\').value=\'1980s\';" />1980s';
+    html_str += "<br />";
+    html_str += '<input type="radio" name="rbdecade" id="rbdecade" value="1990s"  onclick="document.getElementById(\'decade\').value=\'1990s\';" />1990s';
+    html_str += '<input type="radio" name="rbdecade" id="rbdecade" value="2000s"  onclick="document.getElementById(\'decade\').value=\'2000s\';" />2000s';
+    html_str += '<input type="radio" name="rbdecade" id="rbdecade" value="2010s"  onclick="document.getElementById(\'decade\').value=\'2010s\';" />2010s';
+  }
+  else if (decade=='1990s') {
+    //figure out this line of code below. exacly what does yes mean?
+    html_str += '<input type="radio" name="rbdecade" id="rbdecade" value="1900s"  onclick="document.getElementById(\'decade\').value=\'1900s\';" />1900s';
+    html_str += '<input type="radio" name="rbdecade" id="rbdecade" value="1910s"  onclick="document.getElementById(\'decade\').value=\'1910s\';" />1910s';
+    html_str += '<input type="radio" name="rbdecade" id="rbdecade" value="1920s"  onclick="document.getElementById(\'decade\').value=\'1920s\';" />1920s';
+    html_str += "<br />";
+    html_str += '<input type="radio" name="rbdecade" id="rbdecade" value="1930s"  onclick="document.getElementById(\'decade\').value=\'1930s\';" />1930s';
+    html_str += '<input type="radio" name="rbdecade" id="rbdecade" value="1940s"  onclick="document.getElementById(\'decade\').value=\'1940s\';" />1940s';
+    html_str += '<input type="radio" name="rbdecade" id="rbdecade" value="1950s"  onclick="document.getElementById(\'decade\').value=\'1950s\';" />1950s';
+    html_str += "<br />";
+    html_str += '<input type="radio" name="rbdecade" id="rbdecade" value="1960s"  onclick="document.getElementById(\'decade\').value=\'1960s\';" />1960s';
+    html_str += '<input type="radio" name="rbdecade" id="rbdecade" value="1970s"  onclick="document.getElementById(\'decade\').value=\'1970s\';" />1970s';
+    html_str += '<input type="radio" name="rbdecade" id="rbdecade" value="1980s"  onclick="document.getElementById(\'decade\').value=\'1980s\';" />1980s';
+    html_str += "<br />";
+    html_str += '<input type="radio" name="rbdecade" id="rbdecade" value="1990s"  checked="yes" onclick="document.getElementById(\'decade\').value=\'1990s\';" />1990s';
+    html_str += '<input type="radio" name="rbdecade" id="rbdecade" value="2000s"  onclick="document.getElementById(\'decade\').value=\'2000s\';" />2000s';
+    html_str += '<input type="radio" name="rbdecade" id="rbdecade" value="2010s"  onclick="document.getElementById(\'decade\').value=\'2010s\';" />2010s';
+  }
+  else if (decade=='2000s') {
+    //figure out this line of code below. exacly what does yes mean?
+    html_str += '<input type="radio" name="rbdecade" id="rbdecade" value="1900s"  onclick="document.getElementById(\'decade\').value=\'1900s\';" />1900s';
+    html_str += '<input type="radio" name="rbdecade" id="rbdecade" value="1910s"  onclick="document.getElementById(\'decade\').value=\'1910s\';" />1910s';
+    html_str += '<input type="radio" name="rbdecade" id="rbdecade" value="1920s"  onclick="document.getElementById(\'decade\').value=\'1920s\';" />1920s';
+    html_str += "<br />";
+    html_str += '<input type="radio" name="rbdecade" id="rbdecade" value="1930s"  onclick="document.getElementById(\'decade\').value=\'1930s\';" />1930s';
+    html_str += '<input type="radio" name="rbdecade" id="rbdecade" value="1940s"  onclick="document.getElementById(\'decade\').value=\'1940s\';" />1940s';
+    html_str += '<input type="radio" name="rbdecade" id="rbdecade" value="1950s"  onclick="document.getElementById(\'decade\').value=\'1950s\';" />1950s';
+    html_str += "<br />";
+    html_str += '<input type="radio" name="rbdecade" id="rbdecade" value="1960s"  onclick="document.getElementById(\'decade\').value=\'1960s\';" />1960s';
+    html_str += '<input type="radio" name="rbdecade" id="rbdecade" value="1970s"  onclick="document.getElementById(\'decade\').value=\'1970s\';" />1970s';
+    html_str += '<input type="radio" name="rbdecade" id="rbdecade" value="1980s"  onclick="document.getElementById(\'decade\').value=\'1980s\';" />1980s';
+    html_str += "<br />";
+    html_str += '<input type="radio" name="rbdecade" id="rbdecade" value="1990s"  onclick="document.getElementById(\'decade\').value=\'1990s\';" />1990s';
+    html_str += '<input type="radio" name="rbdecade" id="rbdecade" value="2000s"  checked="yes" onclick="document.getElementById(\'decade\').value=\'2000s\';" />2000s';
+    html_str += '<input type="radio" name="rbdecade" id="rbdecade" value="2010s"  onclick="document.getElementById(\'decade\').value=\'2010s\';" />2010s';
+  }
+  else {
+    //figure out this line of code below. exacly what does yes mean?
+    html_str += '<input type="radio" name="rbdecade" id="rbdecade" value="1900s"  onclick="document.getElementById(\'decade\').value=\'1900s\';" />1900s';
+    html_str += '<input type="radio" name="rbdecade" id="rbdecade" value="1910s"  onclick="document.getElementById(\'decade\').value=\'1910s\';" />1910s';
+    html_str += '<input type="radio" name="rbdecade" id="rbdecade" value="1920s"  onclick="document.getElementById(\'decade\').value=\'1920s\';" />1920s';
+    html_str += "<br />";
+    html_str += '<input type="radio" name="rbdecade" id="rbdecade" value="1930s"  onclick="document.getElementById(\'decade\').value=\'1930s\';" />1930s';
+    html_str += '<input type="radio" name="rbdecade" id="rbdecade" value="1940s"  onclick="document.getElementById(\'decade\').value=\'1940s\';" />1940s';
+    html_str += '<input type="radio" name="rbdecade" id="rbdecade" value="1950s"  onclick="document.getElementById(\'decade\').value=\'1950s\';" />1950s';
+    html_str += "<br />";
+    html_str += '<input type="radio" name="rbdecade" id="rbdecade" value="1960s"  onclick="document.getElementById(\'decade\').value=\'1960s\';" />1960s';
+    html_str += '<input type="radio" name="rbdecade" id="rbdecade" value="1970s"  onclick="document.getElementById(\'decade\').value=\'1970s\';" />1970s';
+    html_str += '<input type="radio" name="rbdecade" id="rbdecade" value="1980s"  onclick="document.getElementById(\'decade\').value=\'1980s\';" />1980s';
+    html_str += "<br />";
+    html_str += '<input type="radio" name="rbdecade" id="rbdecade" value="1990s"  onclick="document.getElementById(\'decade\').value=\'1990s\';" />1990s';
+    html_str += '<input type="radio" name="rbdecade" id="rbdecade" value="2000s"  onclick="document.getElementById(\'decade\').value=\'2000s\';" />2000s';
+    html_str += '<input type="radio" name="rbdecade" id="rbdecade" value="2010s"  checked="yes" onclick="document.getElementById(\'decade\').value=\'2010s\';" />2010s';
+  }
+  html_str += '<br />';
+  return html_str;
+}
 // ****************************
 // ATTRIBUTES:
 // ****************************
 // ?attributes=object:car;brand:seat/ford;color:...;comments:...
 
-// is the object occluded?
-function HTMLoccludedBox(occluded) {
+// is the object quality?
+function HTMLqualityBox(quality) {
   var html_str="";
   
-  // by default, the value of occluded is "no"
-  if (!(occluded=="no" || occluded=="yes")) {
-    occluded="no";
+  // by default, the value of quality is "no"
+  if (!(quality=="no" || quality=="yes")) {
+    quality="no";
   }
   
   // the value of the selection is inside a hidden field:
-  html_str += 'Is occluded? <input type="hidden" name="occluded" id="occluded" value="'+occluded+'"/>';
+  html_str += 'Did the quality of image help you indicate which decade it was taken in? <input type="hidden" name="quality" id="quality" value="'+quality+'"/>';
   
   // generate radio button
-  if (occluded=='yes') {
-    html_str += '<input type="radio" name="rboccluded" id="rboccluded" value="yes" checked="yes" onclick="document.getElementById(\'occluded\').value=\'yes\';" />yes';
-    html_str += '<input type="radio" name="rboccluded" id="rboccluded" value="no"  onclick="document.getElementById(\'occluded\').value=\'no\';" />no';
+  if (quality=='yes') {
+    html_str += '<input type="radio" name="rbquality" id="rbquality" value="yes" checked="yes" onclick="document.getElementById(\'quality\').value=\'yes\';" />yes';
+    html_str += '<input type="radio" name="rbquality" id="rbquality" value="no"  onclick="document.getElementById(\'quality\').value=\'no\';" />no';
   }
   else {
-    html_str += '<input type="radio" name="rboccluded" id="rboccluded" value="yes"  onclick="document.getElementById(\'occluded\').value=\'yes\';" />yes';
-    html_str += '<input type="radio" name="rboccluded" id="rboccluded" value="no" checked="yes"  onclick="document.getElementById(\'occluded\').value=\'no\';" />no';
+    html_str += '<input type="radio" name="rbquality" id="rbquality" value="yes"  onclick="document.getElementById(\'quality\').value=\'yes\';" />yes';
+    html_str += '<input type="radio" name="rbquality" id="rbquality" value="no" checked="yes"  onclick="document.getElementById(\'quality\').value=\'no\';" />no';
   }
   html_str += '<br />';
   
@@ -268,7 +509,7 @@ function HTMLattributesBox(attList) {
 // ****************************
 // PARTS:
 // ****************************
-function HTMLpartsBox(parts) {
+/*function HTMLpartsBox(parts) {
   var html_str="";
   if (parts.length>0) {
     if (parts.length==1) {
@@ -284,3 +525,4 @@ function HTMLpartsBox(parts) {
   
   return html_str;
 }
+*/

@@ -354,13 +354,14 @@ function scribble_canvas(tag) {
     };
     
 this.GetPopupFormDraw = function() {
-  html_str = "<b>Enter object name</b><br />";
+  html_str = "<b>Enter the aspect of the image that you selected</b><br />";
   html_str += this.HTMLobjectBox("");
   
   if(use_attributes) {
-    html_str += HTMLoccludedBox("");
-    html_str += "<b>Enter attributes</b><br />";
-    html_str += HTMLattributesBox("");
+    html_str+= HTMLdecadeBox("");
+    html_str += HTMLqualityBox("");
+    //html_str += "<b>Enter attributes</b><br />";
+    //html_str += HTMLattributesBox("");
   }
   
   if(use_parts) {
@@ -780,7 +781,8 @@ this.HTMLobjectBox = function(obj_name) {
       active_canvas  = DRAW_CANVAS;
       main_handler.objEnter = document.getElementById('objEnter').value;
       main_handler.attributes = document.getElementById('attributes').value;
-      main_handler.occluded = document.getElementById('occluded').value;
+      main_handler.quality = document.getElementById('quality').value;
+       main_handler.decade = document.getElementById('decade').value;
 
 
       document.getElementById('select_canvas').style.zIndex = -2;

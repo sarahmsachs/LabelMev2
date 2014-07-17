@@ -147,10 +147,14 @@ function annotation(anno_id) {
         return parseInt($(LM_xml).children("annotation").children("object").eq(this.anno_id).children("verified").text());
     };
     
-    this.GetOccluded = function() {
-        return $(LM_xml).children("annotation").children("object").eq(this.anno_id).children("occluded").text();
+    this.GetQuality = function() {
+        return $(LM_xml).children("annotation").children("object").eq(this.anno_id).children("quality").text();
     };
     
+  this.GetDecade = function() {
+        return $(LM_xml).children("annotation").children("object").eq(this.anno_id).children("decade").text();
+    };
+
     this.GetAttributes = function() {
         return $(LM_xml).children("annotation").children("object").eq(this.anno_id).children("attributes").text();
     };
