@@ -10,7 +10,7 @@ use vars qw($LM_HOME);
 my $query = new CGI;
 my $mode = $query->param("mode");
 my $username = $query->param("username");
-my $collection = $query->param("collection");
+#my $collection = $query->param("collection");
 my $folder = $query->param("folder");
 my $image = $query->param("image");
 
