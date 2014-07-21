@@ -137,6 +137,7 @@ function GetPopupFormDraw() {
   // Done button:
   html_str += '<input type="button" value="Done" title="Press this button after you have provided all the information you want about the object." onclick="main_handler.SubmitQuery();ShowNextImage();" tabindex="0" />';
   
+  
   // Undo close button:
   html_str += '<input type="button" value="Undo close" title="Press this button if you accidentally closed the polygon. You can continue adding control points." onclick="UndoCloseButton();" tabindex="0" />';
   

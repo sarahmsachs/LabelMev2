@@ -113,8 +113,9 @@ function loadXMLDoc() {
 }
 
 function ShowNextImage() {
-  var s = document.getElementById("submitform");
-  if(s!=null) s.submit();
+  //var s = document.getElementById("submitform");
+  //if(s!=null) s.submit();
+  javascript:loadXMLDoc()
 }
 
 function ChangeLinkColorBG(idx) {
