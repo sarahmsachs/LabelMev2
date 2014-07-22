@@ -17,7 +17,7 @@ function CreatePopupBubble(left,top,innerHTML,dom_attach) {
   if (left < 5) left = 5;
   
   // Select the vertical position of the bubble decoration arrow
-  if (top > 214) {
+  if (top > 350) {
     html_str  = '<div class= "bubble" id="' + bubble_name + '" style="position:absolute;z-index:5; left:' + left + 'px; top:' + top + 'px;">';
   }
   else {
@@ -34,9 +34,10 @@ function CreatePopupBubble(left,top,innerHTML,dom_attach) {
   $('#'+dom_attach).append(html_str);
   
   // Place bubble in the right location taking into account the rendered size and the location of the arrow
-  if(top > 214) {  
+  if(top > 350) {  
     h = $('#'+bubble_name).height();
     document.getElementById(bubble_name).style.top = (top-h-80) + 'px';
+    //document.getElementById(bubble_name).style.top = (top-h) + 'px';
   }
   else {
     document.getElementById(bubble_name).style.top = (top) + 'px';
@@ -135,7 +136,10 @@ function GetPopupFormDraw() {
   html_str += "<br />";
   
   // Done button:
-  html_str += '<input type="button" value="Done" title="Press this button after you have provided all the information you want about the object." onclick="main_handler.SubmitQuery();ShowNextImage();" tabindex="0" />';
+  html_str += '<input type="button" value="Done" title="Press this button after you have provided all the information you want about the object." onclick="main_handler.SubmitQuery();" tabindex="0" />';
+  
+  //html_str += '<input type="button" value="Done" title="Press this button after you have provided all the information you want about the object." onclick="main_handler.SubmitQuery();ShowNextImage();" tabindex="0" />';
+  //html_str += '<input type="button" value="Done" title="Press this button after you have provided all the information you want about the object." onclick="DoneButton(anno);" tabindex="0" />';
   
   
   // Undo close button:
@@ -146,6 +150,22 @@ function GetPopupFormDraw() {
   
   return html_str;
 }
+
+/*
+function DoneButton(anno){
+ old_name = anno.GetObjName();
+  if(document.getElementById('objEnter')) new_name = RemoveSpecialChars(document.getElementById('objEnter').value);
+      else new_name = RemoveSpecialChars(adjust_objEnter);
+      
+      var re = /[a-zA-Z0-9]/;
+      if(!re.test(new_name)) {
+  alert('Please enter what aspect of the photo you selected');
+  return;
+      }
+  main_handler.SubmitQuery();
+  main_handler.ShowNextImage();
+  }
+*/
 
 function GetPopupFormEdit(anno) {
   // get object name and attributes from 'anno'
@@ -183,12 +203,12 @@ function GetPopupFormEdit(anno) {
   // Scribble: if anno.GetType() != 0 then scribble mode:
 
   // Adjust polygon button:
-  if (anno.GetType() == 0) {
-    html_str += '<input type="button" value="Adjust polygon" title="Press this button if you wish to update the polygon\'s control points." onclick="javascript:AdjustPolygonButton();" />';
-  }
-  else {
-    html_str += '<input type="button" value="Edit Scribbles" title="Press this button if you wish to update the segmentation." onclick="javascript:EditBubbleEditScribble();" />';  
-  }
+  //if (anno.GetType() == 0) {
+   // html_str += '<input type="button" value="Adjust polygon" title="Press this button if you wish to update the polygon\'s control points." onclick="javascript:AdjustPolygonButton();" />';
+  //}
+  //else {
+   // html_str += '<input type="button" value="Edit Scribbles" title="Press this button if you wish to update the segmentation." onclick="javascript:EditBubbleEditScribble();" />';  
+  //}
   /*************************************************************/
   /*************************************************************/
 
@@ -220,8 +240,10 @@ function HTMLobjectBox(obj_name) {
     html_str += 'main_handler.SubmitEditLabel();" ';
   }
   
+  html_str += '/>'; // close <input
   // if there is a list of objects, we need to habilitate the list
-  if(object_choices=='...') {
+  //I comment out this part bc i dont think its important
+  /*if(object_choices=='...') {
     html_str += '/>'; // close <input
   }
   else {
@@ -232,6 +254,7 @@ function HTMLobjectBox(obj_name) {
     }
     html_str += '</select></datalist>';
   }
+  */
   
   html_str += '<br />';
   

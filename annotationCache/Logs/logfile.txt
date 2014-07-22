@@ -341,3 +341,552 @@
 22-Jul-2014 21:21:16 127.0.0.1 *start_polygon
 22-Jul-2014 21:21:17 127.0.0.1 *What_is_this_object_query
 22-Jul-2014 21:21:18 example_folder img2 0 1 127.0.0.1  awerd 1 anonymous cpts_not_modified 0 0
+22-Jul-2014 21:23:58 127.0.0.1 *start_loading
+22-Jul-2014 21:23:58 127.0.0.1 *Browser_Information Mozilla/5.0 (Macintosh; Intel Mac OS X 10_9_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/36.0.1985.125 Safari/537.36
+22-Jul-2014 21:23:58 127.0.0.1 *done_loading_Images/example_folder/img2.jpg
+22-Jul-2014 21:24:00 127.0.0.1 *start_polygon
+22-Jul-2014 21:24:03 127.0.0.1 *What_is_this_object_query
+22-Jul-2014 21:24:06 example_folder img2 1 2 127.0.0.1  car 1 anonymous cpts_not_modified 0 0
+22-Jul-2014 21:24:07 127.0.0.1 *Browser_Information Mozilla/5.0 (Macintosh; Intel Mac OS X 10_9_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/36.0.1985.125 Safari/537.36
+22-Jul-2014 21:24:07 127.0.0.1 *start_loading
+22-Jul-2014 21:24:07 127.0.0.1 *done_loading_Images/example_folder/img3.jpg
+22-Jul-2014 21:24:08 127.0.0.1 *start_polygon
+22-Jul-2014 21:24:10 127.0.0.1 *What_is_this_object_query
+22-Jul-2014 21:24:12 example_folder img3 0 1 127.0.0.1  car 1 anonymous cpts_not_modified 0 0
+22-Jul-2014 21:24:12 127.0.0.1 *Browser_Information Mozilla/5.0 (Macintosh; Intel Mac OS X 10_9_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/36.0.1985.125 Safari/537.36
+22-Jul-2014 21:24:12 127.0.0.1 *start_loading
+22-Jul-2014 21:24:13 127.0.0.1 *done_loading_Images/example_folder/img1.jpg
+22-Jul-2014 21:24:18 127.0.0.1 *start_polygon
+22-Jul-2014 21:24:20 127.0.0.1 *What_is_this_object_query
+22-Jul-2014 21:24:21 example_folder img1 2 3 127.0.0.1  car 1 anonymous cpts_not_modified 0 0
+22-Jul-2014 21:24:21 127.0.0.1 *Browser_Information Mozilla/5.0 (Macintosh; Intel Mac OS X 10_9_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/36.0.1985.125 Safari/537.36
+22-Jul-2014 21:24:21 127.0.0.1 *start_loading
+22-Jul-2014 21:24:22 127.0.0.1 *done_loading_Images/example_folder/img2.jpg
+22-Jul-2014 21:24:27 127.0.0.1 *start_polygon
+22-Jul-2014 21:24:48 127.0.0.1 *Browser_Information Mozilla/5.0 (Macintosh; Intel Mac OS X 10_9_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/36.0.1985.125 Safari/537.36
+22-Jul-2014 21:24:48 127.0.0.1 *start_loading
+22-Jul-2014 21:24:49 127.0.0.1 *Browser_Information Mozilla/5.0 (Macintosh; Intel Mac OS X 10_9_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/36.0.1985.125 Safari/537.36
+22-Jul-2014 21:24:49 127.0.0.1 *start_loading
+22-Jul-2014 21:24:49 127.0.0.1 *done_loading_Images/Test1/img2.jpg
+22-Jul-2014 21:24:51 127.0.0.1 *start_polygon
+22-Jul-2014 21:24:53 127.0.0.1 *What_is_this_object_query
+22-Jul-2014 21:24:56 mydir my 1 1 127.0.0.1  hair 1 anonymous cpts_not_modified 0 0
+22-Jul-2014 21:24:57 127.0.0.1 *Browser_Information Mozilla/5.0 (Macintosh; Intel Mac OS X 10_9_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/36.0.1985.125 Safari/537.36
+22-Jul-2014 21:24:57 127.0.0.1 *start_loading
+22-Jul-2014 21:25:05 127.0.0.1 *done_loading_Images/Test1/img1.jpg
+22-Jul-2014 21:25:08 127.0.0.1 *start_polygon
+22-Jul-2014 21:25:10 127.0.0.1 *What_is_this_object_query
+22-Jul-2014 21:25:12 mydir my 1 1 127.0.0.1  hair 1 anonymous cpts_not_modified 0 0
+22-Jul-2014 21:25:36 127.0.0.1 *Browser_Information Mozilla/5.0 (Macintosh; Intel Mac OS X 10_9_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/36.0.1985.125 Safari/537.36
+22-Jul-2014 21:25:36 127.0.0.1 *start_loading
+22-Jul-2014 21:25:36 127.0.0.1 *done_loading_Images/Test1/img1.jpg
+22-Jul-2014 21:25:37 127.0.0.1 *start_polygon
+22-Jul-2014 21:25:38 127.0.0.1 *What_is_this_object_query
+22-Jul-2014 21:26:07 mydir my 1 1 127.0.0.1  hair 1 anonymous cpts_not_modified 0 0
+22-Jul-2014 21:26:07 127.0.0.1 *Browser_Information Mozilla/5.0 (Macintosh; Intel Mac OS X 10_9_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/36.0.1985.125 Safari/537.36
+22-Jul-2014 21:26:07 127.0.0.1 *start_loading
+22-Jul-2014 21:26:07 127.0.0.1 *done_loading_Images/Test1/img1.jpg
+22-Jul-2014 21:26:08 127.0.0.1 *start_polygon
+22-Jul-2014 21:26:09 127.0.0.1 *What_is_this_object_query
+22-Jul-2014 21:26:11 mydir my 1 1 127.0.0.1  hair 1 anonymous cpts_not_modified 0 0
+22-Jul-2014 21:26:15 127.0.0.1 *Opened_Edit_Popup
+22-Jul-2014 21:26:24 127.0.0.1 *Closed_Edit_Popup
+22-Jul-2014 21:26:24 mydir my 1 1 127.0.0.1  hair->hair 1 anonymous cpts_not_modified 0 0
+22-Jul-2014 21:26:26 127.0.0.1 *Opened_Edit_Popup
+22-Jul-2014 21:26:30 127.0.0.1 *Closed_Edit_Popup
+22-Jul-2014 21:26:32 127.0.0.1 *Opened_Edit_Popup
+22-Jul-2014 21:26:37 127.0.0.1 *Deleting_object
+22-Jul-2014 21:26:37 127.0.0.1 *Closed_Edit_Popup
+22-Jul-2014 21:26:37 mydir my 1 1 127.0.0.1  hair 0 anonymous cpts_not_modified 0 1
+22-Jul-2014 21:26:39 127.0.0.1 *Browser_Information Mozilla/5.0 (Macintosh; Intel Mac OS X 10_9_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/36.0.1985.125 Safari/537.36
+22-Jul-2014 21:26:39 127.0.0.1 *start_loading
+22-Jul-2014 21:26:39 127.0.0.1 *done_loading_Images/Test1/img1.jpg
+22-Jul-2014 21:26:40 127.0.0.1 *Browser_Information Mozilla/5.0 (Macintosh; Intel Mac OS X 10_9_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/36.0.1985.125 Safari/537.36
+22-Jul-2014 21:26:40 127.0.0.1 *start_loading
+22-Jul-2014 21:26:40 127.0.0.1 *done_loading_Images/Test1/img1.jpg
+22-Jul-2014 21:26:41 127.0.0.1 *Browser_Information Mozilla/5.0 (Macintosh; Intel Mac OS X 10_9_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/36.0.1985.125 Safari/537.36
+22-Jul-2014 21:26:41 127.0.0.1 *start_loading
+22-Jul-2014 21:26:41 127.0.0.1 *done_loading_Images/Test1/img1.jpg
+22-Jul-2014 21:26:42 127.0.0.1 *start_polygon
+22-Jul-2014 21:26:45 127.0.0.1 *What_is_this_object_query
+22-Jul-2014 21:26:48 mydir my 1 1 127.0.0.1  hair 1 anonymous cpts_not_modified 1 0
+22-Jul-2014 21:26:48 127.0.0.1 *Browser_Information Mozilla/5.0 (Macintosh; Intel Mac OS X 10_9_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/36.0.1985.125 Safari/537.36
+22-Jul-2014 21:26:48 127.0.0.1 *start_loading
+22-Jul-2014 21:26:48 127.0.0.1 *done_loading_Images/Test1/img3.jpg
+22-Jul-2014 21:26:49 127.0.0.1 *start_polygon
+22-Jul-2014 21:26:51 127.0.0.1 *What_is_this_object_query
+22-Jul-2014 21:26:54 mydir my 1 1 127.0.0.1  eyes 1 anonymous cpts_not_modified 0 0
+22-Jul-2014 21:26:54 127.0.0.1 *Browser_Information Mozilla/5.0 (Macintosh; Intel Mac OS X 10_9_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/36.0.1985.125 Safari/537.36
+22-Jul-2014 21:26:54 127.0.0.1 *start_loading
+22-Jul-2014 21:26:54 127.0.0.1 *done_loading_Images/Test1/img2.jpg
+22-Jul-2014 21:26:55 127.0.0.1 *start_polygon
+22-Jul-2014 21:26:57 127.0.0.1 *What_is_this_object_query
+22-Jul-2014 21:27:02 mydir my 1 1 127.0.0.1  forehead 1 anonymous cpts_not_modified 0 0
+22-Jul-2014 21:27:02 127.0.0.1 *Browser_Information Mozilla/5.0 (Macintosh; Intel Mac OS X 10_9_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/36.0.1985.125 Safari/537.36
+22-Jul-2014 21:27:02 127.0.0.1 *start_loading
+22-Jul-2014 21:27:02 127.0.0.1 *done_loading_Images/Test1/img2.jpg
+22-Jul-2014 21:27:03 127.0.0.1 *start_polygon
+22-Jul-2014 21:27:05 127.0.0.1 *What_is_this_object_query
+22-Jul-2014 21:27:07 mydir my 1 1 127.0.0.1  eye 1 anonymous cpts_not_modified 0 0
+22-Jul-2014 21:27:08 127.0.0.1 *Browser_Information Mozilla/5.0 (Macintosh; Intel Mac OS X 10_9_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/36.0.1985.125 Safari/537.36
+22-Jul-2014 21:27:08 127.0.0.1 *start_loading
+22-Jul-2014 21:27:08 127.0.0.1 *done_loading_Images/Test1/img2.jpg
+22-Jul-2014 21:27:08 127.0.0.1 *start_polygon
+22-Jul-2014 21:27:09 127.0.0.1 *What_is_this_object_query
+22-Jul-2014 21:27:12 mydir my 1 1 127.0.0.1  eye 1 anonymous cpts_not_modified 0 0
+22-Jul-2014 21:27:12 127.0.0.1 *start_loading
+22-Jul-2014 21:27:12 127.0.0.1 *Browser_Information Mozilla/5.0 (Macintosh; Intel Mac OS X 10_9_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/36.0.1985.125 Safari/537.36
+22-Jul-2014 21:27:12 127.0.0.1 *done_loading_Images/Test1/img3.jpg
+22-Jul-2014 21:29:51 127.0.0.1 *start_polygon
+22-Jul-2014 21:29:52 127.0.0.1 *What_is_this_object_query
+22-Jul-2014 21:29:54 mydir my 1 1 127.0.0.1  asdfasd 1 anonymous cpts_not_modified 0 0
+22-Jul-2014 21:29:54 127.0.0.1 *Browser_Information Mozilla/5.0 (Macintosh; Intel Mac OS X 10_9_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/36.0.1985.125 Safari/537.36
+22-Jul-2014 21:29:54 127.0.0.1 *start_loading
+22-Jul-2014 21:29:54 127.0.0.1 *done_loading_Images/Test1/img2.jpg
+22-Jul-2014 21:30:55 127.0.0.1 *start_polygon
+22-Jul-2014 21:32:19 127.0.0.1 *start_polygon
+22-Jul-2014 21:32:21 127.0.0.1 *What_is_this_object_query
+22-Jul-2014 21:32:26 mydir my 1 1 127.0.0.1  earing 1 anonymous cpts_not_modified 0 0
+22-Jul-2014 21:32:26 127.0.0.1 *Browser_Information Mozilla/5.0 (Macintosh; Intel Mac OS X 10_9_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/36.0.1985.125 Safari/537.36
+22-Jul-2014 21:32:26 127.0.0.1 *start_loading
+22-Jul-2014 21:32:26 127.0.0.1 *done_loading_Images/Test1/img1.jpg
+22-Jul-2014 21:33:26 127.0.0.1 *start_polygon
+22-Jul-2014 21:33:29 127.0.0.1 *What_is_this_object_query
+22-Jul-2014 21:33:35 127.0.0.1 *start_polygon
+22-Jul-2014 21:33:36 127.0.0.1 *What_is_this_object_query
+22-Jul-2014 21:33:40 127.0.0.1 *Browser_Information Mozilla/5.0 (Macintosh; Intel Mac OS X 10_9_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/36.0.1985.125 Safari/537.36
+22-Jul-2014 21:33:40 127.0.0.1 *start_loading
+22-Jul-2014 21:33:41 127.0.0.1 *done_loading_Images/Test1/img3.jpg
+22-Jul-2014 21:33:42 127.0.0.1 *start_loading
+22-Jul-2014 21:33:42 127.0.0.1 *Browser_Information Mozilla/5.0 (Macintosh; Intel Mac OS X 10_9_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/36.0.1985.125 Safari/537.36
+22-Jul-2014 21:33:42 127.0.0.1 *done_loading_Images/Test1/img1.jpg
+22-Jul-2014 21:34:48 127.0.0.1 *start_polygon
+22-Jul-2014 21:36:58 127.0.0.1 *Browser_Information Mozilla/5.0 (Macintosh; Intel Mac OS X 10_9_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/36.0.1985.125 Safari/537.36
+22-Jul-2014 21:36:58 127.0.0.1 *start_loading
+22-Jul-2014 21:36:58 127.0.0.1 *done_loading_Images/Test1/img1.jpg
+22-Jul-2014 21:37:03 127.0.0.1 *Browser_Information Mozilla/5.0 (Macintosh; Intel Mac OS X 10_9_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/36.0.1985.125 Safari/537.36
+22-Jul-2014 21:37:03 127.0.0.1 *start_loading
+22-Jul-2014 21:37:04 127.0.0.1 *Browser_Information Mozilla/5.0 (Macintosh; Intel Mac OS X 10_9_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/36.0.1985.125 Safari/537.36
+22-Jul-2014 21:37:04 127.0.0.1 *start_loading
+22-Jul-2014 21:37:04 127.0.0.1 *done_loading_Images/Test1/img2.jpg
+22-Jul-2014 21:37:05 127.0.0.1 *start_polygon
+22-Jul-2014 21:37:06 127.0.0.1 *What_is_this_object_query
+22-Jul-2014 21:37:10 127.0.0.1 *Browser_Information Mozilla/5.0 (Macintosh; Intel Mac OS X 10_9_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/36.0.1985.125 Safari/537.36
+22-Jul-2014 21:37:10 127.0.0.1 *start_loading
+22-Jul-2014 21:37:10 127.0.0.1 *done_loading_Images/Test1/img2.jpg
+22-Jul-2014 21:37:11 127.0.0.1 *start_polygon
+22-Jul-2014 21:37:12 127.0.0.1 *What_is_this_object_query
+22-Jul-2014 21:37:13 mydir my 1 1 127.0.0.1  sadf 1 anonymous cpts_not_modified 0 0
+22-Jul-2014 21:37:14 127.0.0.1 *Browser_Information Mozilla/5.0 (Macintosh; Intel Mac OS X 10_9_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/36.0.1985.125 Safari/537.36
+22-Jul-2014 21:37:14 127.0.0.1 *start_loading
+22-Jul-2014 21:37:14 127.0.0.1 *done_loading_Images/Test1/img1.jpg
+22-Jul-2014 21:37:14 127.0.0.1 *start_polygon
+22-Jul-2014 21:37:15 127.0.0.1 *What_is_this_object_query
+22-Jul-2014 21:37:16 mydir my 1 1 127.0.0.1  asdf 1 anonymous cpts_not_modified 0 0
+22-Jul-2014 21:37:17 127.0.0.1 *Browser_Information Mozilla/5.0 (Macintosh; Intel Mac OS X 10_9_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/36.0.1985.125 Safari/537.36
+22-Jul-2014 21:37:17 127.0.0.1 *start_loading
+22-Jul-2014 21:37:17 127.0.0.1 *done_loading_Images/Test1/img2.jpg
+22-Jul-2014 21:37:17 127.0.0.1 *start_polygon
+22-Jul-2014 21:37:18 127.0.0.1 *What_is_this_object_query
+22-Jul-2014 21:37:19 mydir my 1 1 127.0.0.1  asdf 1 anonymous cpts_not_modified 0 0
+22-Jul-2014 21:37:19 127.0.0.1 *Browser_Information Mozilla/5.0 (Macintosh; Intel Mac OS X 10_9_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/36.0.1985.125 Safari/537.36
+22-Jul-2014 21:37:19 127.0.0.1 *start_loading
+22-Jul-2014 21:37:20 127.0.0.1 *done_loading_Images/Test1/img1.jpg
+22-Jul-2014 21:37:25 127.0.0.1 *start_polygon
+22-Jul-2014 21:37:26 127.0.0.1 *What_is_this_object_query
+22-Jul-2014 21:37:27 mydir my 1 1 127.0.0.1  asdf 1 anonymous cpts_not_modified 0 0
+22-Jul-2014 21:37:27 127.0.0.1 *Browser_Information Mozilla/5.0 (Macintosh; Intel Mac OS X 10_9_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/36.0.1985.125 Safari/537.36
+22-Jul-2014 21:37:27 127.0.0.1 *start_loading
+22-Jul-2014 21:37:27 127.0.0.1 *done_loading_Images/Test1/img3.jpg
+22-Jul-2014 21:37:49 127.0.0.1 *start_loading
+22-Jul-2014 21:37:49 127.0.0.1 *Browser_Information Mozilla/5.0 (Macintosh; Intel Mac OS X 10_9_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/36.0.1985.125 Safari/537.36
+22-Jul-2014 21:37:59 127.0.0.1 *Browser_Information Mozilla/5.0 (Macintosh; Intel Mac OS X 10_9_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/36.0.1985.125 Safari/537.36
+22-Jul-2014 21:37:59 127.0.0.1 *start_loading
+22-Jul-2014 21:37:59 127.0.0.1 *Browser_Information Mozilla/5.0 (Macintosh; Intel Mac OS X 10_9_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/36.0.1985.125 Safari/537.36
+22-Jul-2014 21:37:59 127.0.0.1 *start_loading
+22-Jul-2014 21:37:59 127.0.0.1 *done_loading_Images/Test2/img1.jpg
+22-Jul-2014 21:38:00 127.0.0.1 *start_polygon
+22-Jul-2014 21:38:01 127.0.0.1 *What_is_this_object_query
+22-Jul-2014 21:38:03 Test2 img1 0 1 127.0.0.1  asdf 1 anonymous cpts_not_modified 0 0
+22-Jul-2014 21:38:03 127.0.0.1 *Browser_Information Mozilla/5.0 (Macintosh; Intel Mac OS X 10_9_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/36.0.1985.125 Safari/537.36
+22-Jul-2014 21:38:03 127.0.0.1 *start_loading
+22-Jul-2014 21:38:03 127.0.0.1 *done_loading_Images/Test2/img3.jpg
+22-Jul-2014 21:38:04 127.0.0.1 *start_polygon
+22-Jul-2014 21:38:06 127.0.0.1 *What_is_this_object_query
+22-Jul-2014 21:38:07 Test2 img3 0 1 127.0.0.1  asdf 1 anonymous cpts_not_modified 0 0
+22-Jul-2014 21:38:07 127.0.0.1 *Browser_Information Mozilla/5.0 (Macintosh; Intel Mac OS X 10_9_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/36.0.1985.125 Safari/537.36
+22-Jul-2014 21:38:07 127.0.0.1 *start_loading
+22-Jul-2014 21:38:07 127.0.0.1 *done_loading_Images/Test2/img4.jpg
+22-Jul-2014 21:38:08 127.0.0.1 *start_polygon
+22-Jul-2014 21:38:10 127.0.0.1 *What_is_this_object_query
+22-Jul-2014 21:38:11 Test2 img4 0 1 127.0.0.1  asdf 1 anonymous cpts_not_modified 0 0
+22-Jul-2014 21:38:11 127.0.0.1 *Browser_Information Mozilla/5.0 (Macintosh; Intel Mac OS X 10_9_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/36.0.1985.125 Safari/537.36
+22-Jul-2014 21:38:11 127.0.0.1 *start_loading
+22-Jul-2014 21:38:11 127.0.0.1 *done_loading_Images/Test2/img3.jpg
+22-Jul-2014 21:40:59 127.0.0.1 *Browser_Information Mozilla/5.0 (Macintosh; Intel Mac OS X 10_9_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/36.0.1985.125 Safari/537.36
+22-Jul-2014 21:40:59 127.0.0.1 *start_loading
+22-Jul-2014 21:40:59 127.0.0.1 *done_loading_Images/Test2/img4.jpg
+22-Jul-2014 21:41:00 127.0.0.1 *Browser_Information Mozilla/5.0 (Macintosh; Intel Mac OS X 10_9_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/36.0.1985.125 Safari/537.36
+22-Jul-2014 21:41:00 127.0.0.1 *start_loading
+22-Jul-2014 21:41:00 127.0.0.1 *done_loading_Images/Test2/img1.jpg
+22-Jul-2014 21:41:01 127.0.0.1 *Browser_Information Mozilla/5.0 (Macintosh; Intel Mac OS X 10_9_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/36.0.1985.125 Safari/537.36
+22-Jul-2014 21:41:01 127.0.0.1 *start_loading
+22-Jul-2014 21:41:01 127.0.0.1 *done_loading_Images/Test2/img4.jpg
+22-Jul-2014 21:41:02 127.0.0.1 *Browser_Information Mozilla/5.0 (Macintosh; Intel Mac OS X 10_9_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/36.0.1985.125 Safari/537.36
+22-Jul-2014 21:41:02 127.0.0.1 *start_loading
+22-Jul-2014 21:41:02 127.0.0.1 *done_loading_Images/Test2/img2.jpg
+22-Jul-2014 21:41:03 127.0.0.1 *Browser_Information Mozilla/5.0 (Macintosh; Intel Mac OS X 10_9_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/36.0.1985.125 Safari/537.36
+22-Jul-2014 21:41:03 127.0.0.1 *start_loading
+22-Jul-2014 21:41:03 127.0.0.1 *done_loading_Images/Test2/img2.jpg
+22-Jul-2014 21:41:04 127.0.0.1 *Browser_Information Mozilla/5.0 (Macintosh; Intel Mac OS X 10_9_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/36.0.1985.125 Safari/537.36
+22-Jul-2014 21:41:04 127.0.0.1 *start_loading
+22-Jul-2014 21:41:04 127.0.0.1 *done_loading_Images/Test2/img1.jpg
+22-Jul-2014 21:41:05 127.0.0.1 *start_loading
+22-Jul-2014 21:41:05 127.0.0.1 *Browser_Information Mozilla/5.0 (Macintosh; Intel Mac OS X 10_9_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/36.0.1985.125 Safari/537.36
+22-Jul-2014 21:41:05 127.0.0.1 *done_loading_Images/Test2/img4.jpg
+22-Jul-2014 21:41:06 127.0.0.1 *Browser_Information Mozilla/5.0 (Macintosh; Intel Mac OS X 10_9_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/36.0.1985.125 Safari/537.36
+22-Jul-2014 21:41:06 127.0.0.1 *start_loading
+22-Jul-2014 21:41:06 127.0.0.1 *done_loading_Images/Test2/img2.jpg
+22-Jul-2014 21:41:07 127.0.0.1 *Browser_Information Mozilla/5.0 (Macintosh; Intel Mac OS X 10_9_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/36.0.1985.125 Safari/537.36
+22-Jul-2014 21:41:07 127.0.0.1 *start_loading
+22-Jul-2014 21:41:07 127.0.0.1 *done_loading_Images/Test2/img4.jpg
+22-Jul-2014 21:41:08 127.0.0.1 *Browser_Information Mozilla/5.0 (Macintosh; Intel Mac OS X 10_9_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/36.0.1985.125 Safari/537.36
+22-Jul-2014 21:41:08 127.0.0.1 *start_loading
+22-Jul-2014 21:41:08 127.0.0.1 *done_loading_Images/Test2/img2.jpg
+22-Jul-2014 21:42:01 127.0.0.1 *start_polygon
+22-Jul-2014 21:42:03 127.0.0.1 *What_is_this_object_query
+22-Jul-2014 21:42:05 127.0.0.1 *start_polygon
+22-Jul-2014 21:42:07 127.0.0.1 *What_is_this_object_query
+22-Jul-2014 21:42:10 127.0.0.1 *start_polygon
+22-Jul-2014 21:42:11 127.0.0.1 *What_is_this_object_query
+22-Jul-2014 21:42:13 127.0.0.1 *start_polygon
+22-Jul-2014 21:42:14 127.0.0.1 *What_is_this_object_query
+22-Jul-2014 21:45:39 127.0.0.1 *start_loading
+22-Jul-2014 21:45:39 127.0.0.1 *Browser_Information Mozilla/5.0 (Macintosh; Intel Mac OS X 10_9_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/36.0.1985.125 Safari/537.36
+22-Jul-2014 21:45:39 127.0.0.1 *done_loading_Images/Test2/img2.jpg
+22-Jul-2014 21:45:40 127.0.0.1 *start_polygon
+22-Jul-2014 21:45:42 127.0.0.1 *What_is_this_object_query
+22-Jul-2014 21:45:48 Test2 img2 0 1 127.0.0.1  asdf 1 anonymous cpts_not_modified 0 0
+22-Jul-2014 21:45:48 127.0.0.1 *Browser_Information Mozilla/5.0 (Macintosh; Intel Mac OS X 10_9_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/36.0.1985.125 Safari/537.36
+22-Jul-2014 21:45:48 127.0.0.1 *start_loading
+22-Jul-2014 21:45:48 127.0.0.1 *done_loading_Images/Test2/img4.jpg
+22-Jul-2014 21:45:50 127.0.0.1 *start_polygon
+22-Jul-2014 21:45:52 127.0.0.1 *What_is_this_object_query
+22-Jul-2014 21:46:03 127.0.0.1 *start_polygon
+22-Jul-2014 21:46:16 127.0.0.1 *What_is_this_object_query
+22-Jul-2014 21:46:26 127.0.0.1 *start_polygon
+22-Jul-2014 21:47:04 127.0.0.1 *What_is_this_object_query
+22-Jul-2014 21:47:26 127.0.0.1 *Browser_Information Mozilla/5.0 (Macintosh; Intel Mac OS X 10_9_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/36.0.1985.125 Safari/537.36
+22-Jul-2014 21:47:26 127.0.0.1 *start_loading
+22-Jul-2014 21:47:26 127.0.0.1 *done_loading_Images/Test2/img4.jpg
+22-Jul-2014 21:47:37 127.0.0.1 *Browser_Information Mozilla/5.0 (Macintosh; Intel Mac OS X 10_9_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/36.0.1985.125 Safari/537.36
+22-Jul-2014 21:47:37 127.0.0.1 *start_loading
+22-Jul-2014 21:47:37 127.0.0.1 *done_loading_Images/Test2/img4.jpg
+22-Jul-2014 21:47:42 127.0.0.1 *start_polygon
+22-Jul-2014 21:47:46 127.0.0.1 *Browser_Information Mozilla/5.0 (Macintosh; Intel Mac OS X 10_9_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/36.0.1985.125 Safari/537.36
+22-Jul-2014 21:47:46 127.0.0.1 *start_loading
+22-Jul-2014 21:47:46 127.0.0.1 *Browser_Information Mozilla/5.0 (Macintosh; Intel Mac OS X 10_9_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/36.0.1985.125 Safari/537.36
+22-Jul-2014 21:47:46 127.0.0.1 *start_loading
+22-Jul-2014 21:47:46 127.0.0.1 *done_loading_Images/Test2/img2.jpg
+22-Jul-2014 21:51:43 127.0.0.1 *start_loading
+22-Jul-2014 21:51:43 127.0.0.1 *Browser_Information Mozilla/5.0 (Macintosh; Intel Mac OS X 10_9_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/36.0.1985.125 Safari/537.36
+22-Jul-2014 21:51:43 127.0.0.1 *done_loading_Images/Test2/img2.jpg
+22-Jul-2014 21:51:44 127.0.0.1 *start_polygon
+22-Jul-2014 21:51:45 127.0.0.1 *What_is_this_object_query
+22-Jul-2014 21:52:50 127.0.0.1 *Browser_Information Mozilla/5.0 (Macintosh; Intel Mac OS X 10_9_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/36.0.1985.125 Safari/537.36
+22-Jul-2014 21:52:50 127.0.0.1 *start_loading
+22-Jul-2014 21:52:50 127.0.0.1 *done_loading_Images/Test2/img2.jpg
+22-Jul-2014 21:52:51 127.0.0.1 *start_polygon
+22-Jul-2014 21:52:52 127.0.0.1 *What_is_this_object_query
+22-Jul-2014 21:53:19 127.0.0.1 *Browser_Information Mozilla/5.0 (Macintosh; Intel Mac OS X 10_9_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/36.0.1985.125 Safari/537.36
+22-Jul-2014 21:53:19 127.0.0.1 *start_loading
+22-Jul-2014 21:53:19 127.0.0.1 *done_loading_Images/Test2/img2.jpg
+22-Jul-2014 21:53:19 127.0.0.1 *start_polygon
+22-Jul-2014 21:53:20 127.0.0.1 *What_is_this_object_query
+22-Jul-2014 21:53:24 127.0.0.1 *Browser_Information Mozilla/5.0 (Macintosh; Intel Mac OS X 10_9_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/36.0.1985.125 Safari/537.36
+22-Jul-2014 21:53:24 127.0.0.1 *start_loading
+22-Jul-2014 21:53:24 127.0.0.1 *done_loading_Images/Test2/img4.jpg
+22-Jul-2014 21:57:52 127.0.0.1 *start_loading
+22-Jul-2014 21:57:52 127.0.0.1 *Browser_Information Mozilla/5.0 (Macintosh; Intel Mac OS X 10_9_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/36.0.1985.125 Safari/537.36
+22-Jul-2014 21:57:52 127.0.0.1 *done_loading_Images/Test2/img4.jpg
+22-Jul-2014 21:57:53 127.0.0.1 *start_polygon
+22-Jul-2014 21:57:54 127.0.0.1 *What_is_this_object_query
+22-Jul-2014 21:58:47 127.0.0.1 *start_loading
+22-Jul-2014 21:58:47 127.0.0.1 *Browser_Information Mozilla/5.0 (Macintosh; Intel Mac OS X 10_9_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/36.0.1985.125 Safari/537.36
+22-Jul-2014 21:58:48 127.0.0.1 *done_loading_Images/Test2/img4.jpg
+22-Jul-2014 21:58:48 127.0.0.1 *start_polygon
+22-Jul-2014 21:58:49 127.0.0.1 *What_is_this_object_query
+22-Jul-2014 21:58:52 Test2 img4 1 2 127.0.0.1  asdf 1 anonymous cpts_not_modified 0 0
+22-Jul-2014 21:58:52 127.0.0.1 *Browser_Information Mozilla/5.0 (Macintosh; Intel Mac OS X 10_9_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/36.0.1985.125 Safari/537.36
+22-Jul-2014 21:58:52 127.0.0.1 *start_loading
+22-Jul-2014 21:58:52 127.0.0.1 *done_loading_Images/Test2/img2.jpg
+22-Jul-2014 21:58:57 127.0.0.1 *start_polygon
+22-Jul-2014 21:58:58 127.0.0.1 *What_is_this_object_query
+22-Jul-2014 21:59:05 127.0.0.1 *start_polygon
+22-Jul-2014 21:59:05 127.0.0.1 *What_is_this_object_query
+22-Jul-2014 21:59:12 127.0.0.1 *start_polygon
+22-Jul-2014 21:59:12 127.0.0.1 *What_is_this_object_query
+22-Jul-2014 21:59:23 127.0.0.1 *start_polygon
+22-Jul-2014 21:59:23 127.0.0.1 *What_is_this_object_query
+22-Jul-2014 21:59:26 127.0.0.1 *What_is_this_object_query
+22-Jul-2014 21:59:32 127.0.0.1 *What_is_this_object_query
+22-Jul-2014 21:59:35 127.0.0.1 *What_is_this_object_query
+22-Jul-2014 21:59:39 127.0.0.1 *Browser_Information Mozilla/5.0 (Macintosh; Intel Mac OS X 10_9_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/36.0.1985.125 Safari/537.36
+22-Jul-2014 21:59:39 127.0.0.1 *start_loading
+22-Jul-2014 21:59:39 127.0.0.1 *done_loading_Images/Test2/img2.jpg
+22-Jul-2014 22:02:06 127.0.0.1 *start_polygon
+22-Jul-2014 22:02:07 127.0.0.1 *What_is_this_object_query
+22-Jul-2014 22:02:09 Test2 img2 1 2 127.0.0.1  asdfds 1 anonymous cpts_not_modified 0 0
+22-Jul-2014 22:02:13 127.0.0.1 *Opened_Edit_Popup
+22-Jul-2014 22:02:18 127.0.0.1 *Closed_Edit_Popup
+22-Jul-2014 22:02:38 127.0.0.1 *start_polygon
+22-Jul-2014 22:02:39 127.0.0.1 *What_is_this_object_query
+22-Jul-2014 22:03:03 127.0.0.1 *Browser_Information Mozilla/5.0 (Macintosh; Intel Mac OS X 10_9_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/36.0.1985.125 Safari/537.36
+22-Jul-2014 22:03:03 127.0.0.1 *start_loading
+22-Jul-2014 22:03:03 127.0.0.1 *done_loading_Images/Test2/img2.jpg
+22-Jul-2014 22:03:04 127.0.0.1 *start_polygon
+22-Jul-2014 22:03:05 127.0.0.1 *What_is_this_object_query
+22-Jul-2014 22:03:07 Test2 img2 2 3 127.0.0.1  sadf 1 anonymous cpts_not_modified 0 0
+22-Jul-2014 22:03:35 127.0.0.1 *Browser_Information Mozilla/5.0 (Macintosh; Intel Mac OS X 10_9_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/36.0.1985.125 Safari/537.36
+22-Jul-2014 22:03:35 127.0.0.1 *start_loading
+22-Jul-2014 22:03:35 127.0.0.1 *done_loading_Images/Test2/img2.jpg
+22-Jul-2014 22:03:36 127.0.0.1 *start_polygon
+22-Jul-2014 22:03:37 127.0.0.1 *What_is_this_object_query
+22-Jul-2014 22:03:39 Test2 img2 3 4 127.0.0.1  asdf 1 anonymous cpts_not_modified 0 0
+22-Jul-2014 22:04:14 127.0.0.1 *start_loading
+22-Jul-2014 22:04:14 127.0.0.1 *Browser_Information Mozilla/5.0 (Macintosh; Intel Mac OS X 10_9_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/36.0.1985.125 Safari/537.36
+22-Jul-2014 22:04:14 127.0.0.1 *done_loading_Images/Test2/img2.jpg
+22-Jul-2014 22:04:15 127.0.0.1 *start_polygon
+22-Jul-2014 22:04:16 127.0.0.1 *What_is_this_object_query
+22-Jul-2014 22:04:19 Test2 img2 4 5 127.0.0.1  eye 1 anonymous cpts_not_modified 0 0
+22-Jul-2014 22:04:57 127.0.0.1 *Browser_Information Mozilla/5.0 (Macintosh; Intel Mac OS X 10_9_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/36.0.1985.125 Safari/537.36
+22-Jul-2014 22:04:57 127.0.0.1 *start_loading
+22-Jul-2014 22:04:57 127.0.0.1 *done_loading_Images/Test2/img2.jpg
+22-Jul-2014 22:04:58 127.0.0.1 *start_polygon
+22-Jul-2014 22:05:03 127.0.0.1 *What_is_this_object_query
+22-Jul-2014 22:05:05 Test2 img2 5 6 127.0.0.1  asdf 1 anonymous cpts_not_modified 0 0
+22-Jul-2014 22:08:45 127.0.0.1 *Browser_Information Mozilla/5.0 (Macintosh; Intel Mac OS X 10_9_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/36.0.1985.125 Safari/537.36
+22-Jul-2014 22:08:45 127.0.0.1 *start_loading
+22-Jul-2014 22:08:46 127.0.0.1 *done_loading_Images/Test2/img2.jpg
+22-Jul-2014 22:08:46 127.0.0.1 *start_polygon
+22-Jul-2014 22:08:48 127.0.0.1 *What_is_this_object_query
+22-Jul-2014 22:08:49 Test2 img2 6 7 127.0.0.1  sadf 1 anonymous cpts_not_modified 0 0
+22-Jul-2014 22:08:51 127.0.0.1 *start_polygon
+22-Jul-2014 22:08:52 127.0.0.1 *What_is_this_object_query
+22-Jul-2014 22:08:53 Test2 img2 7 8 127.0.0.1  asdf 2 anonymous cpts_not_modified 0 0
+22-Jul-2014 22:08:55 127.0.0.1 *Browser_Information Mozilla/5.0 (Macintosh; Intel Mac OS X 10_9_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/36.0.1985.125 Safari/537.36
+22-Jul-2014 22:08:55 127.0.0.1 *start_loading
+22-Jul-2014 22:08:55 127.0.0.1 *done_loading_Images/Test2/img4.jpg
+22-Jul-2014 22:08:56 127.0.0.1 *start_polygon
+22-Jul-2014 22:08:57 127.0.0.1 *What_is_this_object_query
+22-Jul-2014 22:09:02 Test2 img4 2 3 127.0.0.1  debate 1 anonymous cpts_not_modified 0 0
+22-Jul-2014 22:09:05 127.0.0.1 *start_polygon
+22-Jul-2014 22:09:06 127.0.0.1 *What_is_this_object_query
+22-Jul-2014 22:09:09 Test2 img4 3 4 127.0.0.1  right_eye 2 anonymous cpts_not_modified 0 0
+22-Jul-2014 22:09:11 127.0.0.1 *Opened_Edit_Popup
+22-Jul-2014 22:09:15 127.0.0.1 *Closed_Edit_Popup
+22-Jul-2014 22:09:16 127.0.0.1 *Opened_Edit_Popup
+22-Jul-2014 22:09:22 127.0.0.1 *Closed_Edit_Popup
+22-Jul-2014 22:10:41 127.0.0.1 *start_loading
+22-Jul-2014 22:10:41 127.0.0.1 *Browser_Information Mozilla/5.0 (Macintosh; Intel Mac OS X 10_9_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/36.0.1985.125 Safari/537.36
+22-Jul-2014 22:10:41 127.0.0.1 *done_loading_Images/Test2/img4.jpg
+22-Jul-2014 22:10:42 127.0.0.1 *start_polygon
+22-Jul-2014 22:10:43 127.0.0.1 *What_is_this_object_query
+22-Jul-2014 22:10:46 127.0.0.1 *start_polygon
+22-Jul-2014 22:10:48 127.0.0.1 *What_is_this_object_query
+22-Jul-2014 22:10:50 Test2 img4 4 5 127.0.0.1  asdf 1 anonymous cpts_not_modified 0 0
+22-Jul-2014 22:10:50 127.0.0.1 *start_polygon
+22-Jul-2014 22:10:52 127.0.0.1 *What_is_this_object_query
+22-Jul-2014 22:10:54 Test2 img4 5 6 127.0.0.1  asdf 2 anonymous cpts_not_modified 0 0
+22-Jul-2014 22:10:55 127.0.0.1 *Opened_Edit_Popup
+22-Jul-2014 22:10:57 127.0.0.1 *Closed_Edit_Popup
+22-Jul-2014 22:10:57 Test2 img4 6 6 127.0.0.1  asdf->asdf 2 anonymous cpts_not_modified 0 0
+22-Jul-2014 22:10:59 127.0.0.1 *Opened_Edit_Popup
+22-Jul-2014 22:11:00 127.0.0.1 *Closed_Edit_Popup
+22-Jul-2014 22:11:01 Test2 img4 6 6 127.0.0.1  asdf->asdf 2 anonymous cpts_not_modified 0 0
+22-Jul-2014 22:11:06 127.0.0.1 *Opened_Edit_Popup
+22-Jul-2014 22:11:44 127.0.0.1 *Browser_Information Mozilla/5.0 (Macintosh; Intel Mac OS X 10_9_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/36.0.1985.125 Safari/537.36
+22-Jul-2014 22:11:44 127.0.0.1 *start_loading
+22-Jul-2014 22:11:44 127.0.0.1 *done_loading_Images/Test2/img4.jpg
+22-Jul-2014 22:11:44 127.0.0.1 *start_polygon
+22-Jul-2014 22:11:45 127.0.0.1 *What_is_this_object_query
+22-Jul-2014 22:11:47 Test2 img4 6 7 127.0.0.1  asd 1 anonymous cpts_not_modified 0 0
+22-Jul-2014 22:11:48 127.0.0.1 *Opened_Edit_Popup
+22-Jul-2014 22:11:53 127.0.0.1 *Closed_Edit_Popup
+22-Jul-2014 22:11:53 Test2 img4 7 7 127.0.0.1  asd->asd 1 anonymous cpts_not_modified 0 0
+22-Jul-2014 22:11:57 127.0.0.1 *start_loading
+22-Jul-2014 22:11:57 127.0.0.1 *Browser_Information Mozilla/5.0 (Macintosh; Intel Mac OS X 10_9_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/36.0.1985.125 Safari/537.36
+22-Jul-2014 22:11:58 127.0.0.1 *done_loading_Images/Test2/img2.jpg
+22-Jul-2014 22:11:59 127.0.0.1 *start_polygon
+22-Jul-2014 22:12:06 127.0.0.1 *What_is_this_object_query
+22-Jul-2014 22:12:14 127.0.0.1 *start_polygon
+22-Jul-2014 22:12:16 127.0.0.1 *What_is_this_object_query
+22-Jul-2014 22:12:18 127.0.0.1 *start_polygon
+22-Jul-2014 22:12:19 127.0.0.1 *What_is_this_object_query
+22-Jul-2014 22:12:21 127.0.0.1 *start_polygon
+22-Jul-2014 22:12:22 127.0.0.1 *What_is_this_object_query
+22-Jul-2014 22:13:35 127.0.0.1 *start_polygon
+22-Jul-2014 22:13:37 127.0.0.1 *What_is_this_object_query
+22-Jul-2014 22:13:40 127.0.0.1 *start_polygon
+22-Jul-2014 22:13:42 127.0.0.1 *What_is_this_object_query
+22-Jul-2014 22:16:22 127.0.0.1 *start_loading
+22-Jul-2014 22:16:22 127.0.0.1 *Browser_Information Mozilla/5.0 (Macintosh; Intel Mac OS X 10_9_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/36.0.1985.125 Safari/537.36
+22-Jul-2014 22:16:22 127.0.0.1 *done_loading_Images/Test2/img2.jpg
+22-Jul-2014 22:16:23 127.0.0.1 *start_polygon
+22-Jul-2014 22:16:24 127.0.0.1 *What_is_this_object_query
+22-Jul-2014 22:16:29 Test2 img2 8 9 127.0.0.1  asdf 1 anonymous cpts_not_modified 0 0
+22-Jul-2014 22:16:30 127.0.0.1 *Opened_Edit_Popup
+22-Jul-2014 22:16:31 127.0.0.1 *Closed_Edit_Popup
+22-Jul-2014 22:16:32 127.0.0.1 *start_polygon
+22-Jul-2014 22:16:34 127.0.0.1 *What_is_this_object_query
+22-Jul-2014 22:16:53 127.0.0.1 *Browser_Information Mozilla/5.0 (Macintosh; Intel Mac OS X 10_9_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/36.0.1985.125 Safari/537.36
+22-Jul-2014 22:16:53 127.0.0.1 *start_loading
+22-Jul-2014 22:16:53 127.0.0.1 *done_loading_Images/Test2/img2.jpg
+22-Jul-2014 22:16:53 127.0.0.1 *start_polygon
+22-Jul-2014 22:16:54 127.0.0.1 *What_is_this_object_query
+22-Jul-2014 22:17:00 127.0.0.1 *start_polygon
+22-Jul-2014 22:17:01 127.0.0.1 *What_is_this_object_query
+22-Jul-2014 22:17:03 Test2 img2 9 10 127.0.0.1  sdf 1 anonymous cpts_not_modified 0 0
+22-Jul-2014 22:17:04 127.0.0.1 *start_polygon
+22-Jul-2014 22:17:06 127.0.0.1 *What_is_this_object_query
+22-Jul-2014 22:17:09 127.0.0.1 *start_polygon
+22-Jul-2014 22:17:11 127.0.0.1 *What_is_this_object_query
+22-Jul-2014 22:17:22 127.0.0.1 *start_polygon
+22-Jul-2014 22:17:24 127.0.0.1 *start_loading
+22-Jul-2014 22:17:24 127.0.0.1 *Browser_Information Mozilla/5.0 (Macintosh; Intel Mac OS X 10_9_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/36.0.1985.125 Safari/537.36
+22-Jul-2014 22:17:24 127.0.0.1 *done_loading_Images/Test2/img2.jpg
+22-Jul-2014 22:17:25 127.0.0.1 *start_polygon
+22-Jul-2014 22:17:26 127.0.0.1 *What_is_this_object_query
+22-Jul-2014 22:17:40 127.0.0.1 *start_polygon
+22-Jul-2014 22:17:42 127.0.0.1 *What_is_this_object_query
+22-Jul-2014 22:17:45 127.0.0.1 *start_polygon
+22-Jul-2014 22:17:46 127.0.0.1 *What_is_this_object_query
+22-Jul-2014 22:17:51 127.0.0.1 *start_polygon
+22-Jul-2014 22:17:53 127.0.0.1 *What_is_this_object_query
+22-Jul-2014 22:18:29 127.0.0.1 *start_polygon
+22-Jul-2014 22:18:32 127.0.0.1 *What_is_this_object_query
+22-Jul-2014 22:18:46 127.0.0.1 *start_loading
+22-Jul-2014 22:18:46 127.0.0.1 *Browser_Information Mozilla/5.0 (Macintosh; Intel Mac OS X 10_9_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/36.0.1985.125 Safari/537.36
+22-Jul-2014 22:18:46 127.0.0.1 *done_loading_Images/Test2/img2.jpg
+22-Jul-2014 22:18:46 127.0.0.1 *start_polygon
+22-Jul-2014 22:18:47 127.0.0.1 *What_is_this_object_query
+22-Jul-2014 22:18:51 127.0.0.1 *start_polygon
+22-Jul-2014 22:18:52 127.0.0.1 *What_is_this_object_query
+22-Jul-2014 22:19:03 127.0.0.1 *start_polygon
+22-Jul-2014 22:19:04 127.0.0.1 *What_is_this_object_query
+22-Jul-2014 22:23:54 127.0.0.1 *start_polygon
+22-Jul-2014 22:23:56 127.0.0.1 *What_is_this_object_query
+22-Jul-2014 22:23:57 127.0.0.1 *start_polygon
+22-Jul-2014 22:23:58 127.0.0.1 *What_is_this_object_query
+22-Jul-2014 22:24:13 127.0.0.1 *Browser_Information Mozilla/5.0 (Macintosh; Intel Mac OS X 10_9_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/36.0.1985.125 Safari/537.36
+22-Jul-2014 22:24:13 127.0.0.1 *start_loading
+22-Jul-2014 22:24:13 127.0.0.1 *done_loading_Images/Test2/img2.jpg
+22-Jul-2014 22:24:14 127.0.0.1 *start_polygon
+22-Jul-2014 22:24:16 127.0.0.1 *What_is_this_object_query
+22-Jul-2014 22:24:20 127.0.0.1 *start_polygon
+22-Jul-2014 22:24:21 127.0.0.1 *What_is_this_object_query
+22-Jul-2014 22:24:26 127.0.0.1 *start_polygon
+22-Jul-2014 22:24:28 127.0.0.1 *What_is_this_object_query
+22-Jul-2014 22:24:30 Test2 img2 10 11 127.0.0.1  sdf 1 anonymous cpts_not_modified 0 0
+22-Jul-2014 22:24:31 127.0.0.1 *Opened_Edit_Popup
+22-Jul-2014 22:24:33 127.0.0.1 *Deleting_object
+22-Jul-2014 22:24:33 127.0.0.1 *Closed_Edit_Popup
+22-Jul-2014 22:24:33 Test2 img2 11 11 127.0.0.1  sdf 0 anonymous cpts_not_modified 0 1
+22-Jul-2014 22:25:58 127.0.0.1 *start_loading
+22-Jul-2014 22:25:58 127.0.0.1 *Browser_Information Mozilla/5.0 (Macintosh; Intel Mac OS X 10_9_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/36.0.1985.125 Safari/537.36
+22-Jul-2014 22:25:58 127.0.0.1 *done_loading_Images/Test2/img2.jpg
+22-Jul-2014 22:25:58 127.0.0.1 *start_polygon
+22-Jul-2014 22:26:00 127.0.0.1 *What_is_this_object_query
+22-Jul-2014 22:26:19 127.0.0.1 *Browser_Information Mozilla/5.0 (Macintosh; Intel Mac OS X 10_9_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/36.0.1985.125 Safari/537.36
+22-Jul-2014 22:26:19 127.0.0.1 *start_loading
+22-Jul-2014 22:26:19 127.0.0.1 *done_loading_Images/Test2/img2.jpg
+22-Jul-2014 22:26:20 127.0.0.1 *start_polygon
+22-Jul-2014 22:26:21 127.0.0.1 *What_is_this_object_query
+22-Jul-2014 22:26:23 127.0.0.1 *start_polygon
+22-Jul-2014 22:26:25 127.0.0.1 *What_is_this_object_query
+22-Jul-2014 22:26:26 127.0.0.1 *start_polygon
+22-Jul-2014 22:26:27 127.0.0.1 *What_is_this_object_query
+22-Jul-2014 22:26:28 127.0.0.1 *start_polygon
+22-Jul-2014 22:26:30 127.0.0.1 *What_is_this_object_query
+22-Jul-2014 22:26:32 127.0.0.1 *start_polygon
+22-Jul-2014 22:26:33 127.0.0.1 *What_is_this_object_query
+22-Jul-2014 22:26:35 127.0.0.1 *start_polygon
+22-Jul-2014 22:26:37 127.0.0.1 *What_is_this_object_query
+22-Jul-2014 22:26:49 127.0.0.1 *Browser_Information Mozilla/5.0 (Macintosh; Intel Mac OS X 10_9_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/36.0.1985.125 Safari/537.36
+22-Jul-2014 22:26:49 127.0.0.1 *start_loading
+22-Jul-2014 22:26:49 127.0.0.1 *done_loading_Images/Test2/img2.jpg
+22-Jul-2014 22:26:50 127.0.0.1 *start_polygon
+22-Jul-2014 22:26:50 127.0.0.1 *What_is_this_object_query
+22-Jul-2014 22:26:53 127.0.0.1 *start_polygon
+22-Jul-2014 22:26:54 127.0.0.1 *What_is_this_object_query
+22-Jul-2014 22:26:56 127.0.0.1 *start_polygon
+22-Jul-2014 22:26:57 127.0.0.1 *What_is_this_object_query
+22-Jul-2014 22:26:59 127.0.0.1 *start_polygon
+22-Jul-2014 22:27:00 127.0.0.1 *What_is_this_object_query
+22-Jul-2014 22:27:02 127.0.0.1 *start_polygon
+22-Jul-2014 22:27:03 127.0.0.1 *What_is_this_object_query
+22-Jul-2014 22:27:05 127.0.0.1 *start_polygon
+22-Jul-2014 22:27:06 127.0.0.1 *What_is_this_object_query
+22-Jul-2014 22:27:08 127.0.0.1 *start_polygon
+22-Jul-2014 22:27:09 127.0.0.1 *What_is_this_object_query
+22-Jul-2014 22:27:10 127.0.0.1 *start_polygon
+22-Jul-2014 22:27:11 127.0.0.1 *What_is_this_object_query
+22-Jul-2014 22:27:13 127.0.0.1 *start_polygon
+22-Jul-2014 22:27:15 127.0.0.1 *What_is_this_object_query
+22-Jul-2014 22:27:27 127.0.0.1 *start_polygon
+22-Jul-2014 22:27:29 127.0.0.1 *What_is_this_object_query
+22-Jul-2014 22:27:31 127.0.0.1 *start_polygon
+22-Jul-2014 22:27:32 127.0.0.1 *What_is_this_object_query
+22-Jul-2014 22:27:34 127.0.0.1 *start_polygon
+22-Jul-2014 22:27:34 127.0.0.1 *What_is_this_object_query
+22-Jul-2014 22:27:36 127.0.0.1 *start_polygon
+22-Jul-2014 22:27:36 127.0.0.1 *What_is_this_object_query
+22-Jul-2014 22:27:38 127.0.0.1 *start_polygon
+22-Jul-2014 22:27:38 127.0.0.1 *What_is_this_object_query
+22-Jul-2014 22:27:41 127.0.0.1 *start_polygon
+22-Jul-2014 22:27:42 127.0.0.1 *What_is_this_object_query
+22-Jul-2014 22:27:44 127.0.0.1 *start_polygon
+22-Jul-2014 22:27:44 127.0.0.1 *What_is_this_object_query
+22-Jul-2014 22:27:47 127.0.0.1 *start_polygon
+22-Jul-2014 22:27:48 127.0.0.1 *What_is_this_object_query
+22-Jul-2014 22:28:01 127.0.0.1 *start_loading
+22-Jul-2014 22:28:01 127.0.0.1 *Browser_Information Mozilla/5.0 (Macintosh; Intel Mac OS X 10_9_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/36.0.1985.125 Safari/537.36
+22-Jul-2014 22:28:01 127.0.0.1 *done_loading_Images/Test2/img2.jpg
+22-Jul-2014 22:28:02 127.0.0.1 *start_polygon
+22-Jul-2014 22:28:03 127.0.0.1 *What_is_this_object_query
+22-Jul-2014 22:28:05 127.0.0.1 *start_polygon
+22-Jul-2014 22:28:06 127.0.0.1 *What_is_this_object_query
+22-Jul-2014 22:28:10 127.0.0.1 *start_polygon
+22-Jul-2014 22:28:11 127.0.0.1 *What_is_this_object_query
+22-Jul-2014 22:28:13 127.0.0.1 *start_polygon
+22-Jul-2014 22:28:14 127.0.0.1 *What_is_this_object_query
+22-Jul-2014 22:28:15 127.0.0.1 *start_polygon
+22-Jul-2014 22:28:17 127.0.0.1 *What_is_this_object_query
+22-Jul-2014 22:28:18 127.0.0.1 *start_polygon
+22-Jul-2014 22:28:19 127.0.0.1 *What_is_this_object_query
+22-Jul-2014 22:28:20 127.0.0.1 *start_polygon
+22-Jul-2014 22:28:21 127.0.0.1 *What_is_this_object_query
+22-Jul-2014 22:28:23 127.0.0.1 *start_polygon
+22-Jul-2014 22:28:24 127.0.0.1 *What_is_this_object_query
+22-Jul-2014 22:28:26 127.0.0.1 *start_polygon
+22-Jul-2014 22:28:27 127.0.0.1 *What_is_this_object_query
+22-Jul-2014 22:28:28 127.0.0.1 *start_polygon
+22-Jul-2014 22:28:28 127.0.0.1 *What_is_this_object_query
+22-Jul-2014 22:28:30 127.0.0.1 *start_polygon
+22-Jul-2014 22:28:31 127.0.0.1 *What_is_this_object_query
+22-Jul-2014 22:29:07 127.0.0.1 *start_polygon
+22-Jul-2014 22:29:07 127.0.0.1 *What_is_this_object_query
+22-Jul-2014 22:30:35 127.0.0.1 *Browser_Information Mozilla/5.0 (Macintosh; Intel Mac OS X 10_9_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/36.0.1985.125 Safari/537.36
+22-Jul-2014 22:30:35 127.0.0.1 *start_loading
+22-Jul-2014 22:30:35 127.0.0.1 *done_loading_Images/Test2/img2.jpg
+22-Jul-2014 22:30:36 127.0.0.1 *start_polygon
+22-Jul-2014 22:30:36 127.0.0.1 *What_is_this_object_query
+22-Jul-2014 22:30:39 127.0.0.1 *start_polygon
+22-Jul-2014 22:30:40 127.0.0.1 *What_is_this_object_query
+22-Jul-2014 22:30:43 127.0.0.1 *start_polygon
+22-Jul-2014 22:30:45 127.0.0.1 *What_is_this_object_query
+22-Jul-2014 22:30:47 127.0.0.1 *start_polygon
+22-Jul-2014 22:30:47 127.0.0.1 *What_is_this_object_query
+22-Jul-2014 22:30:50 Test2 img2 11 12 127.0.0.1  asdf 1 anonymous cpts_not_modified 1 1
+22-Jul-2014 22:30:50 127.0.0.1 *start_polygon
+22-Jul-2014 22:30:51 127.0.0.1 *What_is_this_object_query

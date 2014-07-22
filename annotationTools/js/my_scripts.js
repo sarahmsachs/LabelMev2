@@ -18,7 +18,7 @@ var action_ModifyControlExistingObjects = 0;
 var action_DeleteExistingObjects = 0;
 
 // Which polygons are visible:
-var view_Existing = 1;
+var view_Existing = 0;
 var view_Deleted = 0;
 
 // Flag for right-hand object list:
