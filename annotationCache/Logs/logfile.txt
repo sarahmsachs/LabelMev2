@@ -330,3 +330,14 @@
 22-Jul-2014 21:06:51 127.0.0.1 *Browser_Information Mozilla/5.0 (Macintosh; Intel Mac OS X 10_9_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/36.0.1985.125 Safari/537.36
 22-Jul-2014 21:06:51 127.0.0.1 *start_loading
 22-Jul-2014 21:06:51 127.0.0.1 *done_loading_Images/Test1/img3.jpg
+22-Jul-2014 21:20:45 127.0.0.1 *start_polygon
+22-Jul-2014 21:20:48 127.0.0.1 *What_is_this_object_query
+22-Jul-2014 21:21:10 127.0.0.1 *start_polygon
+22-Jul-2014 21:21:11 127.0.0.1 *What_is_this_object_query
+22-Jul-2014 21:21:14 example_folder img1 1 2 127.0.0.1  awdesr 1 anonymous cpts_not_modified 0 0
+22-Jul-2014 21:21:15 127.0.0.1 *Browser_Information Mozilla/5.0 (Macintosh; Intel Mac OS X 10_9_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/36.0.1985.125 Safari/537.36
+22-Jul-2014 21:21:15 127.0.0.1 *start_loading
+22-Jul-2014 21:21:15 127.0.0.1 *done_loading_Images/example_folder/img2.jpg
+22-Jul-2014 21:21:16 127.0.0.1 *start_polygon
+22-Jul-2014 21:21:17 127.0.0.1 *What_is_this_object_query
+22-Jul-2014 21:21:18 example_folder img2 0 1 127.0.0.1  awerd 1 anonymous cpts_not_modified 0 0

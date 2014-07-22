@@ -333,7 +333,7 @@ function file_info() {
             var parser = new DOMParser();
             var doc = parser.parseFromString(im_req.responseText, "application/xml");
             this.dir_name=doc.getElementsByTagName("dir")[0].firstChild.nodeValue;
-            this.im_name=doc.getElementsByTagName("file")[0].firstChild.nodeValue;Í
+            this.im_name=doc.getElementsByTagName("file")[0].firstChild.nodeValue;
         }
         else {
             alert('Fatal: there are problems with fetch_image.cgi');
