@@ -1,13 +1,4 @@
-Test1,1922_Pennsylvania_Pittsburgh_South_6_2.jpg
-Test1,1923_Pennsylvania_Pittsburgh_Allegheny_16_1.jpg
-Test1,1923_Pennsylvania_Pittsburgh_Allegheny_24_1.jpg
-Test1,1923_Pennsylvania_Pittsburgh_Allegheny_7_5.jpg
-Test1,1925_Texas_Houston_Milby_3_97.jpg
-Test1,1926_North_Carolina_Lincolnton_Lincolnton_14_4.jpg
-Test1,1926_Texas_Houston_Milby_2_74.jpg
-Test1,1934_Pennsylvania_Pittsburgh_Perry_17_7.jpg
-Test1,1969_Pennsylvania_Pittsburgh_Taylor_Allderdice_56_3.jpg
-Test1,1977_Texas_Houston_Milby_24_18.jpg
-Test1,1989_Indiana_Evansville_Harrison_2_24.jpg
-Test1,2005_Indiana_Evansville_Harrison_20_13.jpg
 Test1,img1.jpg
+Test1,img2.jpg
+Test1,img3.jpg
+Test1,img4.jpg

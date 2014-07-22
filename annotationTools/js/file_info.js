@@ -308,7 +308,8 @@ function file_info() {
     
     // Fetch next image.
     this.FetchImage = function () {
-        var url = 'annotationTools/perl/fetch_image.cgi?mode=' + this.mode + '&username=' + username + '&collection=' + this.collection.toLowerCase() + '&folder=' + this.dir_name + '&image=' + this.im_name;
+        //var url = 'annotationTools/perl/fetch_image.cgi?mode=' + this.mode + '&username=' + username + '&collection=' + this.collection.toLowerCase() + '&folder=' + this.dir_name + '&image=' + this.im_name;
+        var url = 'annotationTools/perl/fetch_image.cgi?mode=' + this.mode + '&collection=' + this.collection.toLowerCase() + '&folder=' + this.dir_name + '&image=' + this.im_name;
         //var url = 'annotationTools/perl/fetch_image.cgi?mode=' + this.mode + '&folder=' + this.dir_name + '&image=' + this.im_name;
         var im_req;
         // branch for native XMLHttpRequest object
@@ -326,11 +327,15 @@ function file_info() {
         }
         
         if(im_req.status==200) {
-            this.dir_name = im_req.responseXML.getElementsByTagName("dir")[0].firstChild.nodeValue;
-            this.im_name = im_req.responseXML.getElementsByTagName("file")[0].firstChild.nodeValue;
+            //this.dir_name = im_req.responseXML.getElementsByTagName("dir")[0].firstChild.nodeValue;
+            //this.im_name = im_req.responseXML.getElementsByTagName("file")[0].firstChild.nodeValue;
+            //Brian and I added thsi on 7/22 2pm
+            var parser = new DOMParser();
+            var doc = parser.parseFromString(im_req.responseText, "application/xml");
+            this.dir_name=doc.getElementsByTagName("dir")[0].firstChild.nodeValue;
+            this.im_name=doc.getElementsByTagName("file")[0].firstChild.nodeValue;Í
         }
         else {
-            //alert('im_req.status' + im_req.status)}
             alert('Fatal: there are problems with fetch_image.cgi');
         }
     };

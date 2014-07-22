@@ -10,17 +10,19 @@ use vars qw($LM_HOME);
 my $query = new CGI;
 my $mode = $query->param("mode");
 my $username = $query->param("username");
-#my $collection = $query->param("collection");
+my $collection = $query->param("collection");
 my $folder = $query->param("folder");
 my $image = $query->param("image");
 
 my $im_dir;
 my $im_file;
 if($mode eq "i") {
+    print "lm home is";
+    print $LM_HOME;
     my $fname = $LM_HOME . "annotationCache/DirLists/$collection.txt";
-    
+    print $fname;
     if(!open(FP,$fname)) {
-	print "Status: 404\n\n";
+    print "Status: 404\n\n";
 	return;
     }
     
