@@ -325,8 +325,10 @@ function file_info() {
                 im_req.send('');
             }
         }
-        
-        if(im_req.status==200) {
+       console.log(im_req);
+	console.log(im_req.status); 
+        console.log(im_req.responseText);
+	if(im_req.status==200) {
             //this.dir_name = im_req.responseXML.getElementsByTagName("dir")[0].firstChild.nodeValue;
             //this.im_name = im_req.responseXML.getElementsByTagName("file")[0].firstChild.nodeValue;
             //Brian and I added thsi on 7/22 2pm

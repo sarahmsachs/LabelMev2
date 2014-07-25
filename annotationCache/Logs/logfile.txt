@@ -890,3 +890,307 @@
 22-Jul-2014 22:30:50 Test2 img2 11 12 127.0.0.1  asdf 1 anonymous cpts_not_modified 1 1
 22-Jul-2014 22:30:50 127.0.0.1 *start_polygon
 22-Jul-2014 22:30:51 127.0.0.1 *What_is_this_object_query
+24-Jul-2014 19:03:38 136.152.38.218 *Browser_Information Mozilla/5.0 (Macintosh; Intel Mac OS X 10_9_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/36.0.1985.125 Safari/537.36
+24-Jul-2014 19:03:38 136.152.38.218 *start_loading
+24-Jul-2014 19:03:42 136.152.38.218 *Browser_Information Mozilla/5.0 (Macintosh; Intel Mac OS X 10_9_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/36.0.1985.125 Safari/537.36
+24-Jul-2014 19:03:42 136.152.38.218 *start_loading
+24-Jul-2014 19:03:55 136.152.38.218 *start_loading
+24-Jul-2014 19:03:55 136.152.38.218 *Browser_Information Mozilla/5.0 (Macintosh; Intel Mac OS X 10_9_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/36.0.1985.125 Safari/537.36
+24-Jul-2014 19:04:32 136.152.38.218 *start_loading
+24-Jul-2014 19:04:32 136.152.38.218 *Browser_Information Mozilla/5.0 (Macintosh; Intel Mac OS X 10_9_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/36.0.1985.125 Safari/537.36
+24-Jul-2014 19:04:41 136.152.38.218 *start_loading
+24-Jul-2014 19:04:41 136.152.38.218 *Browser_Information Mozilla/5.0 (Macintosh; Intel Mac OS X 10_9_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/36.0.1985.125 Safari/537.36
+24-Jul-2014 19:04:47 136.152.38.218 *Browser_Information Mozilla/5.0 (Macintosh; Intel Mac OS X 10_9_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/36.0.1985.125 Safari/537.36
+24-Jul-2014 19:04:47 136.152.38.218 *start_loading
+24-Jul-2014 19:04:50 136.152.38.218 *start_loading
+24-Jul-2014 19:04:50 136.152.38.218 *Browser_Information Mozilla/5.0 (Macintosh; Intel Mac OS X 10_9_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/36.0.1985.125 Safari/537.36
+24-Jul-2014 19:04:52 136.152.38.218 *start_loading
+24-Jul-2014 19:04:52 136.152.38.218 *Browser_Information Mozilla/5.0 (Macintosh; Intel Mac OS X 10_9_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/36.0.1985.125 Safari/537.36
+24-Jul-2014 19:05:16 136.152.38.218 *Browser_Information Mozilla/5.0 (Macintosh; Intel Mac OS X 10_9_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/36.0.1985.125 Safari/537.36
+24-Jul-2014 19:05:16 136.152.38.218 *start_loading
+24-Jul-2014 19:06:02 136.152.38.218 *Browser_Information Mozilla/5.0 (Macintosh; Intel Mac OS X 10_9_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/36.0.1985.125 Safari/537.36
+24-Jul-2014 19:06:02 136.152.38.218 *start_loading
+24-Jul-2014 19:07:04 136.152.38.218 *Browser_Information Mozilla/5.0 (Macintosh; Intel Mac OS X 10_9_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/36.0.1985.125 Safari/537.36
+24-Jul-2014 19:07:04 136.152.38.218 *start_loading
+24-Jul-2014 19:07:12 136.152.38.218 *start_loading
+24-Jul-2014 19:07:12 136.152.38.218 *Browser_Information Mozilla/5.0 (Macintosh; Intel Mac OS X 10_9_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/36.0.1985.125 Safari/537.36
+24-Jul-2014 19:07:24 136.152.38.218 *Browser_Information Mozilla/5.0 (Macintosh; Intel Mac OS X 10_9_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/36.0.1985.125 Safari/537.36
+24-Jul-2014 19:07:24 136.152.38.218 *start_loading
+24-Jul-2014 19:07:46 136.152.38.218 *Browser_Information Mozilla/5.0 (Macintosh; Intel Mac OS X 10_9_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/36.0.1985.125 Safari/537.36
+24-Jul-2014 19:07:46 136.152.38.218 *start_loading
+24-Jul-2014 19:09:01 136.152.38.218 *Browser_Information Mozilla/5.0 (Macintosh; Intel Mac OS X 10_9_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/36.0.1985.125 Safari/537.36
+24-Jul-2014 19:09:01 136.152.38.218 *start_loading
+24-Jul-2014 19:09:12 136.152.38.218 *Browser_Information Mozilla/5.0 (Macintosh; Intel Mac OS X 10_9_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/36.0.1985.125 Safari/537.36
+24-Jul-2014 19:09:12 136.152.38.218 *start_loading
+24-Jul-2014 19:09:35 136.152.38.218 *start_loading
+24-Jul-2014 19:09:35 136.152.38.218 *Browser_Information Mozilla/5.0 (Macintosh; Intel Mac OS X 10_9_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/36.0.1985.125 Safari/537.36
+24-Jul-2014 19:09:51 136.152.38.218 *start_loading
+24-Jul-2014 19:09:51 136.152.38.218 *Browser_Information Mozilla/5.0 (Macintosh; Intel Mac OS X 10_9_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/36.0.1985.125 Safari/537.36
+24-Jul-2014 19:10:01 136.152.38.218 *start_polygon
+24-Jul-2014 19:21:15 136.152.38.218 *start_loading
+24-Jul-2014 19:21:15 136.152.38.218 *Browser_Information Mozilla/5.0 (Macintosh; Intel Mac OS X 10_9_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/36.0.1985.125 Safari/537.36
+24-Jul-2014 19:21:16 136.152.38.218 *start_polygon
+24-Jul-2014 19:21:23 136.152.38.218 *What_is_this_object_query
+24-Jul-2014 19:23:49 136.152.38.218 *Browser_Information Mozilla/5.0 (Macintosh; Intel Mac OS X 10_9_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/36.0.1985.125 Safari/537.36
+24-Jul-2014 19:23:49 136.152.38.218 *start_loading
+24-Jul-2014 19:24:06 136.152.38.218 *start_polygon
+24-Jul-2014 19:25:36 136.152.38.218 *What_is_this_object_query
+24-Jul-2014 19:25:39 Demo 1992_Indiana_Evansville_Harrison_11_18 0 1 136.152.38.218  jh 1 null cpts_not_modified 0 0
+24-Jul-2014 19:25:43 136.152.38.218 *Browser_Information Mozilla/5.0 (Macintosh; Intel Mac OS X 10_9_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/36.0.1985.125 Safari/537.36
+24-Jul-2014 19:25:43 136.152.38.218 *start_loading
+24-Jul-2014 19:25:44 136.152.38.218 *done_loading_Images/Demo/1992_Indiana_Evansville_Harrison_11_18.jpg
+24-Jul-2014 19:25:45 136.152.38.218 *start_polygon
+24-Jul-2014 19:25:47 136.152.38.218 *What_is_this_object_query
+24-Jul-2014 19:29:43 136.152.38.218 *Browser_Information Mozilla/5.0 (Macintosh; Intel Mac OS X 10_9_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/36.0.1985.125 Safari/537.36
+24-Jul-2014 19:29:43 136.152.38.218 *start_loading
+24-Jul-2014 19:29:43 136.152.38.218 *done_loading_Images/Demo/1992_Indiana_Evansville_Harrison_11_18.jpg
+24-Jul-2014 19:29:44 136.152.38.218 *start_polygon
+24-Jul-2014 19:30:18 136.152.38.218 *What_is_this_object_query
+24-Jul-2014 19:30:24 136.152.38.218 *start_polygon
+24-Jul-2014 19:30:33 136.152.38.218 *What_is_this_object_query
+24-Jul-2014 19:30:39 136.152.38.218 *start_polygon
+24-Jul-2014 19:30:41 136.152.38.218 *What_is_this_object_query
+24-Jul-2014 19:31:16 136.152.38.218 *Browser_Information Mozilla/5.0 (Macintosh; Intel Mac OS X 10_9_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/36.0.1985.125 Safari/537.36
+24-Jul-2014 19:31:16 136.152.38.218 *start_loading
+24-Jul-2014 19:31:16 136.152.38.218 *done_loading_Images/Demo/1992_Indiana_Evansville_Harrison_11_18.jpg
+24-Jul-2014 19:31:21 136.152.38.218 *Browser_Information Mozilla/5.0 (Macintosh; Intel Mac OS X 10_9_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/36.0.1985.125 Safari/537.36
+24-Jul-2014 19:31:21 136.152.38.218 *start_loading
+24-Jul-2014 19:31:22 136.152.38.218 *done_loading_Images/Demo/1992_Indiana_Evansville_Harrison_11_18.jpg
+24-Jul-2014 19:33:34 136.152.38.218 *start_loading
+24-Jul-2014 19:33:34 136.152.38.218 *Browser_Information Mozilla/5.0 (Macintosh; Intel Mac OS X 10_9_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/36.0.1985.125 Safari/537.36
+24-Jul-2014 19:33:34 136.152.38.218 *done_loading_Images/Demo/1992_Indiana_Evansville_Harrison_11_18.jpg
+24-Jul-2014 20:34:41 136.152.38.148 *start_loading
+24-Jul-2014 20:34:41 136.152.38.148 *Browser_Information Mozilla/5.0 (Macintosh; Intel Mac OS X 10_9_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/36.0.1985.125 Safari/537.36
+24-Jul-2014 20:34:56 136.152.38.148 *start_polygon
+24-Jul-2014 20:34:58 136.152.38.148 *What_is_this_object_query
+24-Jul-2014 20:35:52 136.152.38.148 *start_polygon
+24-Jul-2014 20:35:54 136.152.38.148 *What_is_this_object_query
+24-Jul-2014 20:35:59 Demo 1992_Indiana_Evansville_Harrison_11_18 1 2 136.152.38.148  hair 1 null cpts_not_modified 0 0
+24-Jul-2014 20:36:03 136.152.38.148 *start_loading
+24-Jul-2014 20:36:03 136.152.38.148 *Browser_Information Mozilla/5.0 (Macintosh; Intel Mac OS X 10_9_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/36.0.1985.125 Safari/537.36
+24-Jul-2014 20:36:03 136.152.38.148 *done_loading_Images/Demo/1992_Indiana_Evansville_Harrison_11_18.jpg
+24-Jul-2014 20:38:09 136.152.38.148 *start_polygon
+24-Jul-2014 20:38:11 136.152.38.148 *What_is_this_object_query
+24-Jul-2014 20:45:11 136.152.38.148 *Browser_Information Mozilla/5.0 (Macintosh; Intel Mac OS X 10_9_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/36.0.1985.125 Safari/537.36
+24-Jul-2014 20:45:11 136.152.38.148 *start_loading
+24-Jul-2014 20:45:11 136.152.38.148 *done_loading_Images/Demo/1992_Indiana_Evansville_Harrison_11_18.jpg
+24-Jul-2014 20:45:12 136.152.38.148 *start_polygon
+24-Jul-2014 20:45:13 136.152.38.148 *What_is_this_object_query
+24-Jul-2014 20:45:15 Demo 1992_Indiana_Evansville_Harrison_11_18 2 3 136.152.38.148  sadf 1 anonymous cpts_not_modified 0 0
+24-Jul-2014 20:45:18 136.152.38.148 *Browser_Information Mozilla/5.0 (Macintosh; Intel Mac OS X 10_9_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/36.0.1985.125 Safari/537.36
+24-Jul-2014 20:45:18 136.152.38.148 *start_loading
+24-Jul-2014 20:45:19 136.152.38.148 *done_loading_Images/Demo/1992_Indiana_Evansville_Harrison_11_18.jpg
+24-Jul-2014 20:48:14 136.152.38.148 *Browser_Information Mozilla/5.0 (Macintosh; Intel Mac OS X 10_9_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/36.0.1985.125 Safari/537.36
+24-Jul-2014 20:48:14 136.152.38.148 *start_loading
+24-Jul-2014 20:48:14 136.152.38.148 *done_loading_Images/Demo/1992_Indiana_Evansville_Harrison_11_18.jpg
+24-Jul-2014 20:48:14 136.152.38.148 *start_polygon
+24-Jul-2014 20:48:16 136.152.38.148 *What_is_this_object_query
+24-Jul-2014 20:48:18 Demo 1992_Indiana_Evansville_Harrison_11_18 3 4 136.152.38.148  sdfg 1 anonymous cpts_not_modified 0 0
+24-Jul-2014 20:48:23 136.152.38.148 *Browser_Information Mozilla/5.0 (Macintosh; Intel Mac OS X 10_9_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/36.0.1985.125 Safari/537.36
+24-Jul-2014 20:48:23 136.152.38.148 *start_loading
+24-Jul-2014 20:48:23 136.152.38.148 *done_loading_Images/Demo/1992_Indiana_Evansville_Harrison_11_18.jpg
+24-Jul-2014 20:48:33 136.152.38.148 *start_polygon
+24-Jul-2014 20:48:34 136.152.38.148 *What_is_this_object_query
+24-Jul-2014 20:49:16 Demo 1992_Indiana_Evansville_Harrison_11_18 4 5 136.152.38.148  forehead 1 anonymous cpts_not_modified 0 0
+24-Jul-2014 20:50:13 136.152.38.148 *start_loading
+24-Jul-2014 20:50:13 136.152.38.148 *Browser_Information Mozilla/5.0 (Macintosh; Intel Mac OS X 10_9_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/36.0.1985.125 Safari/537.36
+24-Jul-2014 20:50:13 136.152.38.148 *done_loading_Images/Demo/1992_Indiana_Evansville_Harrison_11_18.jpg
+24-Jul-2014 20:50:19 136.152.38.148 *start_polygon
+24-Jul-2014 20:50:20 136.152.38.148 *What_is_this_object_query
+24-Jul-2014 20:50:21 Demo 1992_Indiana_Evansville_Harrison_11_18 5 6 136.152.38.148  asdf 1 anonymous cpts_not_modified 0 0
+24-Jul-2014 20:54:16 136.152.38.148 *start_loading
+24-Jul-2014 20:54:16 136.152.38.148 *Browser_Information Mozilla/5.0 (Macintosh; Intel Mac OS X 10_9_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/36.0.1985.125 Safari/537.36
+24-Jul-2014 20:54:16 136.152.38.148 *done_loading_Images/Demo/1992_Indiana_Evansville_Harrison_11_18.jpg
+24-Jul-2014 20:59:19 136.152.38.148 *Browser_Information Mozilla/5.0 (Macintosh; Intel Mac OS X 10_9_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/36.0.1985.125 Safari/537.36
+24-Jul-2014 20:59:19 136.152.38.148 *start_loading
+24-Jul-2014 20:59:20 136.152.38.148 *done_loading_Images/Demo/1992_Indiana_Evansville_Harrison_11_18.jpg
+24-Jul-2014 20:59:20 136.152.38.148 *start_polygon
+24-Jul-2014 20:59:21 136.152.38.148 *What_is_this_object_query
+24-Jul-2014 20:59:23 Demo 1992_Indiana_Evansville_Harrison_11_18 6 7 136.152.38.148  asdf 1 anonymous cpts_not_modified 0 0
+24-Jul-2014 21:01:40 136.152.38.148 *start_loading
+24-Jul-2014 21:01:40 136.152.38.148 *Browser_Information Mozilla/5.0 (Macintosh; Intel Mac OS X 10_9_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/36.0.1985.125 Safari/537.36
+24-Jul-2014 21:01:40 136.152.38.148 *done_loading_Images/Demo/1992_Indiana_Evansville_Harrison_11_18.jpg
+24-Jul-2014 21:01:43 136.152.38.148 *Browser_Information Mozilla/5.0 (Macintosh; Intel Mac OS X 10_9_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/36.0.1985.125 Safari/537.36
+24-Jul-2014 21:01:43 136.152.38.148 *start_loading
+24-Jul-2014 21:01:44 136.152.38.148 *done_loading_Images/Demo/1992_Indiana_Evansville_Harrison_11_18.jpg
+24-Jul-2014 21:01:44 136.152.38.148 *start_polygon
+24-Jul-2014 21:01:45 136.152.38.148 *What_is_this_object_query
+24-Jul-2014 21:01:47 Demo 1992_Indiana_Evansville_Harrison_11_18 7 8 136.152.38.148  asfd 1 anonymous cpts_not_modified 0 0
+24-Jul-2014 21:04:21 136.152.38.148 *Browser_Information Mozilla/5.0 (Macintosh; Intel Mac OS X 10_9_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/36.0.1985.125 Safari/537.36
+24-Jul-2014 21:04:21 136.152.38.148 *start_loading
+24-Jul-2014 21:04:21 136.152.38.148 *done_loading_Images/Demo/1992_Indiana_Evansville_Harrison_11_18.jpg
+24-Jul-2014 21:04:29 136.152.38.148 *Browser_Information Mozilla/5.0 (Macintosh; Intel Mac OS X 10_9_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/36.0.1985.125 Safari/537.36
+24-Jul-2014 21:04:29 136.152.38.148 *start_loading
+24-Jul-2014 21:04:32 136.152.38.148 *Browser_Information Mozilla/5.0 (Macintosh; Intel Mac OS X 10_9_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/36.0.1985.125 Safari/537.36
+24-Jul-2014 21:04:32 136.152.38.148 *start_loading
+24-Jul-2014 21:04:44 136.152.38.148 *Browser_Information Mozilla/5.0 (Macintosh; Intel Mac OS X 10_9_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/36.0.1985.125 Safari/537.36
+24-Jul-2014 21:04:44 136.152.38.148 *start_loading
+24-Jul-2014 21:04:45 136.152.38.148 *done_loading_Images/Demo/1992_Indiana_Evansville_Harrison_11_18.jpg
+24-Jul-2014 21:04:45 136.152.38.148 *start_polygon
+24-Jul-2014 21:04:47 136.152.38.148 *What_is_this_object_query
+24-Jul-2014 21:04:48 Demo 1992_Indiana_Evansville_Harrison_11_18 8 9 136.152.38.148  asdf 1 anonymous cpts_not_modified 0 0
+24-Jul-2014 21:05:54 136.152.38.148 *Browser_Information Mozilla/5.0 (Macintosh; Intel Mac OS X 10_9_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/36.0.1985.125 Safari/537.36
+24-Jul-2014 21:05:54 136.152.38.148 *start_loading
+24-Jul-2014 21:05:54 136.152.38.148 *done_loading_Images/Demo/1992_Indiana_Evansville_Harrison_11_18.jpg
+24-Jul-2014 21:37:08 136.152.38.148 *start_polygon
+24-Jul-2014 21:37:09 136.152.38.148 *What_is_this_object_query
+25-Jul-2014 01:59:44 12.22.138.242 *Browser_Information Mozilla/5.0 (Macintosh; Intel Mac OS X 10_8_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/36.0.1985.125 Safari/537.36
+25-Jul-2014 01:59:44 12.22.138.242 *start_loading
+25-Jul-2014 01:59:46 12.22.138.242 *start_polygon
+25-Jul-2014 01:59:51 12.22.138.242 *What_is_this_object_query
+25-Jul-2014 02:00:07 12.22.138.242 *What_is_this_object_query
+25-Jul-2014 02:00:13 12.22.138.242 *What_is_this_object_query
+25-Jul-2014 02:00:17 12.22.138.242 *What_is_this_object_query
+25-Jul-2014 02:00:22 12.22.138.242 *start_polygon
+25-Jul-2014 02:00:25 12.22.138.242 *What_is_this_object_query
+25-Jul-2014 02:00:33 12.22.138.242 *start_polygon
+25-Jul-2014 02:00:36 12.22.138.242 *What_is_this_object_query
+25-Jul-2014 02:00:40 Demo 1992_Indiana_Evansville_Harrison_11_18 9 10 12.22.138.242  asd 1 null cpts_not_modified 0 0
+25-Jul-2014 02:00:42 12.22.138.242 *start_polygon
+25-Jul-2014 02:00:46 12.22.138.242 *What_is_this_object_query
+25-Jul-2014 20:24:52 136.152.36.120 *Browser_Information Mozilla/5.0 (Macintosh; Intel Mac OS X 10_9_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/36.0.1985.125 Safari/537.36
+25-Jul-2014 20:24:52 136.152.36.120 *start_loading
+25-Jul-2014 20:24:53 136.152.36.120 *done_loading_Images/Demo/1992_Indiana_Evansville_Harrison_11_18.jpg
+25-Jul-2014 20:24:55 136.152.36.120 *start_polygon
+25-Jul-2014 20:24:57 136.152.36.120 *What_is_this_object_query
+25-Jul-2014 20:25:00 Demo 1992_Indiana_Evansville_Harrison_11_18 10 11 136.152.36.120  ZXC 1 anonymous cpts_not_modified 0 0
+25-Jul-2014 20:25:04 136.152.36.120 *Browser_Information Mozilla/5.0 (Macintosh; Intel Mac OS X 10_9_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/36.0.1985.125 Safari/537.36
+25-Jul-2014 20:25:04 136.152.36.120 *start_loading
+25-Jul-2014 20:25:04 136.152.36.120 *done_loading_Images/Demo/1992_Indiana_Evansville_Harrison_11_18.jpg
+25-Jul-2014 20:25:06 136.152.36.120 *start_polygon
+25-Jul-2014 20:25:07 136.152.36.120 *What_is_this_object_query
+25-Jul-2014 20:25:09 Demo 1992_Indiana_Evansville_Harrison_11_18 11 12 136.152.36.120  asdcx 1 anonymous cpts_not_modified 0 0
+25-Jul-2014 20:25:15 136.152.36.120 *start_loading
+25-Jul-2014 20:25:15 136.152.36.120 *Browser_Information Mozilla/5.0 (Macintosh; Intel Mac OS X 10_9_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/36.0.1985.125 Safari/537.36
+25-Jul-2014 20:25:15 136.152.36.120 *done_loading_Images/Demo/1992_Indiana_Evansville_Harrison_11_18.jpg
+25-Jul-2014 20:32:16 136.152.36.120 *Browser_Information Mozilla/5.0 (Macintosh; Intel Mac OS X 10_9_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/36.0.1985.125 Safari/537.36
+25-Jul-2014 20:32:16 136.152.36.120 *start_loading
+25-Jul-2014 20:32:16 136.152.36.120 *done_loading_Images/Demo/1992_Indiana_Evansville_Harrison_11_18.jpg
+25-Jul-2014 20:32:17 136.152.36.120 *start_polygon
+25-Jul-2014 20:32:18 136.152.36.120 *What_is_this_object_query
+25-Jul-2014 20:32:20 Demo 1992_Indiana_Evansville_Harrison_11_18 12 13 136.152.36.120  lakdsfj 1 anonymous cpts_not_modified 0 0
+25-Jul-2014 20:32:25 136.152.36.120 *Browser_Information Mozilla/5.0 (Macintosh; Intel Mac OS X 10_9_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/36.0.1985.125 Safari/537.36
+25-Jul-2014 20:32:25 136.152.36.120 *start_loading
+25-Jul-2014 20:32:25 136.152.36.120 *done_loading_Images/Demo/1992_Indiana_Evansville_Harrison_11_18.jpg
+25-Jul-2014 20:36:55 136.152.36.120 *start_polygon
+25-Jul-2014 20:36:56 136.152.36.120 *What_is_this_object_query
+25-Jul-2014 20:40:26 136.152.36.120 *start_polygon
+25-Jul-2014 20:40:28 136.152.36.120 *What_is_this_object_query
+25-Jul-2014 20:46:14 136.152.36.120 *start_loading
+25-Jul-2014 20:46:14 136.152.36.120 *Browser_Information Mozilla/5.0 (Macintosh; Intel Mac OS X 10_9_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/36.0.1985.125 Safari/537.36
+25-Jul-2014 20:46:14 136.152.36.120 *done_loading_Images/Demo/1992_Indiana_Evansville_Harrison_11_18.jpg
+25-Jul-2014 20:46:15 136.152.36.120 *start_polygon
+25-Jul-2014 20:46:15 136.152.36.120 *What_is_this_object_query
+25-Jul-2014 20:46:17 Demo 1992_Indiana_Evansville_Harrison_11_18 13 14 136.152.36.120  xdfgt 1 anonymous cpts_not_modified 0 0
+25-Jul-2014 20:48:05 136.152.36.120 *Browser_Information Mozilla/5.0 (Macintosh; Intel Mac OS X 10_9_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/36.0.1985.125 Safari/537.36
+25-Jul-2014 20:48:05 136.152.36.120 *start_loading
+25-Jul-2014 20:48:05 136.152.36.120 *done_loading_Images/Demo/1992_Indiana_Evansville_Harrison_11_18.jpg
+25-Jul-2014 20:48:31 136.152.36.120 *start_loading
+25-Jul-2014 20:48:31 136.152.36.120 *Browser_Information Mozilla/5.0 (Macintosh; Intel Mac OS X 10_9_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/36.0.1985.125 Safari/537.36
+25-Jul-2014 20:48:31 136.152.36.120 *done_loading_Images/Demo/1992_Indiana_Evansville_Harrison_11_18.jpg
+25-Jul-2014 20:48:35 136.152.36.120 *Browser_Information Mozilla/5.0 (Macintosh; Intel Mac OS X 10_9_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/36.0.1985.125 Safari/537.36
+25-Jul-2014 20:48:35 136.152.36.120 *start_loading
+25-Jul-2014 20:48:35 136.152.36.120 *done_loading_Images/Demo/1992_Indiana_Evansville_Harrison_11_18.jpg
+25-Jul-2014 20:57:34 136.152.36.120 *start_loading
+25-Jul-2014 20:57:34 136.152.36.120 *Browser_Information Mozilla/5.0 (Macintosh; Intel Mac OS X 10_9_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/36.0.1985.125 Safari/537.36
+25-Jul-2014 20:57:34 136.152.36.120 *done_loading_Images/Demo/1992_Indiana_Evansville_Harrison_11_18.jpg
+25-Jul-2014 20:57:35 136.152.36.120 *start_polygon
+25-Jul-2014 20:57:41 136.152.36.120 *What_is_this_object_query
+25-Jul-2014 20:57:43 Demo 1992_Indiana_Evansville_Harrison_11_18 14 15 136.152.36.120  asd_ 1 anonymous cpts_not_modified 0 0
+25-Jul-2014 20:58:38 136.152.36.120 *Browser_Information Mozilla/5.0 (Macintosh; Intel Mac OS X 10_9_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/36.0.1985.125 Safari/537.36
+25-Jul-2014 20:58:38 136.152.36.120 *start_loading
+25-Jul-2014 20:58:38 136.152.36.120 *done_loading_Images/Demo/1992_Indiana_Evansville_Harrison_11_18.jpg
+25-Jul-2014 21:00:15 136.152.36.120 *Browser_Information Mozilla/5.0 (Macintosh; Intel Mac OS X 10_9_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/36.0.1985.125 Safari/537.36
+25-Jul-2014 21:00:15 136.152.36.120 *start_loading
+25-Jul-2014 21:00:16 136.152.36.120 *done_loading_Images/Demo/1992_Indiana_Evansville_Harrison_11_18.jpg
+25-Jul-2014 21:00:20 136.152.36.120 *Browser_Information Mozilla/5.0 (Macintosh; Intel Mac OS X 10_9_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/36.0.1985.125 Safari/537.36
+25-Jul-2014 21:00:20 136.152.36.120 *start_loading
+25-Jul-2014 21:00:20 136.152.36.120 *done_loading_Images/Demo/1992_Indiana_Evansville_Harrison_11_18.jpg
+25-Jul-2014 21:11:34 136.152.36.120 *Browser_Information Mozilla/5.0 (Macintosh; Intel Mac OS X 10_9_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/36.0.1985.125 Safari/537.36
+25-Jul-2014 21:11:34 136.152.36.120 *start_loading
+25-Jul-2014 21:11:34 136.152.36.120 *done_loading_Images/Demo/1992_Indiana_Evansville_Harrison_11_18.jpg
+25-Jul-2014 21:11:36 136.152.36.120 *Browser_Information Mozilla/5.0 (Macintosh; Intel Mac OS X 10_9_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/36.0.1985.125 Safari/537.36
+25-Jul-2014 21:11:36 136.152.36.120 *start_loading
+25-Jul-2014 21:11:38 136.152.36.120 *done_loading_Images/example_folder/img2.jpg
+25-Jul-2014 21:11:44 136.152.36.120 *start_loading
+25-Jul-2014 21:11:44 136.152.36.120 *Browser_Information Mozilla/5.0 (Macintosh; Intel Mac OS X 10_9_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/36.0.1985.125 Safari/537.36
+25-Jul-2014 21:11:44 136.152.36.120 *done_loading_Images/example_folder/img2.jpg
+25-Jul-2014 21:11:46 136.152.36.120 *Browser_Information Mozilla/5.0 (Macintosh; Intel Mac OS X 10_9_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/36.0.1985.125 Safari/537.36
+25-Jul-2014 21:11:46 136.152.36.120 *start_loading
+25-Jul-2014 21:11:46 136.152.36.120 *done_loading_Images/example_folder/img2.jpg
+25-Jul-2014 21:11:51 136.152.36.120 *Browser_Information Mozilla/5.0 (Macintosh; Intel Mac OS X 10_9_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/36.0.1985.125 Safari/537.36
+25-Jul-2014 21:11:51 136.152.36.120 *start_loading
+25-Jul-2014 21:11:53 136.152.36.120 *Browser_Information Mozilla/5.0 (Macintosh; Intel Mac OS X 10_9_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/36.0.1985.125 Safari/537.36
+25-Jul-2014 21:11:53 136.152.36.120 *start_loading
+25-Jul-2014 21:11:54 136.152.36.120 *done_loading_Images/example_folder/img1.jpg
+25-Jul-2014 21:12:11 136.152.36.120 *Browser_Information Mozilla/5.0 (Macintosh; Intel Mac OS X 10_9_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/36.0.1985.125 Safari/537.36
+25-Jul-2014 21:12:11 136.152.36.120 *start_loading
+25-Jul-2014 21:12:15 136.152.36.120 *start_loading
+25-Jul-2014 21:12:15 136.152.36.120 *Browser_Information Mozilla/5.0 (Macintosh; Intel Mac OS X 10_9_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/36.0.1985.125 Safari/537.36
+25-Jul-2014 21:14:12 136.152.36.120 *Browser_Information Mozilla/5.0 (Macintosh; Intel Mac OS X 10_9_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/36.0.1985.125 Safari/537.36
+25-Jul-2014 21:14:12 136.152.36.120 *start_loading
+25-Jul-2014 21:17:28 136.152.36.120 *Browser_Information Mozilla/5.0 (Macintosh; Intel Mac OS X 10_9_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/36.0.1985.125 Safari/537.36
+25-Jul-2014 21:17:28 136.152.36.120 *start_loading
+25-Jul-2014 21:17:29 136.152.36.120 *done_loading_Images/example_folder/img1.jpg
+25-Jul-2014 21:19:27 136.152.36.120 *Browser_Information Mozilla/5.0 (Macintosh; Intel Mac OS X 10_9_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/36.0.1985.125 Safari/537.36
+25-Jul-2014 21:19:27 136.152.36.120 *start_loading
+25-Jul-2014 21:19:27 136.152.36.120 *done_loading_Images/example_folder/img1.jpg
+25-Jul-2014 21:19:38 136.152.36.120 *start_loading
+25-Jul-2014 21:19:38 136.152.36.120 *Browser_Information Mozilla/5.0 (Macintosh; Intel Mac OS X 10_9_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/36.0.1985.125 Safari/537.36
+25-Jul-2014 21:22:11 136.152.36.120 *Browser_Information Mozilla/5.0 (Macintosh; Intel Mac OS X 10_9_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/36.0.1985.125 Safari/537.36
+25-Jul-2014 21:22:11 136.152.36.120 *start_loading
+25-Jul-2014 21:22:14 136.152.36.120 *Browser_Information Mozilla/5.0 (Macintosh; Intel Mac OS X 10_9_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/36.0.1985.125 Safari/537.36
+25-Jul-2014 21:22:14 136.152.36.120 *start_loading
+25-Jul-2014 21:23:17 136.152.36.120 *Browser_Information Mozilla/5.0 (Macintosh; Intel Mac OS X 10_9_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/36.0.1985.125 Safari/537.36
+25-Jul-2014 21:23:17 136.152.36.120 *start_loading
+25-Jul-2014 21:23:54 136.152.36.120 *Browser_Information Mozilla/5.0 (Macintosh; Intel Mac OS X 10_9_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/36.0.1985.125 Safari/537.36
+25-Jul-2014 21:23:54 136.152.36.120 *start_loading
+25-Jul-2014 21:25:47 136.152.36.120 *Browser_Information Mozilla/5.0 (Macintosh; Intel Mac OS X 10_9_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/36.0.1985.125 Safari/537.36
+25-Jul-2014 21:25:47 136.152.36.120 *start_loading
+25-Jul-2014 21:25:47 136.152.36.120 *done_loading_Images/Demo/1992_Indiana_Evansville_Harrison_11_18.jpg
+25-Jul-2014 21:25:57 136.152.36.120 *Browser_Information Mozilla/5.0 (Macintosh; Intel Mac OS X 10_9_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/36.0.1985.125 Safari/537.36
+25-Jul-2014 21:25:57 136.152.36.120 *start_loading
+25-Jul-2014 21:25:57 136.152.36.120 *done_loading_Images/Demo/1992_Indiana_Evansville_Harrison_11_18.jpg
+25-Jul-2014 21:26:06 136.152.36.120 *start_loading
+25-Jul-2014 21:26:06 136.152.36.120 *Browser_Information Mozilla/5.0 (Macintosh; Intel Mac OS X 10_9_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/36.0.1985.125 Safari/537.36
+25-Jul-2014 21:26:06 136.152.36.120 *done_loading_Images/Demo/1992_Indiana_Evansville_Harrison_11_18.jpg
+25-Jul-2014 21:26:18 136.152.36.120 *Browser_Information Mozilla/5.0 (Macintosh; Intel Mac OS X 10_9_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/36.0.1985.125 Safari/537.36
+25-Jul-2014 21:26:18 136.152.36.120 *start_loading
+25-Jul-2014 21:26:18 136.152.36.120 *done_loading_Images/Demo/1992_Indiana_Evansville_Harrison_11_18.jpg
+25-Jul-2014 21:27:54 136.152.36.120 *Browser_Information Mozilla/5.0 (Macintosh; Intel Mac OS X 10_9_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/36.0.1985.125 Safari/537.36
+25-Jul-2014 21:27:54 136.152.36.120 *start_loading
+25-Jul-2014 21:27:54 136.152.36.120 *done_loading_Images/Demo/1992_Indiana_Evansville_Harrison_11_18.jpg
+25-Jul-2014 21:27:56 136.152.36.120 *start_loading
+25-Jul-2014 21:27:56 136.152.36.120 *Browser_Information Mozilla/5.0 (Macintosh; Intel Mac OS X 10_9_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/36.0.1985.125 Safari/537.36
+25-Jul-2014 21:27:58 136.152.36.120 *done_loading_Images/example_folder/img3.jpg
+25-Jul-2014 21:28:11 136.152.36.120 *Browser_Information Mozilla/5.0 (Macintosh; Intel Mac OS X 10_9_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/36.0.1985.125 Safari/537.36
+25-Jul-2014 21:28:11 136.152.36.120 *start_loading
+25-Jul-2014 21:28:12 136.152.36.120 *Browser_Information Mozilla/5.0 (Macintosh; Intel Mac OS X 10_9_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/36.0.1985.125 Safari/537.36
+25-Jul-2014 21:28:12 136.152.36.120 *start_loading
+25-Jul-2014 21:28:13 136.152.36.120 *done_loading_Images/Demo/1926_Texas_Houston_Milby_3_98.jpg
+25-Jul-2014 21:28:18 136.152.36.120 *Browser_Information Mozilla/5.0 (Macintosh; Intel Mac OS X 10_9_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/36.0.1985.125 Safari/537.36
+25-Jul-2014 21:28:18 136.152.36.120 *start_loading
+25-Jul-2014 21:28:19 136.152.36.120 *done_loading_Images/Demo/1997_Indiana_Evansville_Harrison_6_8.jpg
+25-Jul-2014 21:28:21 136.152.36.120 *Browser_Information Mozilla/5.0 (Macintosh; Intel Mac OS X 10_9_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/36.0.1985.125 Safari/537.36
+25-Jul-2014 21:28:21 136.152.36.120 *start_loading
+25-Jul-2014 21:28:22 136.152.36.120 *done_loading_Images/Demo/1962_Pennsylvania_Pittsburgh_Central_Catholic_7_3.jpg
+25-Jul-2014 21:28:28 136.152.36.120 *start_loading
+25-Jul-2014 21:28:28 136.152.36.120 *Browser_Information Mozilla/5.0 (Macintosh; Intel Mac OS X 10_9_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/36.0.1985.125 Safari/537.36
+25-Jul-2014 21:28:29 136.152.36.120 *done_loading_Images/Demo/1953_Pennsylvania_Pittsburgh_David_B_Oliver_22_5.jpg
+25-Jul-2014 21:28:30 136.152.36.120 *start_loading
+25-Jul-2014 21:28:30 136.152.36.120 *Browser_Information Mozilla/5.0 (Macintosh; Intel Mac OS X 10_9_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/36.0.1985.125 Safari/537.36
+25-Jul-2014 21:28:31 136.152.36.120 *done_loading_Images/Demo/1975_Texas_Houston_Milby_2_11.jpg
+25-Jul-2014 21:29:01 136.152.36.120 *Browser_Information Mozilla/5.0 (Macintosh; Intel Mac OS X 10_9_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/36.0.1985.125 Safari/537.36
+25-Jul-2014 21:29:01 136.152.36.120 *start_loading
+25-Jul-2014 21:29:03 136.152.36.120 *Browser_Information Mozilla/5.0 (Macintosh; Intel Mac OS X 10_9_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/36.0.1985.125 Safari/537.36
+25-Jul-2014 21:29:03 136.152.36.120 *start_loading
+25-Jul-2014 21:29:03 136.152.36.120 *done_loading_Images/Demo/1939_Texas_Houston_Milby_1_17.jpg
+25-Jul-2014 21:29:11 136.152.36.120 *start_loading
+25-Jul-2014 21:29:11 136.152.36.120 *Browser_Information Mozilla/5.0 (Macintosh; Intel Mac OS X 10_9_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/36.0.1985.125 Safari/537.36
+25-Jul-2014 21:29:11 136.152.36.120 *done_loading_Images/Demo/1970_Pennsylvania_Pittsburgh_North_Hills_17_4.jpg
+25-Jul-2014 21:29:22 136.152.36.120 *start_polygon
+25-Jul-2014 21:29:23 136.152.36.120 *What_is_this_object_query
+25-Jul-2014 21:29:25 Demo 1970_Pennsylvania_Pittsburgh_North_Hills_17_4 0 1 136.152.36.120  asD 1 anonymous cpts_not_modified 0 0
+25-Jul-2014 21:29:28 136.152.36.120 *Browser_Information Mozilla/5.0 (Macintosh; Intel Mac OS X 10_9_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/36.0.1985.125 Safari/537.36
+25-Jul-2014 21:29:28 136.152.36.120 *start_loading
+25-Jul-2014 21:29:28 136.152.36.120 *done_loading_Images/Demo/1925_North_Carolina_Lincolnton_Lincolnton_14_9.jpg
