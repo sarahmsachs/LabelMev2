@@ -30,7 +30,7 @@ var LMbaseurl = 'http://' + window.location.host + window.location.pathname;
 var MThelpPage = 'annotationTools/html/mt_instructions.html';
 var externalSubmitURL = 'http://mturk.com/mturk/externalSubmit';
 var externalSubmitURLsandbox = 'http://workersandbox.mturk.com/mturk/externalSubmit';
-var mt_N = 'inf';
+var mt_N = 1;
 
 var object_choices = '...';
 

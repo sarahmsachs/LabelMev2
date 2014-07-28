@@ -89,51 +89,68 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
   <!-- BUTTONS -->
   <div id="tool_buttons">
     <!-- NAVIGATION BUTTONS  -->
-    <div id="label_buttons_navigation">
+    <!--div id="label_buttons_navigation"-->
       <!-- DOWNLOAD IMAGE BUTTON -->
-      <button id="img_url" class="labelBtn" type="button" title="Download image">
+      <!--button id="img_url" class="labelBtn" type="button" title="Download image">
         <img src="Icons/download_img.png"  height="30" />
-      </button>
+      </button-->
       
       <!-- DOWNLOAD XML BUTTON -->
-      <button id="xml_url" class="labelBtn" type="button" title="Download XML file">
+      <!--button id="xml_url" class="labelBtn" type="button" title="Download XML file">
         <img src="Icons/download_xml.png"  height="30" />
-      </button>
+      </button-->
       
       <!-- HELP BUTTON -->
+      <!--I MOVED HELP BUTTONS TO BE BY DRAWING BUTTONS
       <button id="help" class="labelBtn" type="button" title="Show help page" onclick="location.href='annotationTools/html/labeling_instructions.html'" >
         <img src="Icons/help_new.png"  height="30" />
-      </button>
+        Help
+      </button-->
       
       <!-- NEXT IMAGE BUTTON -->
+      <!--I DECIDE THIS SHOULD BE INVISIBLE>
       <button id="nextImage" class="labelBtn" type="button" title="Next Image">
         <img src="Icons/next_2.png" height="30" />
-      </button>
-    </div>
+        Next Image
+      </button-->
+
+    <!--/div-->
     
     <!-- DRAWING BUTTONS -->
     <div id="label_buttons_drawing">
       <!-- ZOOM IN BUTTON -->
       <button id="zoomin" class="labelBtnDraw" type="button" title="Zoom In">
         <img src="Icons/zoomin.png" width="30" height="38" />
+        Zoom In
       </button>
       <!-- ZOOM OUT BUTTON -->
       <button id="zoomout" class="labelBtnDraw" type="button" title="Zoom Out">
         <img src="Icons/zoomout.png" width="30" height="38" />
+        Zoom Out
       </button>
       <!-- FIT IMAGE BUTTON -->
       <button id="fit" class="labelBtnDraw" type="button" title="Fit Image">
         <img src="Icons/fitscreen.png" width="30" height="38" />
+        Fit Image
       </button>
       <!-- ERASE BUTTON -->
       <button id="erase" class="labelBtnDraw" type="button" title="Delete last segment">
         <img src="Icons/erase.png"  width="30" height="38" />
+        Erase
+      </button>
+
+       <!-- HELP BUTTON -->
+      <button id="help" class="labelBtn" type="button" title="Show help page" onclick="location.href='annotationTools/html/labeling_instructions.html'" >
+        <img src="Icons/help_new.png"  height="30" />
+        Help
       </button>
     </div>
+
   </div>
-  
+
   <!-- IMAGE CANVAS -->
   <div class="image_canvas" id="main_section">
+   
     <div id="loading">Loading image...</div>
     <div id="main_image" class="top" style="visibility:hidden; overflow:auto;">
       <div id="show_new_image" style="visibility:hidden;">

@@ -35,7 +35,7 @@ function file_info() {
         if((idx != -1) && (this.page_in_use == 0)) {
             this.page_in_use = 1;
             var par_str = labelme_url.substring(idx+1,labelme_url.length);
-            var isMT = false; // In MT mode?
+            var isMT = true; // In MT mode?
             var default_view_ObjList = false;
             do {
                 idx = par_str.indexOf('&');
@@ -173,8 +173,9 @@ function file_info() {
                 //p.parentNode.removeChild(p);
                 //var p = document.getElementById('counter_div');
                 //p.parentNode.removeChild(p);
-                var p = document.getElementById('tool_buttons');
-                p.parentNode.removeChild(p);
+                //I ERASED THE NEXT PART BC I LIKE THE BUTTONS
+                //var p = document.getElementById('tool_buttons');
+                //p.parentNode.removeChild(p);
                 document.getElementById('body').style.visibility = 'visible';
             }
             else {
@@ -194,8 +195,8 @@ function file_info() {
             if(this.mode=='mt') {
                 if(!this.mt_instructions) {
                     if(mt_N=='inf') this.mt_instructions = 'Please label as many objects as you want in this image.';
-                    else if(mt_N==1) this.mt_instructions = 'Please label at least ' + mt_N + ' object in this image.';
-                    else this.mt_instructions = 'Please label at least ' + mt_N + ' objects in this image.';
+                    else if(mt_N==1) this.mt_instructions = 'Draw a polygon around the part of the image that indicates which decade it was taken in. Then, you will be asked what decade you think the image was taken in.';
+                    else this.mt_instructions = 'Please label the aspect of this image that is most indicative of the decade you think it was taken in.';
                 }
                 if(mt_N=='inf') mt_N = 1;
                 
