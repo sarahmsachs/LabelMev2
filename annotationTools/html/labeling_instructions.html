@@ -27,12 +27,9 @@
             <table width="100%" border="0">
                 <tr>
                     <td width="63%"><p><font size="5">Labeling instructions</font></p>
-                        <p>When you enter the tool, an image from the database will be randomly
-                        selected and shown. You can help by annotating as many objects as you
-                        can.
-                        Note that
-                        previously labeled objects may appear on the image.
-                        Please do not label previously labeled objects.
+                        <p>When you enter the tool, an image from our database will be randomly
+                        selected and shown. You can help by annotating the aspect of the image
+                        that you think indicates when the photo was taken.
                         Once you have completed the image, you can view a new image
                         by pressing the &quot;show next image&quot; button.</p>
                         
@@ -48,7 +45,7 @@
                         the first point or press the right mouse button to complete
                         the polygon.
                         <br />4. A window will now appear asking for the object's
-                        name and attributes.  Enter the object's name and provide any additional information you can and click the "Done" button.
+                        name, the decade it was taken, and other qualities.  Enter the object's name and provide any additional information you can and click the "Done" button.
                         </p>
                         
                     </td>
@@ -119,18 +116,14 @@
                     <td><p><font size="5">Entering object information</font></p>
                         <p>Use common English words. Try to avoid application specific
                         terms. For instance, avoid doing things such as replacing <em>right arm</em> by <em>ra</em>. This might be useful in the short term but will make difficult reusing the data for other applications in the future. Also, it is always good practice to have data that is itself explanatory.</p>
-                        <p>Also, avoid numbering the objects. It is preferable not to use object names such as <em>car1</em>. The numbering should be avoided if possible. If you need to keep identity information to relate objects across different images you can use the attributes box.</p>
                         <p><strong>Object naming: </strong>Use common English names for objects.
                         Use a name that you think other people are likely to use to describe
                         the same object. You can use several words to describe an
                         object.
-                        Example object names: sky,
-                        tree, building, road, sidewalk, person, car, chair.	  </p>
-                        <p><strong>Attributes: </strong>Enter a comma separated list of object attributes. You should use this
-                        box to enter information about the object such as the color or any other property that be used
-                        to describe the object and its visual appearance.</p>
-                        <p><strong>Occluded: </strong>Check the corresponding box to indicate if the object is fully visible or not.</p>
-                        <p><strong>Parts: </strong>To indicate that an object is composed of a number of parts, you can drag and drop object names from the right panel (see more details bellow).</p>
+                        Example object names: hair, smile, posture, etc.	  </p>
+                        <p><strong>Decade: </strong>Check the corresponding box to indicate in which decade you think the photo was taken. A photo taken in 1987 would be &quot;1980s&quot; while a photo taken in 1990 would be &quot;1990s&quot;.</p>
+                        <p><strong>Quality: </strong>Check the corresponding box to report if the quality of the photograph
+                            indicated when it was taken. For example, the resolution of the photograph might have helped you decide which year it was taken.</p>
                     </td>
                     <td><img src="../../Icons/bubble_example.jpg" width="270"></td>
                 </tr>
@@ -155,8 +148,9 @@
                         The ideal outline should be good enough for somebody to recognize the 
                         object just by seeing the drawn polygon.</p>
                         <p><strong>Labeling occluded objects: </strong>Sometimes objects will 
-                        be only partially visible. This is especially true for regions like roads, 
-                        buildings, etc., which become difficult to label when there are many occlusions. 
+                        be only partially visible. This is especially true for regions like hair,
+                        shoulders, etc
+                        which become difficult to label when there are many occlusions. 
                         We recommend in these cases to complete the boundary as if they were not 
                         occluded. </p>
                         
@@ -170,21 +164,8 @@
                 </tr>
                 <tr> 
                     <td><p><font size="5">Advanced features</font></p>
-                        <p><strong>Delete segments: </strong>If you want to delete one segment 
-                        of the polygon before finishing the polygon, press the <code>delete</code> 
-                        key. Once the polygon is closed, you can not delete control points or 
-                        add new segments, but you can modify the location of the control points.</p>
-                        <p><strong>Modify control points:</strong> 
-                        Once you have finished a polygon, you can modify individual control 
-                        points. If you click on top of the polygon, the control
-                        points will appear. 
-                        You can select one of the control points (hold the left mouse button 
-                        down) and move it to a new position. Then click anywhere in the image 
-                        to deselect the polygon. This will also save the modified polygon. </p>
                         <p><strong>Delete entire polygon: </strong>Select the polygon. You will
-                        have the option to delete the polygon. You can only edit polygons that
-                        you have entered before. You can not delete polygons by other users.</p>
-                        <p><strong>Adding parts: </strong>To add parts first you need to trace the polygons that correspond to the full object and each of the parts as if they were individual objects. Once they are labeled you can introduce their part-of relationship. The object list in the right side allows indicating with objects are parts of others. If you drag and drop one object tag on top of another, the list will show the dropped object as being part of the other. You can create arbitrary hierarchies with multiple levels with objects composed of parts and the parts composed of more parts and so on.</p>
+                        have the option to delete the polygon.</p>
                     </td><td />
                     <tr> 
                         <td>&nbsp;</td>
