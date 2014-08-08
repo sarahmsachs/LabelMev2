@@ -116,11 +116,11 @@ function CloseEditPopup() {
 // ****************************
 
 function GetPopupFormDraw() {
-  html_str = "<b>Enter the aspect of the image that you selected</b><br />";
-  html_str += HTMLobjectBox("");
-  //html_str += '<br />';
+  html_str = "<b>Enter the aspect of the image that you selected</b><br />";  
+html_str += HTMLobjectBox("");
+  html_str += '<br />';
   html_str += HTMLdecadeBox("");
-  //html_str += '<br />';
+  html_str += '<br />';
   html_str += HTMLqualityBox("");
 
   if(use_attributes) {

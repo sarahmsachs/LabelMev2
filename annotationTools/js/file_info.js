@@ -59,7 +59,8 @@ function file_info() {
                     this.collection = par_value;
                 }
                 if(par_field=='folder') {
-                    this.dir_name = par_value;
+                    console.log(par_value);
+			this.dir_name = par_value;
                 }
                 if(par_field=='image') {
                     this.im_name = par_value;
@@ -194,8 +195,8 @@ function file_info() {
             }
             if(this.mode=='mt') {
                 if(!this.mt_instructions) {
-                    if(mt_N=='inf') this.mt_instructions = 'Please label as many objects as you want in this image.';
-                    else if(mt_N==1) this.mt_instructions = 'Draw a polygon around the part of the image that indicates which decade it was taken in. Then, you will be asked what decade you think the image was taken in.';
+                    if(mt_N=='inf') this.mt_instructions = 'Draw a polygon around the part of the image that most indicates which decade it was taken in. <br /> Then, you will be asked what decade you think the image was taken in.';
+                    else if(mt_N==1) this.mt_instructions = 'Draw a polygon around the part of the image that most indicates which decade it was taken in. <br /> Then, you will be asked what decade you think the image was taken in.';
                     else this.mt_instructions = 'Please label the aspect of this image that is most indicative of the decade you think it was taken in.';
                 }
                 if(mt_N=='inf') mt_N = 1;

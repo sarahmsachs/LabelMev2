@@ -1394,3 +1394,460 @@
 28-Jul-2014 20:53:17 136.152.37.31 *start_loading
 28-Jul-2014 20:54:46 136.152.37.31 *Browser_Information Mozilla/5.0 (Macintosh; Intel Mac OS X 10_9_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/36.0.1985.125 Safari/537.36
 28-Jul-2014 20:54:46 136.152.37.31 *start_loading
+28-Jul-2014 22:39:20 136.152.37.31 *Browser_Information Mozilla/5.0 (Macintosh; Intel Mac OS X 10_9_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/36.0.1985.125 Safari/537.36
+28-Jul-2014 22:39:20 136.152.37.31 *start_loading
+28-Jul-2014 22:39:21 136.152.37.31 *Browser_Information Mozilla/5.0 (Macintosh; Intel Mac OS X 10_9_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/36.0.1985.125 Safari/537.36
+28-Jul-2014 22:39:21 136.152.37.31 *start_loading
+28-Jul-2014 22:39:22 136.152.37.31 *done_loading_Images/Demo/1953_Pennsylvania_Pittsburgh_David_B_Oliver_22_5.jpg
+28-Jul-2014 22:39:28 136.152.37.31 *start_polygon
+28-Jul-2014 22:39:32 136.152.37.31 *What_is_this_object_query
+28-Jul-2014 22:39:46 136.152.37.31 *start_polygon
+28-Jul-2014 22:39:47 136.152.37.31 *What_is_this_object_query
+28-Jul-2014 22:41:07 136.152.37.31 *Browser_Information Mozilla/5.0 (Macintosh; Intel Mac OS X 10_9_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/36.0.1985.125 Safari/537.36
+28-Jul-2014 22:41:07 136.152.37.31 *start_loading
+28-Jul-2014 22:41:08 136.152.37.31 *done_loading_Images/Demo/1953_Pennsylvania_Pittsburgh_David_B_Oliver_22_5.jpg
+28-Jul-2014 22:41:13 136.152.37.31 *start_loading
+28-Jul-2014 22:41:13 136.152.37.31 *Browser_Information Mozilla/5.0 (Macintosh; Intel Mac OS X 10_9_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/36.0.1985.125 Safari/537.36
+28-Jul-2014 22:41:13 136.152.37.31 *done_loading_Images/Demo/1953_Pennsylvania_Pittsburgh_David_B_Oliver_22_5.jpg
+28-Jul-2014 22:41:13 136.152.37.31 *start_polygon
+28-Jul-2014 22:41:15 136.152.37.31 *What_is_this_object_query
+28-Jul-2014 22:41:16 Demo 1953_Pennsylvania_Pittsburgh_David_B_Oliver_22_5 0 1 136.152.37.31  asdf 1 anonymous cpts_not_modified 0 0
+28-Jul-2014 22:43:07 136.152.37.31 *Browser_Information Mozilla/5.0 (Macintosh; Intel Mac OS X 10_9_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/36.0.1985.125 Safari/537.36
+28-Jul-2014 22:43:07 136.152.37.31 *start_loading
+28-Jul-2014 22:43:07 136.152.37.31 *done_loading_Images/Demo/1953_Pennsylvania_Pittsburgh_David_B_Oliver_22_5.jpg
+28-Jul-2014 22:45:11 136.152.37.31 *Browser_Information Mozilla/5.0 (Macintosh; Intel Mac OS X 10_9_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/36.0.1985.125 Safari/537.36
+28-Jul-2014 22:45:11 136.152.37.31 *start_loading
+28-Jul-2014 22:45:11 136.152.37.31 *done_loading_Images/Demo/1953_Pennsylvania_Pittsburgh_David_B_Oliver_22_5.jpg
+28-Jul-2014 22:53:58 136.152.37.31 *Browser_Information Mozilla/5.0 (Macintosh; Intel Mac OS X 10_9_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/36.0.1985.125 Safari/537.36
+28-Jul-2014 22:53:58 136.152.37.31 *start_loading
+28-Jul-2014 22:53:59 136.152.37.31 *done_loading_Images/Demo/1953_Pennsylvania_Pittsburgh_David_B_Oliver_22_5.jpg
+28-Jul-2014 22:53:59 136.152.37.31 *start_polygon
+28-Jul-2014 22:54:01 136.152.37.31 *What_is_this_object_query
+28-Jul-2014 22:54:03 Demo 1953_Pennsylvania_Pittsburgh_David_B_Oliver_22_5 1 2 136.152.37.31  zcv 1 anonymous cpts_not_modified 0 0
+28-Jul-2014 23:00:17 136.152.37.31 *start_loading
+28-Jul-2014 23:00:17 136.152.37.31 *Browser_Information Mozilla/5.0 (Macintosh; Intel Mac OS X 10_9_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/36.0.1985.125 Safari/537.36
+28-Jul-2014 23:00:17 136.152.37.31 *done_loading_Images/Demo/1953_Pennsylvania_Pittsburgh_David_B_Oliver_22_5.jpg
+28-Jul-2014 23:00:25 136.152.37.31 *start_polygon
+28-Jul-2014 23:00:25 136.152.37.31 *What_is_this_object_query
+28-Jul-2014 23:00:28 Demo 1953_Pennsylvania_Pittsburgh_David_B_Oliver_22_5 2 3 136.152.37.31  sdfg 1 anonymous cpts_not_modified 0 0
+28-Jul-2014 23:01:38 136.152.37.31 *start_loading
+28-Jul-2014 23:01:38 136.152.37.31 *Browser_Information Mozilla/5.0 (Macintosh; Intel Mac OS X 10_9_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/36.0.1985.125 Safari/537.36
+28-Jul-2014 23:01:38 136.152.37.31 *done_loading_Images/Demo/1953_Pennsylvania_Pittsburgh_David_B_Oliver_22_5.jpg
+28-Jul-2014 23:15:31 136.152.37.31 *start_loading
+28-Jul-2014 23:15:31 136.152.37.31 *Browser_Information Mozilla/5.0 (Macintosh; Intel Mac OS X 10_9_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/36.0.1985.125 Safari/537.36
+28-Jul-2014 23:15:31 136.152.37.31 *done_loading_Images/Demo/1953_Pennsylvania_Pittsburgh_David_B_Oliver_22_5.jpg
+28-Jul-2014 23:16:48 136.152.37.31 *Browser_Information Mozilla/5.0 (Macintosh; Intel Mac OS X 10_9_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/36.0.1985.125 Safari/537.36
+28-Jul-2014 23:16:48 136.152.37.31 *start_loading
+28-Jul-2014 23:18:15 136.152.37.31 *start_loading
+28-Jul-2014 23:18:15 136.152.37.31 *Browser_Information Mozilla/5.0 (Macintosh; Intel Mac OS X 10_9_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/36.0.1985.125 Safari/537.36
+28-Jul-2014 23:18:15 136.152.37.31 *done_loading_Images/Demo/1953_Pennsylvania_Pittsburgh_David_B_Oliver_22_5.jpg
+28-Jul-2014 23:18:17 136.152.37.31 *start_polygon
+28-Jul-2014 23:18:18 136.152.37.31 *What_is_this_object_query
+28-Jul-2014 23:18:20 Demo 1953_Pennsylvania_Pittsburgh_David_B_Oliver_22_5 3 4 136.152.37.31  asdf 1 anonymous cpts_not_modified 0 0
+28-Jul-2014 23:18:36 136.152.37.31 *Browser_Information Mozilla/5.0 (Macintosh; Intel Mac OS X 10_9_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/36.0.1985.125 Safari/537.36
+28-Jul-2014 23:18:36 136.152.37.31 *start_loading
+28-Jul-2014 23:18:37 136.152.37.31 *done_loading_Images/Demo/1953_Pennsylvania_Pittsburgh_David_B_Oliver_22_5.jpg
+28-Jul-2014 23:19:34 136.152.37.31 *start_loading
+28-Jul-2014 23:19:34 136.152.37.31 *Browser_Information Mozilla/5.0 (Macintosh; Intel Mac OS X 10_9_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/36.0.1985.125 Safari/537.36
+28-Jul-2014 23:19:34 136.152.37.31 *done_loading_Images/Demo/1953_Pennsylvania_Pittsburgh_David_B_Oliver_22_5.jpg
+28-Jul-2014 23:19:47 136.152.37.31 *start_polygon
+28-Jul-2014 23:19:49 136.152.37.31 *What_is_this_object_query
+28-Jul-2014 23:23:05 136.152.37.31 *start_loading
+28-Jul-2014 23:23:05 136.152.37.31 *Browser_Information Mozilla/5.0 (Macintosh; Intel Mac OS X 10_9_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/36.0.1985.125 Safari/537.36
+28-Jul-2014 23:23:05 136.152.37.31 *done_loading_Images/Demo/1953_Pennsylvania_Pittsburgh_David_B_Oliver_22_5.jpg
+28-Jul-2014 23:36:12 136.152.37.31 *start_polygon
+28-Jul-2014 23:36:14 136.152.37.31 *What_is_this_object_query
+28-Jul-2014 23:42:21 136.152.37.31 *start_polygon
+28-Jul-2014 23:42:23 136.152.37.31 *What_is_this_object_query
+28-Jul-2014 23:42:28 136.152.37.31 *What_is_this_object_query
+29-Jul-2014 02:21:26 169.229.122.157 *Browser_Information Mozilla/5.0 (Macintosh; Intel Mac OS X 10_8_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/36.0.1985.125 Safari/537.36
+29-Jul-2014 02:21:26 169.229.122.157 *start_loading
+29-Jul-2014 02:23:37 169.229.122.157 *start_polygon
+29-Jul-2014 02:23:38 169.229.122.157 *What_is_this_object_query
+29-Jul-2014 02:23:48 Demo 1953_Pennsylvania_Pittsburgh_David_B_Oliver_22_5 4 5 169.229.122.157  hair 1 null cpts_not_modified 0 0
+29-Jul-2014 02:23:48 169.229.122.157 *start_polygon
+29-Jul-2014 02:23:54 169.229.122.157 *What_is_this_object_query
+29-Jul-2014 02:23:59 169.229.122.157 *start_polygon
+29-Jul-2014 02:24:02 169.229.122.157 *What_is_this_object_query
+29-Jul-2014 02:24:06 Demo 1953_Pennsylvania_Pittsburgh_David_B_Oliver_22_5 5 6 169.229.122.157  asd 2 null cpts_not_modified 0 0
+29-Jul-2014 17:26:42 136.152.36.163 *start_polygon
+29-Jul-2014 17:26:49 136.152.36.163 *What_is_this_object_query
+29-Jul-2014 17:27:03 136.152.36.163 *Browser_Information Mozilla/5.0 (Macintosh; Intel Mac OS X 10_9_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/36.0.1985.125 Safari/537.36
+29-Jul-2014 17:27:03 136.152.36.163 *start_loading
+29-Jul-2014 17:27:04 136.152.36.163 *done_loading_Images/Demo/1953_Pennsylvania_Pittsburgh_David_B_Oliver_22_5.jpg
+29-Jul-2014 20:31:10 136.152.36.163 *Browser_Information Mozilla/5.0 (Macintosh; Intel Mac OS X 10_9_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/36.0.1985.125 Safari/537.36
+29-Jul-2014 20:31:10 136.152.36.163 *start_loading
+29-Jul-2014 20:31:11 136.152.36.163 *done_loading_Images/Demo/1953_Pennsylvania_Pittsburgh_David_B_Oliver_22_5.jpg
+29-Jul-2014 20:31:26 136.152.36.163 *Browser_Information Mozilla/5.0 (Macintosh; Intel Mac OS X 10_9_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/36.0.1985.125 Safari/537.36
+29-Jul-2014 20:31:26 136.152.36.163 *start_loading
+29-Jul-2014 20:31:27 136.152.36.163 *start_loading
+29-Jul-2014 20:31:27 136.152.36.163 *Browser_Information Mozilla/5.0 (Macintosh; Intel Mac OS X 10_9_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/36.0.1985.125 Safari/537.36
+29-Jul-2014 20:31:28 136.152.36.163 *done_loading_Images/Demo/2001_Indiana_Evansville_Harrison_3_14.jpg
+29-Jul-2014 20:31:31 136.152.36.163 *Browser_Information Mozilla/5.0 (Macintosh; Intel Mac OS X 10_9_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/36.0.1985.125 Safari/537.36
+29-Jul-2014 20:31:31 136.152.36.163 *start_loading
+29-Jul-2014 20:31:32 136.152.36.163 *start_loading
+29-Jul-2014 20:31:32 136.152.36.163 *Browser_Information Mozilla/5.0 (Macintosh; Intel Mac OS X 10_9_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/36.0.1985.125 Safari/537.36
+29-Jul-2014 20:31:33 136.152.36.163 *done_loading_Images/example_folder/img2.jpg
+29-Jul-2014 20:32:09 136.152.36.163 *start_loading
+29-Jul-2014 20:32:09 136.152.36.163 *Browser_Information Mozilla/5.0 (Macintosh; Intel Mac OS X 10_9_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/36.0.1985.125 Safari/537.36
+29-Jul-2014 20:32:09 136.152.36.163 *done_loading_Images/example_folder/img2.jpg
+29-Jul-2014 20:37:16 136.152.36.163 *Browser_Information Mozilla/5.0 (Macintosh; Intel Mac OS X 10_9_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/36.0.1985.125 Safari/537.36
+29-Jul-2014 20:37:16 136.152.36.163 *start_loading
+29-Jul-2014 20:37:17 136.152.36.163 *done_loading_Images/example_folder/img2.jpg
+29-Jul-2014 20:37:26 136.152.36.163 *Browser_Information Mozilla/5.0 (Macintosh; Intel Mac OS X 10_9_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/36.0.1985.125 Safari/537.36
+29-Jul-2014 20:37:26 136.152.36.163 *start_loading
+29-Jul-2014 20:37:33 136.152.36.163 *Browser_Information Mozilla/5.0 (Macintosh; Intel Mac OS X 10_9_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/36.0.1985.125 Safari/537.36
+29-Jul-2014 20:37:33 136.152.36.163 *start_loading
+29-Jul-2014 20:37:34 136.152.36.163 *Browser_Information Mozilla/5.0 (Macintosh; Intel Mac OS X 10_9_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/36.0.1985.125 Safari/537.36
+29-Jul-2014 20:37:34 136.152.36.163 *start_loading
+29-Jul-2014 20:37:35 136.152.36.163 *done_loading_Images/example_folder/img2.jpg
+29-Jul-2014 20:37:38 136.152.36.163 *Browser_Information Mozilla/5.0 (Macintosh; Intel Mac OS X 10_9_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/36.0.1985.125 Safari/537.36
+29-Jul-2014 20:37:38 136.152.36.163 *start_loading
+29-Jul-2014 20:37:39 136.152.36.163 *start_loading
+29-Jul-2014 20:37:39 136.152.36.163 *Browser_Information Mozilla/5.0 (Macintosh; Intel Mac OS X 10_9_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/36.0.1985.125 Safari/537.36
+29-Jul-2014 20:37:52 136.152.36.163 *start_loading
+29-Jul-2014 20:37:52 136.152.36.163 *Browser_Information Mozilla/5.0 (Macintosh; Intel Mac OS X 10_9_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/36.0.1985.125 Safari/537.36
+29-Jul-2014 20:37:52 136.152.36.163 *done_loading_Images/Demo/2001_Indiana_Evansville_Harrison_3_14.jpg
+31-Jul-2014 20:34:55 136.152.39.85 *Browser_Information Mozilla/5.0 (Macintosh; Intel Mac OS X 10_9_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/36.0.1985.125 Safari/537.36
+31-Jul-2014 20:34:55 136.152.39.85 *start_loading
+31-Jul-2014 20:34:55 136.152.39.85 *done_loading_Images/Demo/2001_Indiana_Evansville_Harrison_3_14.jpg
+31-Jul-2014 20:56:17 136.152.39.85 *start_loading
+31-Jul-2014 20:56:17 136.152.39.85 *Browser_Information Mozilla/5.0 (Macintosh; Intel Mac OS X 10_9_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/36.0.1985.125 Safari/537.36
+31-Jul-2014 20:56:18 136.152.39.85 *done_loading_Images/Demo/2001_Indiana_Evansville_Harrison_3_14.jpg
+31-Jul-2014 20:57:42 136.152.39.85 *start_loading
+31-Jul-2014 20:57:42 136.152.39.85 *Browser_Information Mozilla/5.0 (Macintosh; Intel Mac OS X 10_9_4) AppleWebKit/537.77.4 (KHTML, like Gecko)
+31-Jul-2014 20:57:47 136.152.39.85 *start_polygon
+31-Jul-2014 20:57:50 136.152.39.85 *What_is_this_object_query
+31-Jul-2014 20:57:52 Demo 1919_Pennsylvania_Pittsburgh_South_3_1 1 2 136.152.39.85  XCV 1 null cpts_not_modified 0 0
+31-Jul-2014 21:00:58 136.152.39.85 *start_loading
+31-Jul-2014 21:00:58 136.152.39.85 *Browser_Information Mozilla/5.0 (Macintosh; Intel Mac OS X 10_9_4) AppleWebKit/537.77.4 (KHTML, like Gecko)
+31-Jul-2014 21:05:54 136.152.39.85 *Browser_Information Mozilla/5.0 (Macintosh; Intel Mac OS X 10_9_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/36.0.1985.125 Safari/537.36
+31-Jul-2014 21:05:54 136.152.39.85 *start_loading
+31-Jul-2014 21:05:54 136.152.39.85 *done_loading_Images/Demo/1919_Pennsylvania_Pittsburgh_South_3_1.jpg
+31-Jul-2014 21:05:56 136.152.39.85 *start_polygon
+31-Jul-2014 21:05:59 136.152.39.85 *What_is_this_object_query
+31-Jul-2014 21:06:03 Demo 1919_Pennsylvania_Pittsburgh_South_3_1 2 3 136.152.39.85  asdf 1 anonymous cpts_not_modified 0 0
+31-Jul-2014 21:06:16 136.152.39.85 *Browser_Information Mozilla/5.0 (Macintosh; Intel Mac OS X 10_9_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/36.0.1985.125 Safari/537.36
+31-Jul-2014 21:06:16 136.152.39.85 *start_loading
+31-Jul-2014 21:06:16 136.152.39.85 *done_loading_Images/Demo/1919_Pennsylvania_Pittsburgh_South_3_1.jpg
+31-Jul-2014 21:15:55 136.152.39.85 *start_loading
+31-Jul-2014 21:15:55 136.152.39.85 *Browser_Information Mozilla/5.0 (Macintosh; Intel Mac OS X 10_9_4) AppleWebKit/537.77.4 (KHTML, like Gecko)
+31-Jul-2014 21:15:56 136.152.39.85 *start_polygon
+31-Jul-2014 21:15:58 136.152.39.85 *What_is_this_object_query
+31-Jul-2014 21:16:00 Demo 1919_Pennsylvania_Pittsburgh_South_3_1 3 4 136.152.39.85  zczxv 1 null cpts_not_modified 0 0
+31-Jul-2014 22:22:51 136.152.39.85 *Browser_Information Mozilla/5.0 (Macintosh; Intel Mac OS X 10_9_4) AppleWebKit/537.77.4 (KHTML, like Gecko)
+31-Jul-2014 22:22:51 136.152.39.85 *start_loading
+31-Jul-2014 22:22:54 136.152.39.85 *start_polygon
+31-Jul-2014 22:22:55 136.152.39.85 *What_is_this_object_query
+31-Jul-2014 22:22:57 Demo 1919_Pennsylvania_Pittsburgh_South_3_1 4 5 136.152.39.85  asdf 1 null cpts_not_modified 0 0
+06-Aug-2014 19:51:25 136.152.39.151 *Browser_Information Mozilla/5.0 (Macintosh; Intel Mac OS X 10_9_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/36.0.1985.125 Safari/537.36
+06-Aug-2014 19:51:25 136.152.39.151 *start_loading
+06-Aug-2014 19:51:28 136.152.39.151 *start_polygon
+06-Aug-2014 19:51:29 136.152.39.151 *What_is_this_object_query
+06-Aug-2014 19:51:32 Demo 2001_Indiana_Evansville_Harrison_3_14 0 1 136.152.39.151  eye 1 null cpts_not_modified 0 0
+07-Aug-2014 18:03:18 136.152.37.217 *start_loading
+07-Aug-2014 18:03:18 136.152.37.217 *Browser_Information Mozilla/5.0 (Macintosh; Intel Mac OS X 10_9_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/36.0.1985.125 Safari/537.36
+07-Aug-2014 18:03:23 136.152.37.217 *start_polygon
+07-Aug-2014 18:03:25 136.152.37.217 *What_is_this_object_query
+07-Aug-2014 18:03:28 Demo 1997_Indiana_Evansville_Harrison_6_8 0 1 136.152.37.217  xcv 1 null cpts_not_modified 0 0
+08-Aug-2014 01:15:15 136.152.39.188 *start_polygon
+08-Aug-2014 01:15:16 136.152.39.188 *What_is_this_object_query
+08-Aug-2014 01:15:22 Demo 2001_Indiana_Evansville_Harrison_3_14 1 2 136.152.39.188  lkj 2 null cpts_not_modified 0 0
+08-Aug-2014 18:42:34 136.152.39.187 *Browser_Information Mozilla/5.0 (Macintosh; Intel Mac OS X 10_9_4) AppleWebKit/537.77.4 (KHTML, like Gecko)
+08-Aug-2014 18:42:34 136.152.39.187 *start_loading
+08-Aug-2014 18:42:36 136.152.39.187 *start_polygon
+08-Aug-2014 18:42:39 136.152.39.187 *What_is_this_object_query
+08-Aug-2014 18:42:41 Test2 img3 1 2 136.152.39.187  asdf 1 null cpts_not_modified 0 0
+08-Aug-2014 18:54:42 136.152.39.187 *Browser_Information Mozilla/5.0 (Macintosh; Intel Mac OS X 10_9_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/36.0.1985.125 Safari/537.36
+08-Aug-2014 18:54:42 136.152.39.187 *start_loading
+08-Aug-2014 18:54:47 136.152.39.187 *start_polygon
+08-Aug-2014 18:54:53 136.152.39.187 *What_is_this_object_query
+08-Aug-2014 18:55:03 Test2 img1 1 2 136.152.39.187  Hair 1 null cpts_not_modified 0 0
+08-Aug-2014 18:58:28 136.152.39.187 *Browser_Information Mozilla/5.0 (Macintosh; Intel Mac OS X 10_9_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/36.0.1985.125 Safari/537.36
+08-Aug-2014 18:58:28 136.152.39.187 *start_loading
+08-Aug-2014 19:11:28 136.152.39.187 *Browser_Information Mozilla/5.0 (Macintosh; Intel Mac OS X 10_9_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/36.0.1985.125 Safari/537.36
+08-Aug-2014 19:11:28 136.152.39.187 *start_loading
+08-Aug-2014 19:12:42 136.152.39.187 *Browser_Information Mozilla/5.0 (Macintosh; Intel Mac OS X 10_9_4) AppleWebKit/537.77.4 (KHTML, like Gecko) Version/7.0.5 Safari/537.77.4
+08-Aug-2014 19:12:42 136.152.39.187 *start_loading
+08-Aug-2014 19:12:47 136.152.39.187 *start_polygon
+08-Aug-2014 19:12:49 136.152.39.187 *What_is_this_object_query
+08-Aug-2014 19:12:50 Demo 2001_Indiana_Evansville_Harrison_3_14 2 3 136.152.39.187  asdf 1 null cpts_not_modified 0 0
+08-Aug-2014 19:13:11 136.152.39.187 *Browser_Information Mozilla/5.0 (Macintosh; Intel Mac OS X 10_9_4) AppleWebKit/537.77.4 (KHTML, like Gecko) Version/7.0.5 Safari/537.77.4
+08-Aug-2014 19:13:11 136.152.39.187 *start_loading
+08-Aug-2014 19:13:15 136.152.39.187 *start_polygon
+08-Aug-2014 19:13:17 136.152.39.187 *What_is_this_object_query
+08-Aug-2014 19:13:19 Demo 2004_Indiana_Evansville_Harrison_16_17 1 2 136.152.39.187  face 1 null cpts_not_modified 0 0
+08-Aug-2014 19:19:42 136.152.39.187 *Browser_Information Mozilla/5.0 (Macintosh; Intel Mac OS X 10_9_4) AppleWebKit/537.77.4 (KHTML, like Gecko) Version/7.0.5 Safari/537.77.4
+08-Aug-2014 19:19:42 136.152.39.187 *start_loading
+08-Aug-2014 19:19:44 136.152.39.187 *start_polygon
+08-Aug-2014 19:19:45 136.152.39.187 *What_is_this_object_query
+08-Aug-2014 19:19:48 Demo 1933_Pennsylvania_Pittsburgh_South_2_13 2 3 136.152.39.187  mouth 1 null cpts_not_modified 0 0
+08-Aug-2014 19:19:54 136.152.39.187 *Browser_Information Mozilla/5.0 (Macintosh; Intel Mac OS X 10_9_4) AppleWebKit/537.77.4 (KHTML, like Gecko) Version/7.0.5 Safari/537.77.4
+08-Aug-2014 19:19:54 136.152.39.187 *start_loading
+08-Aug-2014 19:19:55 136.152.39.187 *start_polygon
+08-Aug-2014 19:20:00 136.152.39.187 *What_is_this_object_query
+08-Aug-2014 19:20:30 136.152.39.187 *start_loading
+08-Aug-2014 19:20:30 136.152.39.187 *Browser_Information Mozilla/5.0 (Macintosh; Intel Mac OS X 10_9_4) AppleWebKit/537.77.4 (KHTML, like Gecko) Version/7.0.5 Safari/537.77.4
+08-Aug-2014 19:20:32 136.152.39.187 *start_polygon
+08-Aug-2014 19:20:34 136.152.39.187 *What_is_this_object_query
+08-Aug-2014 19:22:13 136.152.39.187 *start_loading
+08-Aug-2014 19:22:13 136.152.39.187 *Browser_Information Mozilla/5.0 (Macintosh; Intel Mac OS X 10_9_4) AppleWebKit/537.77.4 (KHTML, like Gecko) Version/7.0.5 Safari/537.77.4
+08-Aug-2014 19:22:14 136.152.39.187 *start_polygon
+08-Aug-2014 19:22:15 136.152.39.187 *What_is_this_object_query
+08-Aug-2014 19:24:59 136.152.39.187 *Browser_Information Mozilla/5.0 (Macintosh; Intel Mac OS X 10_9_4) AppleWebKit/537.77.4 (KHTML, like Gecko) Version/7.0.5 Safari/537.77.4
+08-Aug-2014 19:24:59 136.152.39.187 *start_loading
+08-Aug-2014 19:25:01 136.152.39.187 *start_polygon
+08-Aug-2014 19:25:03 136.152.39.187 *What_is_this_object_query
+08-Aug-2014 19:25:05 Demo 1975_Texas_Houston_Milby_2_11 4 5 136.152.39.187  ADSF 1 null cpts_not_modified 1 1
+08-Aug-2014 19:25:20 136.152.39.187 *Browser_Information Mozilla/5.0 (Macintosh; Intel Mac OS X 10_9_4) AppleWebKit/537.77.4 (KHTML, like Gecko) Version/7.0.5 Safari/537.77.4
+08-Aug-2014 19:25:20 136.152.39.187 *start_loading
+08-Aug-2014 19:25:21 136.152.39.187 *start_polygon
+08-Aug-2014 19:25:23 136.152.39.187 *What_is_this_object_query
+08-Aug-2014 19:25:26 Demo 1970_Pennsylvania_Pittsburgh_North_Hills_17_4 1 2 136.152.39.187  ASDF 1 null cpts_not_modified 0 0
+08-Aug-2014 19:25:33 136.152.39.187 *Browser_Information Mozilla/5.0 (Macintosh; Intel Mac OS X 10_9_4) AppleWebKit/537.77.4 (KHTML, like Gecko) Version/7.0.5 Safari/537.77.4
+08-Aug-2014 19:25:33 136.152.39.187 *start_loading
+08-Aug-2014 19:25:34 136.152.39.187 *start_polygon
+08-Aug-2014 19:25:38 136.152.39.187 *What_is_this_object_query
+08-Aug-2014 19:25:40 Demo 1997_Indiana_Evansville_Harrison_6_8 1 2 136.152.39.187  ASDF 1 null cpts_not_modified 0 0
+08-Aug-2014 19:25:46 136.152.39.187 *Browser_Information Mozilla/5.0 (Macintosh; Intel Mac OS X 10_9_4) AppleWebKit/537.77.4 (KHTML, like Gecko) Version/7.0.5 Safari/537.77.4
+08-Aug-2014 19:25:46 136.152.39.187 *start_loading
+08-Aug-2014 19:25:48 136.152.39.187 *start_polygon
+08-Aug-2014 19:25:50 136.152.39.187 *What_is_this_object_query
+08-Aug-2014 19:25:52 Demo 1919_Pennsylvania_Pittsburgh_South_3_1 5 6 136.152.39.187  ASDF 1 null cpts_not_modified 0 0
+08-Aug-2014 19:26:07 136.152.39.187 *Browser_Information Mozilla/5.0 (Macintosh; Intel Mac OS X 10_9_4) AppleWebKit/537.77.4 (KHTML, like Gecko) Version/7.0.5 Safari/537.77.4
+08-Aug-2014 19:26:07 136.152.39.187 *start_loading
+08-Aug-2014 19:26:09 136.152.39.187 *start_polygon
+08-Aug-2014 19:26:10 136.152.39.187 *What_is_this_object_query
+08-Aug-2014 19:26:13 Demo 1925_North_Carolina_Lincolnton_Lincolnton_14_9 1 2 136.152.39.187  SF 1 null cpts_not_modified 0 0
+08-Aug-2014 19:26:24 136.152.39.187 *Browser_Information Mozilla/5.0 (Macintosh; Intel Mac OS X 10_9_4) AppleWebKit/537.77.4 (KHTML, like Gecko) Version/7.0.5 Safari/537.77.4
+08-Aug-2014 19:26:24 136.152.39.187 *start_loading
+08-Aug-2014 19:26:26 136.152.39.187 *start_polygon
+08-Aug-2014 19:26:30 136.152.39.187 *What_is_this_object_query
+08-Aug-2014 19:26:32 Demo 1945_Texas_Houston_Milby_4_9 0 1 136.152.39.187  ASDF 1 null cpts_not_modified 0 0
+08-Aug-2014 19:26:35 136.152.39.187 *Browser_Information Mozilla/5.0 (Macintosh; Intel Mac OS X 10_9_4) AppleWebKit/537.77.4 (KHTML, like Gecko) Version/7.0.5 Safari/537.77.4
+08-Aug-2014 19:26:35 136.152.39.187 *start_loading
+08-Aug-2014 19:26:36 136.152.39.187 *start_polygon
+08-Aug-2014 19:26:38 136.152.39.187 *What_is_this_object_query
+08-Aug-2014 19:26:39 Demo 1953_Pennsylvania_Pittsburgh_David_B_Oliver_22_5 6 7 136.152.39.187  ASDF 1 null cpts_not_modified 0 0
+08-Aug-2014 19:26:42 136.152.39.187 *start_loading
+08-Aug-2014 19:26:42 136.152.39.187 *Browser_Information Mozilla/5.0 (Macintosh; Intel Mac OS X 10_9_4) AppleWebKit/537.77.4 (KHTML, like Gecko) Version/7.0.5 Safari/537.77.4
+08-Aug-2014 19:26:44 136.152.39.187 *start_polygon
+08-Aug-2014 19:26:46 136.152.39.187 *What_is_this_object_query
+08-Aug-2014 19:26:47 Demo 2004_Indiana_Evansville_Harrison_16_17 2 3 136.152.39.187  ASDF 1 null cpts_not_modified 0 0
+08-Aug-2014 19:26:51 136.152.39.187 *Browser_Information Mozilla/5.0 (Macintosh; Intel Mac OS X 10_9_4) AppleWebKit/537.77.4 (KHTML, like Gecko) Version/7.0.5 Safari/537.77.4
+08-Aug-2014 19:26:51 136.152.39.187 *start_loading
+08-Aug-2014 19:26:52 136.152.39.187 *start_polygon
+08-Aug-2014 19:26:53 136.152.39.187 *What_is_this_object_query
+08-Aug-2014 19:26:55 Demo 1926_Texas_Houston_Milby_3_98 0 1 136.152.39.187  XZCV 1 null cpts_not_modified 0 0
+08-Aug-2014 19:26:59 136.152.39.187 *Browser_Information Mozilla/5.0 (Macintosh; Intel Mac OS X 10_9_4) AppleWebKit/537.77.4 (KHTML, like Gecko) Version/7.0.5 Safari/537.77.4
+08-Aug-2014 19:26:59 136.152.39.187 *start_loading
+08-Aug-2014 19:27:00 136.152.39.187 *start_polygon
+08-Aug-2014 19:27:03 136.152.39.187 *What_is_this_object_query
+08-Aug-2014 19:27:04 Demo 1923_Pennsylvania_Pittsburgh_Allegheny_7_4 0 1 136.152.39.187  WER 1 null cpts_not_modified 0 0
+08-Aug-2014 19:27:07 136.152.39.187 *Browser_Information Mozilla/5.0 (Macintosh; Intel Mac OS X 10_9_4) AppleWebKit/537.77.4 (KHTML, like Gecko) Version/7.0.5 Safari/537.77.4
+08-Aug-2014 19:27:07 136.152.39.187 *start_loading
+08-Aug-2014 19:27:13 136.152.39.187 *start_polygon
+08-Aug-2014 19:27:15 136.152.39.187 *What_is_this_object_query
+08-Aug-2014 19:27:17 Demo 1939_Texas_Houston_Milby_2_15 0 1 136.152.39.187  ASDF 1 null cpts_not_modified 0 0
+08-Aug-2014 19:27:21 136.152.39.187 *start_loading
+08-Aug-2014 19:27:21 136.152.39.187 *Browser_Information Mozilla/5.0 (Macintosh; Intel Mac OS X 10_9_4) AppleWebKit/537.77.4 (KHTML, like Gecko) Version/7.0.5 Safari/537.77.4
+08-Aug-2014 19:27:23 136.152.39.187 *start_polygon
+08-Aug-2014 19:27:25 136.152.39.187 *What_is_this_object_query
+08-Aug-2014 19:27:27 Test2 img2 12 13 136.152.39.187  ASDF 1 null cpts_not_modified 1 1
+08-Aug-2014 19:27:31 136.152.39.187 *start_loading
+08-Aug-2014 19:27:31 136.152.39.187 *Browser_Information Mozilla/5.0 (Macintosh; Intel Mac OS X 10_9_4) AppleWebKit/537.77.4 (KHTML, like Gecko) Version/7.0.5 Safari/537.77.4
+08-Aug-2014 19:27:32 136.152.39.187 *start_polygon
+08-Aug-2014 19:27:33 136.152.39.187 *What_is_this_object_query
+08-Aug-2014 19:27:35 Demo 1975_Texas_Houston_Milby_2_11 5 6 136.152.39.187  SDF 1 null cpts_not_modified 1 1
+08-Aug-2014 19:27:38 136.152.39.187 *start_loading
+08-Aug-2014 19:27:38 136.152.39.187 *Browser_Information Mozilla/5.0 (Macintosh; Intel Mac OS X 10_9_4) AppleWebKit/537.77.4 (KHTML, like Gecko) Version/7.0.5 Safari/537.77.4
+08-Aug-2014 19:35:48 136.152.39.187 *Browser_Information Mozilla/5.0 (Macintosh; Intel Mac OS X 10_9_4) AppleWebKit/537.77.4 (KHTML, like Gecko) Version/7.0.5 Safari/537.77.4
+08-Aug-2014 19:35:48 136.152.39.187 *start_loading
+08-Aug-2014 19:35:49 136.152.39.187 *start_polygon
+08-Aug-2014 19:35:50 136.152.39.187 *What_is_this_object_query
+08-Aug-2014 19:35:53 Demo 1992_Indiana_Evansville_Harrison_11_18 15 16 136.152.39.187  zxcv 1 null cpts_not_modified 0 0
+08-Aug-2014 19:35:55 136.152.39.187 *Browser_Information Mozilla/5.0 (Macintosh; Intel Mac OS X 10_9_4) AppleWebKit/537.77.4 (KHTML, like Gecko) Version/7.0.5 Safari/537.77.4
+08-Aug-2014 19:35:55 136.152.39.187 *start_loading
+08-Aug-2014 19:35:56 136.152.39.187 *start_polygon
+08-Aug-2014 19:35:57 136.152.39.187 *What_is_this_object_query
+08-Aug-2014 19:35:58 Demo 2005_Indiana_Evansville_Harrison_20_24 0 1 136.152.39.187  zxcv 1 null cpts_not_modified 0 0
+08-Aug-2014 19:36:02 136.152.39.187 *start_loading
+08-Aug-2014 19:36:02 136.152.39.187 *Browser_Information Mozilla/5.0 (Macintosh; Intel Mac OS X 10_9_4) AppleWebKit/537.77.4 (KHTML, like Gecko) Version/7.0.5 Safari/537.77.4
+08-Aug-2014 19:36:03 136.152.39.187 *start_polygon
+08-Aug-2014 19:36:04 136.152.39.187 *What_is_this_object_query
+08-Aug-2014 19:36:05 Demo 1945_Texas_Houston_Milby_4_9 1 2 136.152.39.187  asdf 1 null cpts_not_modified 0 0
+08-Aug-2014 19:37:13 136.152.39.187 *start_loading
+08-Aug-2014 19:37:13 136.152.39.187 *Browser_Information Mozilla/5.0 (Macintosh; Intel Mac OS X 10_9_4) AppleWebKit/537.77.4 (KHTML, like Gecko) Version/7.0.5 Safari/537.77.4
+08-Aug-2014 19:37:16 136.152.39.187 *start_polygon
+08-Aug-2014 19:37:20 136.152.39.187 *What_is_this_object_query
+08-Aug-2014 19:37:22 Test2 img2 13 14 136.152.39.187  sdf 1 null cpts_not_modified 1 1
+08-Aug-2014 19:37:29 136.152.39.187 *start_loading
+08-Aug-2014 19:37:29 136.152.39.187 *Browser_Information Mozilla/5.0 (Macintosh; Intel Mac OS X 10_9_4) AppleWebKit/537.77.4 (KHTML, like Gecko) Version/7.0.5 Safari/537.77.4
+08-Aug-2014 19:37:30 136.152.39.187 *start_polygon
+08-Aug-2014 19:37:33 136.152.39.187 *What_is_this_object_query
+08-Aug-2014 19:37:36 136.152.39.187 *start_polygon
+08-Aug-2014 19:37:37 136.152.39.187 *What_is_this_object_query
+08-Aug-2014 19:37:38 136.152.39.187 *start_polygon
+08-Aug-2014 19:37:39 136.152.39.187 *What_is_this_object_query
+08-Aug-2014 19:37:40 136.152.39.187 *start_polygon
+08-Aug-2014 19:37:41 136.152.39.187 *What_is_this_object_query
+08-Aug-2014 19:37:43 136.152.39.187 *start_polygon
+08-Aug-2014 19:37:43 136.152.39.187 *What_is_this_object_query
+08-Aug-2014 19:37:45 136.152.39.187 *start_polygon
+08-Aug-2014 19:37:46 136.152.39.187 *What_is_this_object_query
+08-Aug-2014 19:37:47 136.152.39.187 *start_polygon
+08-Aug-2014 19:37:48 136.152.39.187 *What_is_this_object_query
+08-Aug-2014 19:37:49 136.152.39.187 *start_polygon
+08-Aug-2014 19:37:50 136.152.39.187 *What_is_this_object_query
+08-Aug-2014 19:37:51 136.152.39.187 *start_polygon
+08-Aug-2014 19:37:52 136.152.39.187 *What_is_this_object_query
+08-Aug-2014 19:37:56 Test2 img4 7 8 136.152.39.187  blah 1 null cpts_not_modified 0 0
+08-Aug-2014 19:38:03 136.152.39.187 *Browser_Information Mozilla/5.0 (Macintosh; Intel Mac OS X 10_9_4) AppleWebKit/537.77.4 (KHTML, like Gecko) Version/7.0.5 Safari/537.77.4
+08-Aug-2014 19:38:03 136.152.39.187 *start_loading
+08-Aug-2014 19:38:04 136.152.39.187 *start_polygon
+08-Aug-2014 19:38:05 136.152.39.187 *What_is_this_object_query
+08-Aug-2014 19:38:07 Test2 img1 2 3 136.152.39.187  derp 1 null cpts_not_modified 0 0
+08-Aug-2014 19:38:12 136.152.39.187 *start_loading
+08-Aug-2014 19:38:12 136.152.39.187 *Browser_Information Mozilla/5.0 (Macintosh; Intel Mac OS X 10_9_4) AppleWebKit/537.77.4 (KHTML, like Gecko) Version/7.0.5 Safari/537.77.4
+08-Aug-2014 19:38:14 136.152.39.187 *start_polygon
+08-Aug-2014 19:38:15 136.152.39.187 *What_is_this_object_query
+08-Aug-2014 19:38:16 Test2 img3 2 3 136.152.39.187  eye 1 null cpts_not_modified 0 0
+08-Aug-2014 19:41:18 136.152.39.187 *Browser_Information Mozilla/5.0 (Macintosh; Intel Mac OS X 10_9_4) AppleWebKit/537.77.4 (KHTML, like Gecko) Version/7.0.5 Safari/537.77.4
+08-Aug-2014 19:41:18 136.152.39.187 *start_loading
+08-Aug-2014 19:41:19 136.152.39.187 *start_polygon
+08-Aug-2014 19:41:20 136.152.39.187 *What_is_this_object_query
+08-Aug-2014 19:41:22 Test2 img3 3 4 136.152.39.187  eye 1 null cpts_not_modified 0 0
+08-Aug-2014 19:41:26 136.152.39.187 *start_loading
+08-Aug-2014 19:41:26 136.152.39.187 *Browser_Information Mozilla/5.0 (Macintosh; Intel Mac OS X 10_9_4) AppleWebKit/537.77.4 (KHTML, like Gecko) Version/7.0.5 Safari/537.77.4
+08-Aug-2014 19:41:27 136.152.39.187 *start_polygon
+08-Aug-2014 19:41:28 136.152.39.187 *What_is_this_object_query
+08-Aug-2014 19:41:30 Test2 img1 3 4 136.152.39.187  eyebrow 1 null cpts_not_modified 0 0
+08-Aug-2014 19:41:34 136.152.39.187 *start_loading
+08-Aug-2014 19:41:34 136.152.39.187 *Browser_Information Mozilla/5.0 (Macintosh; Intel Mac OS X 10_9_4) AppleWebKit/537.77.4 (KHTML, like Gecko) Version/7.0.5 Safari/537.77.4
+08-Aug-2014 19:41:35 136.152.39.187 *start_polygon
+08-Aug-2014 19:41:36 136.152.39.187 *What_is_this_object_query
+08-Aug-2014 19:41:38 Test2 img4 8 9 136.152.39.187  mouth 1 null cpts_not_modified 0 0
+08-Aug-2014 19:41:41 136.152.39.187 *start_loading
+08-Aug-2014 19:41:41 136.152.39.187 *Browser_Information Mozilla/5.0 (Macintosh; Intel Mac OS X 10_9_4) AppleWebKit/537.77.4 (KHTML, like Gecko) Version/7.0.5 Safari/537.77.4
+08-Aug-2014 19:41:42 136.152.39.187 *start_polygon
+08-Aug-2014 19:41:44 136.152.39.187 *What_is_this_object_query
+08-Aug-2014 19:41:45 Test2 img2 14 15 136.152.39.187  nose 1 null cpts_not_modified 1 1
+08-Aug-2014 19:43:21 136.152.39.187 *Browser_Information Mozilla/5.0 (Macintosh; Intel Mac OS X 10_9_4) AppleWebKit/537.77.4 (KHTML, like Gecko) Version/7.0.5 Safari/537.77.4
+08-Aug-2014 19:43:21 136.152.39.187 *start_loading
+08-Aug-2014 20:03:30 136.152.39.187 *start_loading
+08-Aug-2014 20:03:30 136.152.39.187 *Browser_Information Mozilla/5.0 (Macintosh; Intel Mac OS X 10_9_4) AppleWebKit/537.77.4 (KHTML, like Gecko) Version/7.0.5 Safari/537.77.4
+08-Aug-2014 20:03:58 136.152.39.187 *Browser_Information Mozilla/5.0 (Macintosh; Intel Mac OS X 10_9_4) AppleWebKit/537.77.4 (KHTML, like Gecko) Version/7.0.5 Safari/537.77.4
+08-Aug-2014 20:03:58 136.152.39.187 *start_loading
+08-Aug-2014 20:03:59 136.152.39.187 *start_polygon
+08-Aug-2014 20:04:00 136.152.39.187 *What_is_this_object_query
+08-Aug-2014 20:04:04 Test2 img3 4 5 136.152.39.187  eye 1 null cpts_not_modified 0 0
+08-Aug-2014 20:04:49 136.152.39.187 *start_polygon
+08-Aug-2014 20:04:50 136.152.39.187 *What_is_this_object_query
+08-Aug-2014 20:04:52 Test2 img3 5 6 136.152.39.187  cheek 1 null cpts_not_modified 0 0
+08-Aug-2014 20:04:55 136.152.39.187 *start_polygon
+08-Aug-2014 20:04:56 136.152.39.187 *What_is_this_object_query
+08-Aug-2014 20:05:04 136.152.39.187 *start_polygon
+08-Aug-2014 20:05:05 136.152.39.187 *What_is_this_object_query
+08-Aug-2014 20:05:11 Test2 img3 6 7 136.152.39.187  other_cheek 2 null cpts_not_modified 0 0
+08-Aug-2014 20:13:53 136.152.39.187 *start_loading
+08-Aug-2014 20:13:53 136.152.39.187 *Browser_Information Mozilla/5.0 (Macintosh; Intel Mac OS X 10_9_4) AppleWebKit/537.77.4 (KHTML, like Gecko) Version/7.0.5 Safari/537.77.4
+08-Aug-2014 20:13:54 136.152.39.187 *start_polygon
+08-Aug-2014 20:13:56 136.152.39.187 *What_is_this_object_query
+08-Aug-2014 20:14:03 Test2 img2 15 16 136.152.39.187  can_you_see_this_decade_ 1 null cpts_not_modified 1 1
+08-Aug-2014 20:14:15 136.152.39.187 *start_loading
+08-Aug-2014 20:14:15 136.152.39.187 *Browser_Information Mozilla/5.0 (Macintosh; Intel Mac OS X 10_9_4) AppleWebKit/537.77.4 (KHTML, like Gecko) Version/7.0.5 Safari/537.77.4
+08-Aug-2014 20:14:16 136.152.39.187 *start_polygon
+08-Aug-2014 20:14:17 136.152.39.187 *What_is_this_object_query
+08-Aug-2014 20:14:24 Test2 img4 9 10 136.152.39.187  can_you_view_this_ 1 null cpts_not_modified 0 0
+08-Aug-2014 20:14:28 136.152.39.187 *Browser_Information Mozilla/5.0 (Macintosh; Intel Mac OS X 10_9_4) AppleWebKit/537.77.4 (KHTML, like Gecko) Version/7.0.5 Safari/537.77.4
+08-Aug-2014 20:14:28 136.152.39.187 *start_loading
+08-Aug-2014 20:14:30 136.152.39.187 *start_polygon
+08-Aug-2014 20:14:31 136.152.39.187 *What_is_this_object_query
+08-Aug-2014 20:14:35 Test2 img3 7 8 136.152.39.187  this_is_a_test 1 null cpts_not_modified 0 0
+08-Aug-2014 20:14:39 136.152.39.187 *Browser_Information Mozilla/5.0 (Macintosh; Intel Mac OS X 10_9_4) AppleWebKit/537.77.4 (KHTML, like Gecko) Version/7.0.5 Safari/537.77.4
+08-Aug-2014 20:14:39 136.152.39.187 *start_loading
+08-Aug-2014 20:14:40 136.152.39.187 *start_polygon
+08-Aug-2014 20:14:41 136.152.39.187 *What_is_this_object_query
+08-Aug-2014 20:14:49 Test2 img1 4 5 136.152.39.187  testing_123 1 null cpts_not_modified 0 0
+08-Aug-2014 20:45:53 136.152.39.187 *Browser_Information Mozilla/5.0 (Macintosh; Intel Mac OS X 10_9_4) AppleWebKit/537.77.4 (KHTML, like Gecko) Version/7.0.5 Safari/537.77.4
+08-Aug-2014 20:45:53 136.152.39.187 *start_loading
+08-Aug-2014 20:45:55 136.152.39.187 *start_polygon
+08-Aug-2014 20:45:57 136.152.39.187 *What_is_this_object_query
+08-Aug-2014 20:46:05 Test2 img1 5 6 136.152.39.187  nose 1 null cpts_not_modified 0 0
+08-Aug-2014 21:32:48 136.152.39.187 *Browser_Information Mozilla/5.0 (Macintosh; Intel Mac OS X 10_9_4) AppleWebKit/537.77.4 (KHTML, like Gecko) Version/7.0.5 Safari/537.77.4
+08-Aug-2014 21:32:48 136.152.39.187 *start_loading
+08-Aug-2014 22:09:31 136.152.39.187 *Browser_Information Mozilla/5.0 (Macintosh; Intel Mac OS X 10_9_4) AppleWebKit/537.77.4 (KHTML, like Gecko) Version/7.0.5 Safari/537.77.4
+08-Aug-2014 22:09:31 136.152.39.187 *start_loading
+08-Aug-2014 22:09:38 136.152.39.187 *start_loading
+08-Aug-2014 22:09:38 136.152.39.187 *Browser_Information Mozilla/5.0 (Macintosh; Intel Mac OS X 10_9_4) AppleWebKit/537.77.4 (KHTML, like Gecko) Version/7.0.5 Safari/537.77.4
+08-Aug-2014 22:09:43 136.152.39.187 *start_polygon
+08-Aug-2014 22:10:00 136.152.39.187 *What_is_this_object_query
+08-Aug-2014 22:11:14 136.152.39.187 *start_polygon
+08-Aug-2014 22:11:16 136.152.39.187 *What_is_this_object_query
+08-Aug-2014 22:13:10 136.152.39.187 *Browser_Information Mozilla/5.0 (Macintosh; Intel Mac OS X 10_9_4) AppleWebKit/537.77.4 (KHTML, like Gecko) Version/7.0.5 Safari/537.77.4
+08-Aug-2014 22:13:10 136.152.39.187 *start_loading
+08-Aug-2014 22:13:11 136.152.39.187 *start_polygon
+08-Aug-2014 22:13:12 136.152.39.187 *What_is_this_object_query
+08-Aug-2014 22:14:03 136.152.39.187 *start_loading
+08-Aug-2014 22:14:03 136.152.39.187 *Browser_Information Mozilla/5.0 (Macintosh; Intel Mac OS X 10_9_4) AppleWebKit/537.77.4 (KHTML, like Gecko) Version/7.0.5 Safari/537.77.4
+08-Aug-2014 22:14:04 136.152.39.187 *start_polygon
+08-Aug-2014 22:14:05 136.152.39.187 *What_is_this_object_query
+08-Aug-2014 22:17:09 136.152.39.187 *start_polygon
+08-Aug-2014 22:17:33 136.152.39.187 *start_polygon
+08-Aug-2014 22:17:58 136.152.39.187 *What_is_this_object_query
+08-Aug-2014 22:18:06 Test2 img4 10 11 136.152.39.187  Hair 1 null cpts_not_modified 0 0
+08-Aug-2014 22:19:58 136.152.39.187 *start_polygon
+08-Aug-2014 22:27:03 136.152.39.187 *start_loading
+08-Aug-2014 22:27:03 136.152.39.187 *Browser_Information Mozilla/5.0 (Macintosh; Intel Mac OS X 10_9_4) AppleWebKit/537.77.4 (KHTML, like Gecko) Version/7.0.5 Safari/537.77.4
+08-Aug-2014 22:27:05 136.152.39.187 *start_polygon
+08-Aug-2014 22:27:13 136.152.39.187 *What_is_this_object_query
+08-Aug-2014 22:27:24 Test2 img4 11 12 136.152.39.187  lk 1 null cpts_not_modified 0 0
+08-Aug-2014 22:28:27 136.152.39.187 *start_loading
+08-Aug-2014 22:28:27 136.152.39.187 *Browser_Information Mozilla/5.0 (Macintosh; Intel Mac OS X 10_9_4) AppleWebKit/537.77.4 (KHTML, like Gecko) Version/7.0.5 Safari/537.77.4
+08-Aug-2014 22:30:25 136.152.39.187 *start_loading
+08-Aug-2014 22:30:25 136.152.39.187 *Browser_Information Mozilla/5.0 (Macintosh; Intel Mac OS X 10_9_4) AppleWebKit/537.77.4 (KHTML, like Gecko) Version/7.0.5 Safari/537.77.4
+08-Aug-2014 22:30:36 136.152.39.187 *start_polygon
+08-Aug-2014 22:30:53 136.152.39.187 *What_is_this_object_query
+08-Aug-2014 22:30:54 Test2 img4 12 13 136.152.39.187  iuwyerdf 1 null cpts_not_modified 0 0
+08-Aug-2014 22:31:10 136.152.39.187 *Browser_Information Mozilla/5.0 (Macintosh; Intel Mac OS X 10_9_4) AppleWebKit/537.77.4 (KHTML, like Gecko) Version/7.0.5 Safari/537.77.4
+08-Aug-2014 22:31:10 136.152.39.187 *start_loading
+08-Aug-2014 22:31:13 136.152.39.187 *start_polygon
+08-Aug-2014 22:31:24 136.152.39.187 *start_polygon
+08-Aug-2014 22:31:29 136.152.39.187 *What_is_this_object_query
+08-Aug-2014 22:31:36 136.152.39.187 *start_polygon
+08-Aug-2014 22:32:02 136.152.39.187 *What_is_this_object_query
+08-Aug-2014 22:32:07 136.152.39.187 *start_polygon
+08-Aug-2014 22:32:29 136.152.39.187 *What_is_this_object_query
+08-Aug-2014 22:32:35 Test2 img2 16 17 136.152.39.187  Hair 1 null cpts_not_modified 1 1
+08-Aug-2014 22:34:17 136.152.39.187 *start_loading
+08-Aug-2014 22:34:17 136.152.39.187 *Browser_Information Mozilla/5.0 (Macintosh; Intel Mac OS X 10_9_4) AppleWebKit/537.77.4 (KHTML, like Gecko) Version/7.0.5 Safari/537.77.4
+08-Aug-2014 22:34:19 136.152.39.187 *start_polygon
+08-Aug-2014 22:34:22 136.152.39.187 *What_is_this_object_query
+08-Aug-2014 22:34:25 Test2 img2 17 18 136.152.39.187  sdf 1 null cpts_not_modified 1 1
+08-Aug-2014 22:36:35 136.152.39.187 *start_loading
+08-Aug-2014 22:36:35 136.152.39.187 *Browser_Information Mozilla/5.0 (Macintosh; Intel Mac OS X 10_9_4) AppleWebKit/537.77.4 (KHTML, like Gecko) Version/7.0.5 Safari/537.77.4
+08-Aug-2014 22:36:36 136.152.39.187 *start_polygon
+08-Aug-2014 22:36:42 136.152.39.187 *start_loading
+08-Aug-2014 22:36:42 136.152.39.187 *Browser_Information Mozilla/5.0 (Macintosh; Intel Mac OS X 10_9_4) AppleWebKit/537.77.4 (KHTML, like Gecko) Version/7.0.5 Safari/537.77.4
+08-Aug-2014 22:36:48 136.152.39.187 *Browser_Information Mozilla/5.0 (Macintosh; Intel Mac OS X 10_9_4) AppleWebKit/537.77.4 (KHTML, like Gecko) Version/7.0.5 Safari/537.77.4
+08-Aug-2014 22:36:48 136.152.39.187 *start_loading
+08-Aug-2014 22:36:53 136.152.39.187 *start_polygon
+08-Aug-2014 22:37:16 136.152.39.187 *start_polygon
+08-Aug-2014 22:37:24 136.152.39.187 *What_is_this_object_query
+08-Aug-2014 22:37:34 Test2 img3 8 9 136.152.39.187  Smile 1 null cpts_not_modified 0 0
+08-Aug-2014 22:38:55 136.152.39.187 *start_loading
+08-Aug-2014 22:38:55 136.152.39.187 *Browser_Information Mozilla/5.0 (Macintosh; Intel Mac OS X 10_9_4) AppleWebKit/537.77.4 (KHTML, like Gecko) Version/7.0.5 Safari/537.77.4
+08-Aug-2014 22:39:02 136.152.39.187 *start_polygon
+08-Aug-2014 22:39:20 136.152.39.187 *start_polygon
+08-Aug-2014 22:39:28 136.152.39.187 *What_is_this_object_query
+08-Aug-2014 22:39:32 Test2 img3 9 10 136.152.39.187  smile 1 null cpts_not_modified 0 0
+08-Aug-2014 22:46:07 136.152.39.187 *Browser_Information Mozilla/5.0 (Macintosh; Intel Mac OS X 10_9_4) AppleWebKit/537.77.4 (KHTML, like Gecko) Version/7.0.5 Safari/537.77.4
+08-Aug-2014 22:46:07 136.152.39.187 *start_loading
+08-Aug-2014 22:46:24 136.152.39.187 *start_polygon
+08-Aug-2014 22:46:27 136.152.39.187 *What_is_this_object_query
+08-Aug-2014 22:46:29 Test2 img3 10 11 136.152.39.187  face 1 null cpts_not_modified 0 0
+08-Aug-2014 22:58:51 136.152.39.187 *start_loading
+08-Aug-2014 22:58:51 136.152.39.187 *Browser_Information Mozilla/5.0 (Macintosh; Intel Mac OS X 10_9_4) AppleWebKit/537.77.4 (KHTML, like Gecko) Version/7.0.5 Safari/537.77.4
+08-Aug-2014 22:58:57 136.152.39.187 *start_polygon
+08-Aug-2014 22:58:58 136.152.39.187 *What_is_this_object_query
+08-Aug-2014 22:59:00 Test2 img1 6 7 136.152.39.187  wert 1 null cpts_not_modified 0 0
