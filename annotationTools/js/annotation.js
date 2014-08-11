@@ -155,6 +155,10 @@ function annotation(anno_id) {
         return $(LM_xml).children("annotation").children("object").eq(this.anno_id).children("decade").text();
     };
 
+this.GetAge = function() {
+        return $(LM_xml).children("annotation").children("object").eq(this.anno_id).children("age").text();
+    };
+
     this.GetAttributes = function() {
         return $(LM_xml).children("annotation").children("object").eq(this.anno_id).children("attributes").text();
     };

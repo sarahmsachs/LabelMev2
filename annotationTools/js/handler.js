@@ -48,7 +48,10 @@ function handler() {
 
   if (document.getElementById('decade')) new_decade = RemoveSpecialChars(document.getElementById('decade').value);
   else new_decade = RemoveSpecialChars(adjust_decade);
-	
+
+if (document.getElementById('age')) new_age = RemoveSpecialChars(document.getElementById('age').value);
+  else new_age = RemoveSpecialChars(adjust_age);
+		
 	// attributes field
 	//if(document.getElementById('attributes')) new_attributes = RemoveSpecialChars(document.getElementById('attributes').value);
 	//else new_attributes = RemoveSpecialChars(adjust_attributes);
@@ -79,7 +82,10 @@ function handler() {
 
       if(curr_obj.children("decade").length>0) curr_obj.children("dec").text(new_decade);
       else curr_obj.append("<decade>" + new_decade + "</decade>");
-        
+
+	if(curr_obj.children("age").length>0) curr_obj.children("age").text(new_age);
+      else curr_obj.append("<age>" + new_age + "</age>");      
+  
       if(editedControlPoints) {
 	for(var jj=0; jj < AllAnnotations[obj_ndx].GetPtsX().length; jj++) {
 	  curr_obj.children("polygon").children("pt").eq(jj).children("x").text(AllAnnotations[obj_ndx].GetPtsX()[jj]);
@@ -221,7 +227,10 @@ function handler() {
 	// get quality field (is the field exists)
 	if (document.getElementById('quality')) new_quality = RemoveSpecialChars(document.getElementById('quality').value);
 	else new_quality = "";
-  
+
+if (document.getElementById('age')) new_age = RemoveSpecialChars(document.getElementById('age').value);
+  else new_age = ""; 
+ 
   if (document.getElementById('decade')) new_decade = RemoveSpecialChars(document.getElementById('decade').value);
   else new_decade = "";
       
@@ -270,7 +279,8 @@ function handler() {
       html_str += '<verified>0</verified>';
       if(use_attributes) {
 	html_str += '<quality>' + new_quality + '</quality>';
-  html_str += '<decade>' + new_decade + '</decade>';
+html_str += '<age>' + new_age + '</age>';  
+html_str += '<decade>' + new_decade + '</decade>';
 	html_str += '<attributes>' + new_attributes + '</attributes>';
       }
       html_str += '<parts><hasparts></hasparts><ispartof></ispartof></parts>';

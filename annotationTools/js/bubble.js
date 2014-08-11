@@ -116,6 +116,9 @@ function CloseEditPopup() {
 // ****************************
 
 function GetPopupFormDraw() {
+html_str= "<b> Select what age range you are in.</b> <br />";
+  html_str += HTMLageBox("");
+html_str += '<br />';
   html_str = "<b>Enter the aspect of the image that you selected</b><br />";  
 html_str += HTMLobjectBox("");
   html_str += '<br />';
@@ -174,8 +177,12 @@ function GetPopupFormEdit(anno) {
   var attributes = anno.GetAttributes();
   var quality = anno.GetQuality();
   var decade = anno.GetDecade();
+  var age = anno.GetAge();
  // var parts = anno.GetParts();
-
+html_str= "<b> Select what age range you are in.</b> <br />";
+  
+html_str += HTMLageBox(age);
+ html_str += "<br />";
  html_str = "<b>Enter the aspect of the image that you selected</b><br />";
  html_str += HTMLobjectBox(obj_name);
  html_str += "<br />";
@@ -261,7 +268,144 @@ function HTMLobjectBox(obj_name) {
   return html_str;
 }
 
+function HTMLageBox(age) {
+var html_str="";
+var html_str="";
+// the value of the selection is inside a hidden field:
+  html_str += "<br />";
+  html_str += 'Select what age range you are in. <input type="hidden" name="age" id="age" value="'+age+'"/>';
+  
+  //set default age 18-19
 
+  if (!(age=="20-29" || age=="30-39"|| age=="40-49"|| age=="50-59"|| age=="60-69"|| age=="70-79"|| age=="80-89"|| age=="90+")) {
+    age="18-19";
+  }
+
+  // generate radio button
+  if (age='18-19'){
+   html_str += '<input type="radio" name="rbage" id="rbage" value="18-19" checked="yes" onclick="document.getElementById(\'age\').value=\'18-19\';" />18-19';
+   html_str += '<input type="radio" name="rbage" id="rbage" value="20-29" onclick="document.getElementById(\'age\').value=\'20-29\';" />20-29';
+   html_str += '<input type="radio" name="rbage" id="rbage" value="30-39" onclick="document.getElementById(\'age\').value=\'30-39\';" />30-39';
+   html_str += "<br />";
+   html_str += '<input type="radio" name="rbage" id="rbage" value="40-49" onclick="document.getElementById(\'age\').value=\'40-49\';" />40-49';
+   html_str += '<input type="radio" name="rbage" id="rbage" value="50-59" onclick="document.getElementById(\'age\').value=\'50-59\';" />50-59';
+   html_str += '<input type="radio" name="rbage" id="rbage" value="60-69" onclick="document.getElementById(\'age\').value=\'60-69\';" />60-69';
+   html_str += "<br />";
+   html_str += '<input type="radio" name="rbage" id="rbage" value="70-79" onclick="document.getElementById(\'age\').value=\'70-79\';" />70-79';
+   html_str += '<input type="radio" name="rbage" id="rbage" value="80-89" onclick="document.getElementById(\'age\').value=\'80-89\';" />80-89';
+   html_str += '<input type="radio" name="rbage" id="rbage" value="90+" onclick="document.getElementById(\'age\').value=\'90+\';" />90+';
+ }
+   else if (age=='20-29'){
+   html_str += '<input type="radio" name="rbage" id="rbage" value="18-19" onclick="document.getElementById(\'age\').value=\'18-19\';" />18-19';
+   html_str += '<input type="radio" name="rbage" id="rbage" value="20-29" chekced"yes" onclick="document.getElementById(\'age\').value=\'20-29\';" />20-29';
+   html_str += '<input type="radio" name="rbage" id="rbage" value="30-39" onclick="document.getElementById(\'age\').value=\'30-39\';" />30-39';
+   html_str += "<br />";
+   html_str += '<input type="radio" name="rbage" id="rbage" value="40-49" onclick="document.getElementById(\'age\').value=\'40-49\';" />40-49';
+   html_str += '<input type="radio" name="rbage" id="rbage" value="50-59" onclick="document.getElementById(\'age\').value=\'50-59\';" />50-59';
+   html_str += '<input type="radio" name="rbage" id="rbage" value="60-69" onclick="document.getElementById(\'age\').value=\'60-69\';" />60-69';
+   html_str += "<br />";
+   html_str += '<input type="radio" name="rbage" id="rbage" value="70-79" onclick="document.getElementById(\'age\').value=\'70-79\';" />70-79';
+   html_str += '<input type="radio" name="rbage" id="rbage" value="80-89" onclick="document.getElementById(\'age\').value=\'80-89\';" />80-89';
+   html_str += '<input type="radio" name="rbage" id="rbage" value="90+" onclick="document.getElementById(\'age\').value=\'90+\';" />90+';  
+ }
+
+ else if (age=='30-39'){
+   html_str += '<input type="radio" name="rbage" id="rbage" value="18-19" onclick="document.getElementById(\'age\').value=\'18-19\';" />18-19';
+   html_str += '<input type="radio" name="rbage" id="rbage" value="20-29" onclick="document.getElementById(\'age\').value=\'20-29\';" />20-29';
+   html_str += '<input type="radio" name="rbage" id="rbage" value="30-39" checked="yes" onclick="document.getElementById(\'age\').value=\'30-39\';" />30-39';
+   html_str += "<br />";
+   html_str += '<input type="radio" name="rbage" id="rbage" value="40-49" onclick="document.getElementById(\'age\').value=\'40-49\';" />40-49';
+   html_str += '<input type="radio" name="rbage" id="rbage" value="50-59" onclick="document.getElementById(\'age\').value=\'50-59\';" />50-59';
+   html_str += '<input type="radio" name="rbage" id="rbage" value="60-69" onclick="document.getElementById(\'age\').value=\'60-69\';" />60-69';
+   html_str += "<br />";
+   html_str += '<input type="radio" name="rbage" id="rbage" value="70-79" onclick="document.getElementById(\'age\').value=\'70-79\';" />70-79';
+   html_str += '<input type="radio" name="rbage" id="rbage" value="80-89" onclick="document.getElementById(\'age\').value=\'80-89\';" />80-89';
+   html_str += '<input type="radio" name="rbage" id="rbage" value="90+" onclick="document.getElementById(\'age\').value=\'90+\';" />90+';  
+ }
+
+ else if (age=='40-49'){
+   html_str += '<input type="radio" name="rbage" id="rbage" value="18-19" onclick="document.getElementById(\'age\').value=\'18-19\';" />18-19';
+   html_str += '<input type="radio" name="rbage" id="rbage" value="20-29" onclick="document.getElementById(\'age\').value=\'20-29\';" />20-29';
+   html_str += '<input type="radio" name="rbage" id="rbage" value="30-39" onclick="document.getElementById(\'age\').value=\'30-39\';" />30-39';
+   html_str += "<br />";
+   html_str += '<input type="radio" name="rbage" id="rbage" value="40-49" checked="yes" onclick="document.getElementById(\'age\').value=\'40-49\';" />40-49';
+   html_str += '<input type="radio" name="rbage" id="rbage" value="50-59" onclick="document.getElementById(\'age\').value=\'50-59\';" />50-59';
+   html_str += '<input type="radio" name="rbage" id="rbage" value="60-69" onclick="document.getElementById(\'age\').value=\'60-69\';" />60-69';
+   html_str += "<br />";
+   html_str += '<input type="radio" name="rbage" id="rbage" value="70-79" onclick="document.getElementById(\'age\').value=\'70-79\';" />70-79';
+   html_str += '<input type="radio" name="rbage" id="rbage" value="80-89" onclick="document.getElementById(\'age\').value=\'80-89\';" />80-89';
+   html_str += '<input type="radio" name="rbage" id="rbage" value="90+" onclick="document.getElementById(\'age\').value=\'90+\';" />90+';  
+ }
+ else if (age=='50-59'){
+   html_str += '<input type="radio" name="rbage" id="rbage" value="18-19" onclick="document.getElementById(\'age\').value=\'18-19\';" />18-19';
+   html_str += '<input type="radio" name="rbage" id="rbage" value="20-29" onclick="document.getElementById(\'age\').value=\'20-29\';" />20-29';
+   html_str += '<input type="radio" name="rbage" id="rbage" value="30-39" onclick="document.getElementById(\'age\').value=\'30-39\';" />30-39';
+   html_str += "<br />";
+   html_str += '<input type="radio" name="rbage" id="rbage" value="40-49" onclick="document.getElementById(\'age\').value=\'40-49\';" />40-49';
+   html_str += '<input type="radio" name="rbage" id="rbage" value="50-59" checked="yes" onclick="document.getElementById(\'age\').value=\'50-59\';" />50-59';
+   html_str += '<input type="radio" name="rbage" id="rbage" value="60-69" onclick="document.getElementById(\'age\').value=\'60-69\';" />60-69';
+   html_str += "<br />";
+   html_str += '<input type="radio" name="rbage" id="rbage" value="70-79" onclick="document.getElementById(\'age\').value=\'70-79\';" />70-79';
+   html_str += '<input type="radio" name="rbage" id="rbage" value="80-89" onclick="document.getElementById(\'age\').value=\'80-89\';" />80-89';
+   html_str += '<input type="radio" name="rbage" id="rbage" value="90+" onclick="document.getElementById(\'age\').value=\'90+\';" />90+';  
+ }
+
+ else if (age=='60-69'){
+   html_str += '<input type="radio" name="rbage" id="rbage" value="18-19" onclick="document.getElementById(\'age\').value=\'18-19\';" />18-19';
+   html_str += '<input type="radio" name="rbage" id="rbage" value="20-29" onclick="document.getElementById(\'age\').value=\'20-29\';" />20-29';
+   html_str += '<input type="radio" name="rbage" id="rbage" value="30-39" onclick="document.getElementById(\'age\').value=\'30-39\';" />30-39';
+   html_str += "<br />";
+   html_str += '<input type="radio" name="rbage" id="rbage" value="40-49" onclick="document.getElementById(\'age\').value=\'40-49\';" />40-49';
+   html_str += '<input type="radio" name="rbage" id="rbage" value="50-59" onclick="document.getElementById(\'age\').value=\'50-59\';" />50-59';
+   html_str += '<input type="radio" name="rbage" id="rbage" value="60-69" checked="yes" onclick="document.getElementById(\'age\').value=\'60-69\';" />60-69';
+   html_str += "<br />";
+   html_str += '<input type="radio" name="rbage" id="rbage" value="70-79" onclick="document.getElementById(\'age\').value=\'70-79\';" />70-79';
+   html_str += '<input type="radio" name="rbage" id="rbage" value="80-89" onclick="document.getElementById(\'age\').value=\'80-89\';" />80-89';
+   html_str += '<input type="radio" name="rbage" id="rbage" value="90+" onclick="document.getElementById(\'age\').value=\'90+\';" />90+';  
+ }
+
+  else if (age=='70-79'){
+   html_str += '<input type="radio" name="rbage" id="rbage" value="18-19" onclick="document.getElementById(\'age\').value=\'18-19\';" />18-19';
+   html_str += '<input type="radio" name="rbage" id="rbage" value="20-29" onclick="document.getElementById(\'age\').value=\'20-29\';" />20-29';
+   html_str += '<input type="radio" name="rbage" id="rbage" value="30-39" onclick="document.getElementById(\'age\').value=\'30-39\';" />30-39';
+   html_str += "<br />";
+   html_str += '<input type="radio" name="rbage" id="rbage" value="40-49" onclick="document.getElementById(\'age\').value=\'40-49\';" />40-49';
+   html_str += '<input type="radio" name="rbage" id="rbage" value="50-59" onclick="document.getElementById(\'age\').value=\'50-59\';" />50-59';
+   html_str += '<input type="radio" name="rbage" id="rbage" value="60-69" onclick="document.getElementById(\'age\').value=\'60-69\';" />60-69';
+   html_str += "<br />";
+   html_str += '<input type="radio" name="rbage" id="rbage" value="70-79" checked="yes" onclick="document.getElementById(\'age\').value=\'70-79\';" />70-79';
+   html_str += '<input type="radio" name="rbage" id="rbage" value="80-89" onclick="document.getElementById(\'age\').value=\'80-89\';" />80-89';
+   html_str += '<input type="radio" name="rbage" id="rbage" value="90+" onclick="document.getElementById(\'age\').value=\'90+\';" />90+';  
+ }
+  else if (age=='80-89'){
+   html_str += '<input type="radio" name="rbage" id="rbage" value="18-19" onclick="document.getElementById(\'age\').value=\'18-19\';" />18-19';
+   html_str += '<input type="radio" name="rbage" id="rbage" value="20-29" onclick="document.getElementById(\'age\').value=\'20-29\';" />20-29';
+   html_str += '<input type="radio" name="rbage" id="rbage" value="30-39" onclick="document.getElementById(\'age\').value=\'30-39\';" />30-39';
+   html_str += "<br />";
+   html_str += '<input type="radio" name="rbage" id="rbage" value="40-49" onclick="document.getElementById(\'age\').value=\'40-49\';" />40-49';
+   html_str += '<input type="radio" name="rbage" id="rbage" value="50-59" onclick="document.getElementById(\'age\').value=\'50-59\';" />50-59';
+   html_str += '<input type="radio" name="rbage" id="rbage" value="60-69" onclick="document.getElementById(\'age\').value=\'60-69\';" />60-69';
+   html_str += "<br />";
+   html_str += '<input type="radio" name="rbage" id="rbage" value="70-79" onclick="document.getElementById(\'age\').value=\'70-79\';" />70-79';
+   html_str += '<input type="radio" name="rbage" id="rbage" value="80-89" checked="yes" onclick="document.getElementById(\'age\').value=\'80-89\';" />80-89';
+   html_str += '<input type="radio" name="rbage" id="rbage" value="90+" onclick="document.getElementById(\'age\').value=\'90+\';" />90+';  
+ }
+  else if (age=='90+'){
+   html_str += '<input type="radio" name="rbage" id="rbage" value="18-19" onclick="document.getElementById(\'age\').value=\'18-19\';" />18-19';
+   html_str += '<input type="radio" name="rbage" id="rbage" value="20-29" onclick="document.getElementById(\'age\').value=\'20-29\';" />20-29';
+   html_str += '<input type="radio" name="rbage" id="rbage" value="30-39" onclick="document.getElementById(\'age\').value=\'30-39\';" />30-39';
+   html_str += "<br />";
+   html_str += '<input type="radio" name="rbage" id="rbage" value="40-49" onclick="document.getElementById(\'age\').value=\'40-49\';" />40-49';
+   html_str += '<input type="radio" name="rbage" id="rbage" value="50-59" onclick="document.getElementById(\'age\').value=\'50-59\';" />50-59';
+   html_str += '<input type="radio" name="rbage" id="rbage" value="60-69" onclick="document.getElementById(\'age\').value=\'60-69\';" />60-69';
+   html_str += "<br />";
+   html_str += '<input type="radio" name="rbage" id="rbage" value="70-79" onclick="document.getElementById(\'age\').value=\'70-79\';" />70-79';
+   html_str += '<input type="radio" name="rbage" id="rbage" value="80-89" onclick="document.getElementById(\'age\').value=\'80-89\';" />80-89';
+   html_str += '<input type="radio" name="rbage" id="rbage" value="90+" checked="yes" onclick="document.getElementById(\'age\').value=\'90+\';" />90+';  
+ }
+html_str += '<br />';
+  return html_str;
+}
 function HTMLdecadeBox(decade) {
   var html_str="";
   var html_str="";
