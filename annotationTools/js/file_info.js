@@ -195,10 +195,10 @@ function file_info() {
             }
             if(this.mode=='mt') {
                 if(!this.mt_instructions) {
-                    if(mt_N=='inf') this.mt_instructions = 'Draw a polygon around the part of the image that most indicates which decade it was taken in. <br /> Then, you will be asked what decade you think the image was taken in.';
-                    else if(mt_N==1) this.mt_instructions = 'Draw a polygon around the part of the image that most indicates which decade it was taken in. <br /> Then, you will be asked what decade you think the image was taken in.';
-                    else this.mt_instructions = 'Please label the aspect of this image that is most indicative of the decade you think it was taken in.';
-                }
+                    if(mt_N=='inf') this.mt_instructions = 'Draw a polygon around the part of the image that most indicates which decade it was taken in. <br /> Then, you will be asked to tell us your age and what decade you think the image was taken in.';
+                    else if(mt_N==1) this.mt_instructions = 'Draw a polygon around the part of the image that most indicates which decade it was taken in. <br /> Then, you will be asked to tell us your age and what decade you think the image was taken in.';
+                    else this.mt_instructions = 'Draw a polygon around the part of the image that most indicates which decade it was taken in. <br /> Then, you will be asked to tell us your age and what decade you think the image was taken in.';
+                        }
                 if(mt_N=='inf') mt_N = 1;
                 
                 var html_str = '<table><tr><td><font size="4"><b>' + this.mt_instructions + '  Scroll down to see the entire image. &#160;&#160;&#160; </b></font></td><td><form action="' + externalSubmitURL + '"><input type="hidden" id="assignmentId" name="assignmentId" value="'+ this.assignmentId +'" /><input type="hidden" id="number_objects" name="number_objects" value="" /><input type="hidden" id="object_name" name="object_name" value="" /><input type="hidden" id="LMurl" name="LMurl" value="" /><input type="hidden" id="mt_comments" name="mt_comments" value="" /><input disabled="true" type="submit" id="mt_submit" name="Submit" value="Submit HIT" onmousedown="javascript:document.getElementById(\'mt_comments\').value=document.getElementById(\'mt_comments_textbox\').value;" /></form></td></tr></table>';

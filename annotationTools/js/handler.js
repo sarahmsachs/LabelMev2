@@ -48,6 +48,9 @@ function handler() {
 
   if (document.getElementById('decade')) new_decade = RemoveSpecialChars(document.getElementById('decade').value);
   else new_decade = RemoveSpecialChars(adjust_decade);
+
+  if (document.getElementById('age')) new_age = RemoveSpecialChars(document.getElementById('age').value);
+  else new_age = RemoveSpecialChars(adjust_age);
 	
 	// attributes field
 	//if(document.getElementById('attributes')) new_attributes = RemoveSpecialChars(document.getElementById('attributes').value);
@@ -77,8 +80,11 @@ function handler() {
       if(curr_obj.children("quality").length>0) curr_obj.children("quality").text(new_quality);
       else curr_obj.append("<quality>" + new_quality + "</quality>");
 
-      if(curr_obj.children("decade").length>0) curr_obj.children("dec").text(new_decade);
+      if(curr_obj.children("decade").length>0) curr_obj.children("decade").text(new_decade);
       else curr_obj.append("<decade>" + new_decade + "</decade>");
+
+      if(curr_obj.children("age").length>0) curr_obj.children("age").text(new_decade);
+      else curr_obj.append("<age>" + new_decade + "</age>");
         
       if(editedControlPoints) {
 	for(var jj=0; jj < AllAnnotations[obj_ndx].GetPtsX().length; jj++) {
@@ -224,6 +230,10 @@ function handler() {
   
   if (document.getElementById('decade')) new_decade = RemoveSpecialChars(document.getElementById('decade').value);
   else new_decade = "";
+
+  if (document.getElementById('age')) new_age = RemoveSpecialChars(document.getElementById('age').value);
+  else new_age = "";
+      
       
       }
       
@@ -271,6 +281,7 @@ function handler() {
       if(use_attributes) {
 	html_str += '<quality>' + new_quality + '</quality>';
   html_str += '<decade>' + new_decade + '</decade>';
+  html_str += '<age>' + new_age + '</age>';
 	html_str += '<attributes>' + new_attributes + '</attributes>';
       }
       html_str += '<parts><hasparts></hasparts><ispartof></ispartof></parts>';
