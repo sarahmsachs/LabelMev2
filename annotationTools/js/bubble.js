@@ -17,7 +17,7 @@ function CreatePopupBubble(left,top,innerHTML,dom_attach) {
   if (left < 5) left = 5;
   
   // Select the vertical position of the bubble decoration arrow
-  if (top > 300) {
+  if (top > 400) {
     html_str  = '<div class= "bubble" id="' + bubble_name + '" style="position:absolute;z-index:5; left:' + left + 'px; top:' + top + 'px;">';
   }
   else {
@@ -34,7 +34,7 @@ function CreatePopupBubble(left,top,innerHTML,dom_attach) {
   $('#'+dom_attach).append(html_str);
   
   // Place bubble in the right location taking into account the rendered size and the location of the arrow
-  if(top > 300) {  
+  if(top > 400) {  
     h = $('#'+bubble_name).height();
     document.getElementById(bubble_name).style.top = (top-h-80) + 'px';
     //document.getElementById(bubble_name).style.top = (top-h) + 'px';
@@ -116,10 +116,9 @@ function CloseEditPopup() {
 // ****************************
 
 function GetPopupFormDraw() {
-html_str= "<b> Select what age range you are in.</b> <br />";
-  html_str += HTMLageBox("");
+  html_str = HTMLageBox("");
 html_str += '<br />';
-  html_str = "<b>Enter the aspect of the image that you selected</b><br />";  
+  html_str += "<b>Enter the aspect of the image that you selected</b><br />";  
 html_str += HTMLobjectBox("");
   html_str += '<br />';
   html_str += HTMLdecadeBox("");
@@ -179,11 +178,9 @@ function GetPopupFormEdit(anno) {
   var decade = anno.GetDecade();
   var age = anno.GetAge();
  // var parts = anno.GetParts();
-html_str= "<b> Select what age range you are in.</b> <br />";
-  
-html_str += HTMLageBox(age);
+html_str = HTMLageBox(age);
  html_str += "<br />";
- html_str = "<b>Enter the aspect of the image that you selected</b><br />";
+ html_str += "<b>Enter the aspect of the image that you selected</b><br />";
  html_str += HTMLobjectBox(obj_name);
  html_str += "<br />";
  html_str += HTMLdecadeBox(decade);
@@ -269,12 +266,12 @@ function HTMLobjectBox(obj_name) {
 }
 
 function HTMLageBox(age) {
-var html_str="";
-var html_str="";
-// the value of the selection is inside a hidden field:
+  var html_str="";
+  var html_str="";
+  // the value of the selection is inside a hidden field:
   html_str += "<br />";
-  html_str += 'Select what age range you are in. <input type="hidden" name="age" id="age" value="'+age+'"/>';
-  
+  html_str += '<b>Select your age range. <br /> </b> <input type="hidden" name="age" id="age" value="'+age+'"/>';
+
   //set default age 18-19
 
   if (!(age=="20-29" || age=="30-39"|| age=="40-49"|| age=="50-59"|| age=="60-69"|| age=="70-79"|| age=="80-89"|| age=="90+")) {
@@ -295,7 +292,8 @@ var html_str="";
    html_str += '<input type="radio" name="rbage" id="rbage" value="80-89" onclick="document.getElementById(\'age\').value=\'80-89\';" />80-89';
    html_str += '<input type="radio" name="rbage" id="rbage" value="90+" onclick="document.getElementById(\'age\').value=\'90+\';" />90+';
  }
-   else if (age=='20-29'){
+
+  else if (age=='20-29'){
    html_str += '<input type="radio" name="rbage" id="rbage" value="18-19" onclick="document.getElementById(\'age\').value=\'18-19\';" />18-19';
    html_str += '<input type="radio" name="rbage" id="rbage" value="20-29" chekced"yes" onclick="document.getElementById(\'age\').value=\'20-29\';" />20-29';
    html_str += '<input type="radio" name="rbage" id="rbage" value="30-39" onclick="document.getElementById(\'age\').value=\'30-39\';" />30-39';
@@ -309,7 +307,7 @@ var html_str="";
    html_str += '<input type="radio" name="rbage" id="rbage" value="90+" onclick="document.getElementById(\'age\').value=\'90+\';" />90+';  
  }
 
- else if (age=='30-39'){
+  else if (age=='30-39'){
    html_str += '<input type="radio" name="rbage" id="rbage" value="18-19" onclick="document.getElementById(\'age\').value=\'18-19\';" />18-19';
    html_str += '<input type="radio" name="rbage" id="rbage" value="20-29" onclick="document.getElementById(\'age\').value=\'20-29\';" />20-29';
    html_str += '<input type="radio" name="rbage" id="rbage" value="30-39" checked="yes" onclick="document.getElementById(\'age\').value=\'30-39\';" />30-39';
@@ -323,7 +321,7 @@ var html_str="";
    html_str += '<input type="radio" name="rbage" id="rbage" value="90+" onclick="document.getElementById(\'age\').value=\'90+\';" />90+';  
  }
 
- else if (age=='40-49'){
+  else if (age=='40-49'){
    html_str += '<input type="radio" name="rbage" id="rbage" value="18-19" onclick="document.getElementById(\'age\').value=\'18-19\';" />18-19';
    html_str += '<input type="radio" name="rbage" id="rbage" value="20-29" onclick="document.getElementById(\'age\').value=\'20-29\';" />20-29';
    html_str += '<input type="radio" name="rbage" id="rbage" value="30-39" onclick="document.getElementById(\'age\').value=\'30-39\';" />30-39';
@@ -336,7 +334,7 @@ var html_str="";
    html_str += '<input type="radio" name="rbage" id="rbage" value="80-89" onclick="document.getElementById(\'age\').value=\'80-89\';" />80-89';
    html_str += '<input type="radio" name="rbage" id="rbage" value="90+" onclick="document.getElementById(\'age\').value=\'90+\';" />90+';  
  }
- else if (age=='50-59'){
+  else if (age=='50-59'){
    html_str += '<input type="radio" name="rbage" id="rbage" value="18-19" onclick="document.getElementById(\'age\').value=\'18-19\';" />18-19';
    html_str += '<input type="radio" name="rbage" id="rbage" value="20-29" onclick="document.getElementById(\'age\').value=\'20-29\';" />20-29';
    html_str += '<input type="radio" name="rbage" id="rbage" value="30-39" onclick="document.getElementById(\'age\').value=\'30-39\';" />30-39';
@@ -350,7 +348,7 @@ var html_str="";
    html_str += '<input type="radio" name="rbage" id="rbage" value="90+" onclick="document.getElementById(\'age\').value=\'90+\';" />90+';  
  }
 
- else if (age=='60-69'){
+  else if (age=='60-69'){
    html_str += '<input type="radio" name="rbage" id="rbage" value="18-19" onclick="document.getElementById(\'age\').value=\'18-19\';" />18-19';
    html_str += '<input type="radio" name="rbage" id="rbage" value="20-29" onclick="document.getElementById(\'age\').value=\'20-29\';" />20-29';
    html_str += '<input type="radio" name="rbage" id="rbage" value="30-39" onclick="document.getElementById(\'age\').value=\'30-39\';" />30-39';
@@ -403,9 +401,11 @@ var html_str="";
    html_str += '<input type="radio" name="rbage" id="rbage" value="80-89" onclick="document.getElementById(\'age\').value=\'80-89\';" />80-89';
    html_str += '<input type="radio" name="rbage" id="rbage" value="90+" checked="yes" onclick="document.getElementById(\'age\').value=\'90+\';" />90+';  
  }
-html_str += '<br />';
-  return html_str;
+  html_str += '<br />';
+ return html_str;
 }
+
+
 function HTMLdecadeBox(decade) {
   var html_str="";
   var html_str="";

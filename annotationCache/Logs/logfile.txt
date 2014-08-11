@@ -1851,3 +1851,62 @@
 08-Aug-2014 22:58:57 136.152.39.187 *start_polygon
 08-Aug-2014 22:58:58 136.152.39.187 *What_is_this_object_query
 08-Aug-2014 22:59:00 Test2 img1 6 7 136.152.39.187  wert 1 null cpts_not_modified 0 0
+11-Aug-2014 19:02:23 136.152.39.33 *Browser_Information Mozilla/5.0 (Macintosh; Intel Mac OS X 10_9_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/36.0.1985.125 Safari/537.36
+11-Aug-2014 19:02:23 136.152.39.33 *start_loading
+11-Aug-2014 19:02:27 136.152.39.33 *start_polygon
+11-Aug-2014 19:02:28 136.152.39.33 *What_is_this_object_query
+11-Aug-2014 19:09:30 136.152.39.33 *Browser_Information Mozilla/5.0 (Macintosh; Intel Mac OS X 10_9_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/36.0.1985.125 Safari/537.36
+11-Aug-2014 19:09:30 136.152.39.33 *start_loading
+11-Aug-2014 19:09:31 136.152.39.33 *start_polygon
+11-Aug-2014 19:09:32 136.152.39.33 *What_is_this_object_query
+11-Aug-2014 19:09:41 136.152.39.33 *start_polygon
+11-Aug-2014 19:09:43 136.152.39.33 *What_is_this_object_query
+11-Aug-2014 19:09:44 Demo 2001_Indiana_Evansville_Harrison_3_14 3 4 136.152.39.33  dfsfg 1 null cpts_not_modified 0 0
+11-Aug-2014 19:09:48 136.152.39.33 *start_polygon
+11-Aug-2014 19:26:14 136.152.39.33 *Browser_Information Mozilla/5.0 (Macintosh; Intel Mac OS X 10_9_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/36.0.1985.125 Safari/537.36
+11-Aug-2014 19:26:14 136.152.39.33 *start_loading
+11-Aug-2014 19:26:16 136.152.39.33 *start_polygon
+11-Aug-2014 19:26:17 136.152.39.33 *What_is_this_object_query
+11-Aug-2014 19:38:09 136.152.39.33 *Browser_Information Mozilla/5.0 (Macintosh; Intel Mac OS X 10_9_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/36.0.1985.125 Safari/537.36
+11-Aug-2014 19:38:09 136.152.39.33 *start_loading
+11-Aug-2014 19:38:10 136.152.39.33 *start_polygon
+11-Aug-2014 19:38:11 136.152.39.33 *What_is_this_object_query
+11-Aug-2014 19:52:41 136.152.39.33 *Browser_Information Mozilla/5.0 (Macintosh; Intel Mac OS X 10_9_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/36.0.1985.125 Safari/537.36
+11-Aug-2014 19:52:41 136.152.39.33 *start_loading
+11-Aug-2014 19:52:42 136.152.39.33 *start_polygon
+11-Aug-2014 19:52:43 136.152.39.33 *What_is_this_object_query
+11-Aug-2014 19:54:04 136.152.39.33 *Browser_Information Mozilla/5.0 (Macintosh; Intel Mac OS X 10_9_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/36.0.1985.125 Safari/537.36
+11-Aug-2014 19:54:04 136.152.39.33 *start_loading
+11-Aug-2014 19:54:05 136.152.39.33 *start_polygon
+11-Aug-2014 19:54:07 136.152.39.33 *What_is_this_object_query
+11-Aug-2014 19:54:26 136.152.39.33 *start_polygon
+11-Aug-2014 19:54:28 136.152.39.33 *What_is_this_object_query
+11-Aug-2014 19:55:12 136.152.39.33 *start_polygon
+11-Aug-2014 19:55:25 136.152.39.33 *Browser_Information Mozilla/5.0 (Macintosh; Intel Mac OS X 10_9_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/36.0.1985.125 Safari/537.36
+11-Aug-2014 19:55:25 136.152.39.33 *start_loading
+11-Aug-2014 19:55:28 136.152.39.33 *start_polygon
+11-Aug-2014 19:55:29 136.152.39.33 *What_is_this_object_query
+11-Aug-2014 19:57:39 136.152.39.33 *Browser_Information Mozilla/5.0 (Macintosh; Intel Mac OS X 10_9_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/36.0.1985.125 Safari/537.36
+11-Aug-2014 19:57:39 136.152.39.33 *start_loading
+11-Aug-2014 19:57:40 136.152.39.33 *start_polygon
+11-Aug-2014 19:57:41 136.152.39.33 *What_is_this_object_query
+11-Aug-2014 19:59:59 136.152.39.33 *Browser_Information Mozilla/5.0 (Macintosh; Intel Mac OS X 10_9_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/36.0.1985.125 Safari/537.36
+11-Aug-2014 19:59:59 136.152.39.33 *start_loading
+11-Aug-2014 19:59:59 136.152.39.33 *start_polygon
+11-Aug-2014 20:00:00 136.152.39.33 *What_is_this_object_query
+11-Aug-2014 20:02:31 136.152.39.33 *start_loading
+11-Aug-2014 20:02:31 136.152.39.33 *Browser_Information Mozilla/5.0 (Macintosh; Intel Mac OS X 10_9_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/36.0.1985.125 Safari/537.36
+11-Aug-2014 20:02:31 136.152.39.33 *start_polygon
+11-Aug-2014 20:02:32 136.152.39.33 *What_is_this_object_query
+11-Aug-2014 20:03:06 136.152.39.33 *Browser_Information Mozilla/5.0 (Macintosh; Intel Mac OS X 10_9_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/36.0.1985.125 Safari/537.36
+11-Aug-2014 20:03:06 136.152.39.33 *start_loading
+11-Aug-2014 20:03:07 136.152.39.33 *start_polygon
+11-Aug-2014 20:03:08 136.152.39.33 *What_is_this_object_query
+11-Aug-2014 20:03:58 136.152.39.33 *start_loading
+11-Aug-2014 20:03:58 136.152.39.33 *Browser_Information Mozilla/5.0 (Macintosh; Intel Mac OS X 10_9_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/36.0.1985.125 Safari/537.36
+11-Aug-2014 20:04:00 136.152.39.33 *start_polygon
+11-Aug-2014 20:04:01 136.152.39.33 *What_is_this_object_query
+11-Aug-2014 20:08:37 136.152.39.33 *Browser_Information Mozilla/5.0 (Macintosh; Intel Mac OS X 10_9_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/36.0.1985.125 Safari/537.36
+11-Aug-2014 20:08:37 136.152.39.33 *start_loading
+11-Aug-2014 20:08:38 136.152.39.33 *start_polygon
+11-Aug-2014 20:08:39 136.152.39.33 *What_is_this_object_query
