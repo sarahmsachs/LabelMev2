@@ -358,7 +358,6 @@ this.GetPopupFormDraw = function() {
   html_str += this.HTMLobjectBox("");
   
   if(use_attributes) {
-    html_str+= HTMLageBox("");
     html_str+= HTMLdecadeBox("");
     html_str += HTMLqualityBox("");
     //html_str += "<b>Enter attributes</b><br />";
@@ -784,7 +783,6 @@ this.HTMLobjectBox = function(obj_name) {
       main_handler.attributes = document.getElementById('attributes').value;
       main_handler.quality = document.getElementById('quality').value;
        main_handler.decade = document.getElementById('decade').value;
-       main_handler.age = document.getElementById('age').value;
 
 
       document.getElementById('select_canvas').style.zIndex = -2;
