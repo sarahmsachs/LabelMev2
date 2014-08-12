@@ -268,15 +268,17 @@ function HTMLobjectBox(obj_name) {
 function HTMLageBox(age) {
   var html_str="";
   var html_str="";
-  // the value of the selection is inside a hidden field:
-  html_str += "<br />";
-  html_str += '<b>Select your age range. <br /> </b> <input type="hidden" name="age" id="age" value="'+age+'"/>';
-
-  //set default age 18-19
-
-  if (!(age=="20-29" || age=="30-39"|| age=="40-49"|| age=="50-59"|| age=="60-69"|| age=="70-79"|| age=="80-89"|| age=="90+")) {
+ //set default age 18-19
+age="18-19";
+  if (!(age=="18-19" || age=="20-29" || age=="30-39"|| age=="40-49"|| age=="50-59"|| age=="60-69"|| age=="70-79"|| age=="80-89"|| age=="90+")) {
     age="18-19";
   }
+
+
+  // the value of the selection is inside a hidden field:
+  html_str += "<br />";
+  html_str += '<b>How old are you? <br /> </b> <input type="hidden" name="age" id="age" value="'+age+'"/>';
+
 
   // generate radio button
   if (age='18-19'){
@@ -293,7 +295,7 @@ function HTMLageBox(age) {
    html_str += '<input type="radio" name="rbage" id="rbage" value="90+" onclick="document.getElementById(\'age\').value=\'90+\';" />90+';
  }
 
-  else if (age=='20-29'){
+  else if (age='20-29'){
    html_str += '<input type="radio" name="rbage" id="rbage" value="18-19" onclick="document.getElementById(\'age\').value=\'18-19\';" />18-19';
    html_str += '<input type="radio" name="rbage" id="rbage" value="20-29" chekced"yes" onclick="document.getElementById(\'age\').value=\'20-29\';" />20-29';
    html_str += '<input type="radio" name="rbage" id="rbage" value="30-39" onclick="document.getElementById(\'age\').value=\'30-39\';" />30-39';
