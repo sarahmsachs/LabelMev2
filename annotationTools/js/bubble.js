@@ -17,7 +17,7 @@ function CreatePopupBubble(left,top,innerHTML,dom_attach) {
   if (left < 5) left = 5;
   
   // Select the vertical position of the bubble decoration arrow
-  if (top > 400) {
+  if (top > 350) {
     html_str  = '<div class= "bubble" id="' + bubble_name + '" style="position:absolute;z-index:5; left:' + left + 'px; top:' + top + 'px;">';
   }
   else {
@@ -34,7 +34,7 @@ function CreatePopupBubble(left,top,innerHTML,dom_attach) {
   $('#'+dom_attach).append(html_str);
   
   // Place bubble in the right location taking into account the rendered size and the location of the arrow
-  if(top > 400) {  
+  if(top > 350) {  
     h = $('#'+bubble_name).height();
     document.getElementById(bubble_name).style.top = (top-h-80) + 'px';
     //document.getElementById(bubble_name).style.top = (top-h) + 'px';
