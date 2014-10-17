@@ -178,14 +178,17 @@ function GetPopupFormEdit(anno) {
   var decade = anno.GetDecade();
   var age = anno.GetAge();
  // var parts = anno.GetParts();
-html_str = HTMLageBox(age);
- html_str += "<br />";
+
+
  html_str += "<b>Enter the aspect of the image that you selected</b><br />";
  html_str += HTMLobjectBox(obj_name);
  html_str += "<br />";
  html_str += HTMLdecadeBox(decade);
  html_str += "<br />";
  html_str += HTMLqualityBox(quality);
+  html_str += "<br />";
+  html_str += "For statistical purposes, we are going to ask for some demographic information"
+  html_str = HTMLageBox(age);
 
  if(use_attributes) {
     //html_str += HTMLqualityBox(quality);
